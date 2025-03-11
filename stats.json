@@ -1,0 +1,199 @@
+{
+  "extraContent": {
+    "for": "针对",
+    "radiant": "天辉",
+    "dire": "夜魇",
+    "you": "己方",
+    "enemy": "敌方"
+  },
+  "skillLevelTooltip": "通过检测玩家公开资料中的段位估算。若多人隐私，则不准确。",
+  "loading": "正在载入数据，请稍候！",
+  "noStats": {
+    "privateProfile": "隐私资料",
+    "noStats": "无统计数据",
+    "statsDisabled": "统计已禁用"
+  },
+  "stats": {
+    "matches": "场次",
+    "winRate": "胜率",
+    "kda": "KDA",
+    "gpm": "GPM",
+    "xpm": "XPM",
+    "counter": "克制",
+    "synergy": "配合",
+    "total": "总优势",
+    "disabled": "已禁用",
+    "pickRate": "登场率",
+    "faction": ""
+  },
+  "counterPicks": {
+    "tooltip": "每个英雄的克制数据，显示胜率差异。绿色代表克制多个敌人。",
+    "title": "英雄克制"
+  },
+  "matchups": {
+    "waiting": "等待选人...",
+    "advantageTooltip": "<0>{{ winningHeroName }}</0>对<2>{{ losingHeroName }}</2>有<4>{{ advantage }}</4>%胜率优势",
+    "title": "英雄对阵",
+    "draftUnassigned": "未指定",
+    "assignForStats": "分配英雄以查看统计…",
+    "advantageTooltipTie": "<0>{{winningHeroName}}</0>和<2>{{losingHeroName}}</2>势均力敌",
+    "tooltip": "基于英雄基础胜率，在对阵关系中如何变化。<1></1>英雄若对敌方英雄的胜率高2%以上视为克制，最终优势为对敌方5位英雄优势的平均值。<5>绿色：天辉优势</5><7>红色：夜魇优势</7>"
+  },
+  "suggestedPicks": {
+    "tooltip": "综合敌方阵容(对阵)和己方阵容(配合)计算胜率优势。Ban建议基于近期英雄胜率变动及克制数据。",
+    "title": "推荐英雄",
+    "noData": "当前无法给出推荐。可查看<1>热门强势英雄</1>。"
+  },
+  "roles": {
+    "core": "核心",
+    "support": "辅助"
+  },
+  "stat": "数据",
+  "hero": "英雄",
+  "player": "玩家",
+  "role": "角色",
+  "lane": "分路",
+  "columnTooltips": {
+    "player": "通过Steam好友推测队伍分组，可能不准确",
+    "matches": "总场数与胜率",
+    "withMe": "<0>队友：与你同队的场数和胜率<1></1>敌方：与你对线的场数及对你胜率</0>",
+    "role": "最常玩的角色及其占比",
+    "lane": "最常走的分路及其占比",
+    "mostPlayed": "最常用英雄及场数(周期内)。",
+    "items": "平均出装时间及购买率(周期内≥3场)。购买率<20%的物品默认隐藏。",
+    "hero": "选用的英雄及选人顺序(1-10)"
+  },
+  "rank": "段位",
+  "withMe": "与我",
+  "mostPlayed": "最常用",
+  "streak": {
+    "none": "连胜/连败未知",
+    "winning": "连胜",
+    "losing": "连败"
+  },
+  "gameMode": {
+    "allDraft": "全阵营选择",
+    "singleDraft": "单一征召",
+    "randomDraft": "随机征召",
+    "allRandom": "随机模式",
+    "captainsMode": "队长模式",
+    "turbo": "速战速决",
+    "abilityDraft": "技能征召",
+    "captainsDraft": "队长征召"
+  },
+  "ranked": "天梯",
+  "rankedShort": "R.",
+  "matchResult": {
+    "won": "胜利",
+    "iWon": "我赢了",
+    "weWon": "我们赢了",
+    "lost": "失败",
+    "iLost": "我输了",
+    "weLost": "我们输了",
+    "abandoned": "已放弃",
+    "theyAbandoned": "他们放弃"
+  },
+  "recentMatches": "最近对局",
+  "lanes": {
+    "all": "所有分路",
+    "safe": "优势路",
+    "mid": "中路",
+    "off": "劣势路",
+    "jungle": "野区",
+    "roaming": "游走"
+  },
+  "coachDetected": "教练模式检测到",
+  "heroProperties": {
+    "support": "辅助",
+    "carry": "核心",
+    "nuker": "爆发",
+    "disabler": "控制",
+    "durable": "耐久",
+    "escape": "逃生",
+    "pusher": "推进",
+    "initiator": "先手"
+  },
+  "teamComposition": {
+    "title": "队伍构成"
+  },
+  "playerTooltip": {
+    "noteNotSet": "未设置玩家备注，点击添加。",
+    "noteSet": "已有玩家备注",
+    "yourself": "-你自己, ",
+    "noteSelf": "你为何要给自己备注？我们都知道你最棒。",
+    "country": "国家",
+    "proName": "职业名",
+    "streak": "连胜/连败",
+    "steamNickname": "Steam昵称",
+    "noteRemoved": "玩家备注已移除",
+    "matches": "场比赛",
+    "noteTitle": "编辑玩家备注"
+  },
+  "messages": {
+    "matchEnded": "比赛已结束。不要忘记添加玩家备注！",
+    "newMmrInfo": "有新的MMR信息！点击查看。",
+    "foundNotes_0": ""
+  },
+  "metaPicks": {
+    "title": "热门强势英雄",
+    "tooltip": "在你段位里胜率最高的英雄。首抢时可考虑。",
+    "noData": "暂无数据，若持续为空请联系支持。"
+  },
+  "skillGameModeDetecting": "识别游戏模式和水平中...",
+  "matchupSummary": "汇总了对阵与配合的总优势。<3>绿色：天辉优势</3><5>红色：夜魇优势</5>",
+  "matchupSummaryTitle": "对阵汇总",
+  "radiantRank": "天辉平均段位",
+  "direRank": "夜魇平均段位",
+  "items": "物品",
+  "ally": "友方",
+  "enemy": "敌方",
+  "recentMatchesWithMe": "近期与我同/对阵",
+  "recentMatchesWithMeTooltip": "与你一起或对立过的近期比赛；加深对该玩家的了解。",
+  "playerInfo": {
+    "private": "该玩家设置了隐私资料，只有极少的公开数据。",
+    "patreon": {
+      "dev": "DotaPlus制作者！",
+      "title": "Patreon支持者！",
+      "subtitle": "点击了解更多或支持DotaPlus以获取小奖励"
+    },
+    "partyIndicator": "通过Steam好友判断组队关系，仅供参考。",
+    "roleGuess": "最可能的角色(对敌方为历史推测)",
+    "positionGuess": "最可能的位置(基于当前比赛数据)"
+  },
+  "laneSelector": {
+    "prev": "上一路线:",
+    "next": "下一路线:"
+  },
+  "tooltips": {
+    "smurf": {
+      "title": "高胜率/场次极少",
+      "description": "此玩家比赛场数少但胜率极高，可能是经验丰富但账号新。"
+    },
+    "boost": {
+      "title": "段位快速变化",
+      "description": "此账号段位涨跌异常，可能在代练或转手使用。"
+    }
+  },
+  "heroesSelect": {
+    "noResults": "无结果",
+    "unassign": "取消指定"
+  },
+  "spammer": {
+    "heavy": "此玩家在该英雄上场率极高 - 很可能会选",
+    "recent": "此玩家最近频繁使用该英雄 - 可能会选"
+  },
+  "rankCell": {
+    "prev": "上赛季段位"
+  },
+  "ranks": {
+    "notCalibrated": "未定级",
+    "herald": "先锋",
+    "guarding": "卫士",
+    "crusader": "骑士",
+    "archon": "大魔导师",
+    "legend": "传奇",
+    "ancient": "远古",
+    "divine": "神话",
+    "immortal": "不朽"
+  }
+}

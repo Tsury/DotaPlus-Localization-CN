@@ -1,0 +1,73 @@
+{
+  "tst": "tst",
+  "error": {
+    "settings": {
+      "default": {
+        "title": "设置错误",
+        "description": "启动时发生设置错误。"
+      },
+      "token": {
+        "title": "网络错误",
+        "description": "DotaPlus无法连接服务器，请检查防火墙或VPN。"
+      },
+      "run_as_admin": {
+        "title": "权限错误",
+        "description": "Steam和Dota 2以管理员权限运行，但DotaPlus没有。最好让Steam和Dota 2都用普通权限启动。或将Overwolf也设为管理员（不推荐）。",
+        "fixPerms": "了解如何修复权限问题"
+      }
+    },
+    "overlayDisabled": {
+      "description": "Dota 2的Overwolf悬浮功能被禁用，DotaPlus无法检测比赛。<1>点击启用</1>。启用后请重启Dota 2。",
+      "title": "Dota 2 Overwolf悬浮已禁用"
+    },
+    "firstRunWithDota2Running": {
+      "description": "Dota 2需重启以完成更新。",
+      "title": "需要重启Dota 2"
+    },
+    "network": {
+      "title": "连接异常",
+      "description": "获取统计时发生网络错误。",
+      "tryAgain": "重试"
+    },
+    "objectBugUpdateRequired": {
+      "description": "DotaPlus需重启Dota 2来完成更新。若问题持续，请尝试同时重启Overwolf。"
+    },
+    "eventsError": {
+      "description": "DotaPlus事件初始化失败——无法自动识别英雄，将启用手动输入。请重启Dota 2重试，或联系支持。"
+    },
+    "crashedOnPresent": {
+      "title": "客户端集成错误",
+      "description": "Dota 2更新后可能导致集成失败。可在设置中启用深度集成临时继续使用。",
+      "openSettings": "设置"
+    },
+    "disconnected": {
+      "title": "DotaPlus已与Dota 2断开",
+      "description": "当在运行Dota 2时启动其他游戏，会导致DotaPlus与Dota 2断开。重启Dota 2以继续使用。"
+    },
+    "gsiInitFailure": {
+      "title": "DotaPlus需要完成更新",
+      "description": "点击此按钮完成更新，会重启Steam。",
+      "restartSteam": "更新并重启Steam"
+    },
+    "missingGsiFlag": {
+      "title": "请从Steam或安全桌面快捷方式启动Dota 2",
+      "description": "Dota 2的启动方式不正确。请从Steam或DotaPlus启动。如果使用桌面图标，请重新在DotaPlus设置-工具里生成安全快捷方式。"
+    },
+    "oldOverwolfVersion": {
+      "title": "Overwolf版本过旧",
+      "description": "请更新Overwolf至最新版本使用DotaPlus。若问题持续，请尝试卸载并重装，或在Discord寻求帮助。"
+    }
+  },
+  "ads": "支持我 - 去广告等更多功能",
+  "adsShort": "去广告",
+  "carousel": {
+    "prevSuggestions": "上个推荐",
+    "nextSuggestions": "下个推荐",
+    "prevItem": "前一项",
+    "nextItem": "后一项"
+  },
+  "actions": {
+    "expand": "展开",
+    "collapse": "收起"
+  }
+}

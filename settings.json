@@ -1,0 +1,210 @@
+{
+  "keyboardHint": {
+    "title": "键盘更快",
+    "description": "用快捷键来显示/隐藏DotaPlus，在选人阶段能省下宝贵时间",
+    "gotIt": "知道了",
+    "dontShowAgain": "不再提示",
+    "carousel": "用快捷键浏览轮播更快，可在设置中修改热键。"
+  },
+  "secondMonitor": {
+    "title": "已启用第二显示器模式！",
+    "description": "使用DotaPlus的最佳方式是搭配第二显示器，你可用快捷键浏览轮播、表格和路线筛选。此模式更流畅，不必总隐藏DotaPlus。如果不喜欢，可在设置中切回悬浮窗模式。",
+    "gotIt": "知道了",
+    "remember": "记得把DotaPlus拖到第二显示器，并将Dota 2设置为无边框窗口！"
+  },
+  "mmrDc": {
+    "title": "比赛结束前请勿离开！",
+    "description": "若在比赛结束前退出，将无法记录MMR。务必等比赛结束并点“继续”再返回菜单。",
+    "gotIt": "知道了。别再提示了。",
+    "subText": "趁此机会想想还能哪里打得更好！"
+  },
+  "appKeepsRunning": {
+    "title": "DotaPlus会继续运行",
+    "description": "关闭Dota 2后，DotaPlus仍在运行，可查看统计、比赛、MMR等。要回到Dota 2，可使用顶部图标或右键托盘图标。",
+    "subText": "若想随Dota 2一起退出，可在设置里修改。"
+  },
+  "opacity": "不透明度:",
+  "interface": {
+    "title": "通用",
+    "language": "语言",
+    "scale": "缩放",
+    "hotkey": "快捷键",
+    "globalHotkey": "全局快捷键",
+    "hotkeyDesc": "点击以修改所有快捷键"
+  },
+  "general": {
+    "title": "通用",
+    "sections": {
+      "windowing": "窗口",
+      "launchOrExit": "启动/退出",
+      "links": "链接",
+      "misc": "其他"
+    }
+  },
+  "behavior": {
+    "useDualScreenRecommended": " (推荐)",
+    "useDualScreen": "第二显示器模式",
+    "useDualScreenTooltip": "在第二显示器模式下，DotaPlus不会在游戏里悬浮，而是在桌面显示。更改此设置会重启DotaPlus。",
+    "autoLaunch": "Dota 2启动时自动启动DotaPlus (推荐)",
+    "autoLaunchTooltip": "启动Dota 2时自动打开DotaPlus，避免错过比赛记录。",
+    "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
+    "enableSpectate": "观战时也启用DotaPlus",
+    "onlyShowStatsForRankedGames": "仅统计天梯比赛",
+    "alwaysShowSixMostPlayed": "始终显示6个常玩英雄",
+    "alwaysShowSixMostPlayedTooltip": "默认仅在队长模式等显示6个常玩英雄。启用此选项则任何模式都显示6个。",
+    "synergy": "配合权重",
+    "showSeasonalSpinner": "显示节日转盘",
+    "showSeasonalSpinnerTooltip": "偶尔会用节日特效替换加载动画。取消后仅使用默认动画。",
+    "useSynergyTooltip": "英雄建议同时基于克制与配合。此设定可调整配合的权重，默认50%。设为0%禁用配合，100%不推荐。",
+    "bringWindowsToFrontOnDotaFocus": "切回Dota 2时置顶DotaPlus窗口",
+    "bringWindowsToFrontOnDotaFocusTooltip": "聚焦Dota 2时，自动置顶所有DotaPlus窗口。",
+    "ignoreHighlights": "忽略英雄预选",
+    "ignoreHighlightsTooltip": "忽略灰度显示的预选英雄。默认不忽略可自动判断配合。",
+    "launchDota2OnStartup": "启动DotaPlus时自动开启Dota 2",
+    "playNoteNotification": "遇到有备注的玩家时播放提示音",
+    "forceDualScreen": "强制第二显示器模式",
+    "forceDualScreenTooltip": "默认仅有1个显示器时会禁用第二显示器模式；启用此选项可强制模式。",
+    "showAfterMatch": "比赛结束后显示DotaPlus",
+    "closeWithDota": "Dota 2关闭时退出DotaPlus",
+    "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",
+    "autoShowOnMatchDetectedTooltip": "连接比赛时自动弹出DotaPlus。若关闭则需手动用快捷键。",
+    "ignoreRadAdv": "",
+    "channel": {
+      "description": "版本频道",
+      "tooltip": "Public最稳定；Beta含新功能可能有小bug；Dev为不稳定但功能最新。"
+    }
+  },
+  "stats": {
+    "title": "统计",
+    "period": {
+      "description": "统计周期",
+      "week": "最近7天",
+      "month": "最近30天",
+      "3month": "最近90天",
+      "session": "本次游玩",
+      "12hour": "最近12小时",
+      "24hour": "最近24小时",
+      "6month": "最近180天",
+      "1year": "最近一年",
+      "patch": "当前版本"
+    },
+    "statsPeriodTooltip": "无法在统计模式中更改，将在下一场比赛生效。",
+    "rank": {
+      "description": "建议的段位",
+      "detect": "检测我的段位",
+      "tooltip": "默认根据你当前段位提供建议。可手动改段位体验更高阶或不同段位环境。分组可能会改动。"
+    },
+    "periodCategory": {
+      "today": "今天",
+      "period": "本年度",
+      "season": "赛季",
+      "patch": "版本"
+    },
+    "sections": {
+      "stats": "统计",
+      "behavior": "行为",
+      "heroes": "英雄"
+    }
+  },
+  "heroes": {
+    "blacklistPlaceholder": "选择要排除的英雄",
+    "whitelistPlaceholder": "选择要包含的英雄",
+    "includeAll": "在建议中包含所有英雄",
+    "blacklist": "在建议中包含所有英雄（排除下列）:",
+    "whitelist": "仅包含下列英雄:"
+  },
+  "about": {
+    "title": "关于"
+  },
+  "browser": {
+    "overwolf": "使用Overwolf内置浏览器打开链接",
+    "default": "使用默认浏览器打开链接"
+  },
+  "error": {
+    "stratzDisabled": {
+      "description": "目前无法从STRATZ获取数据，通常是对方维护中。DotaPlus功能受限：无ban建议和玩家数据。STRATZ恢复后功能会自动正常。"
+    }
+  },
+  "Credits": {
+    "title": "鸣谢"
+  },
+  "filters": {
+    "filterBy": "筛选",
+    "period": "周期",
+    "faction": "阵营",
+    "victory": "结果",
+    "hero": "英雄",
+    "lane": "分路",
+    "role": "角色",
+    "type": "比赛类型",
+    "gameMode": "游戏模式",
+    "partySize": "组队规模",
+    "duration": "时长",
+    "position": "位置",
+    "partyPlayers": "队友",
+    "allyPlayers": "友方玩家",
+    "enemyPlayers": "敌方玩家",
+    "timeOfDay": "时间段",
+    "pp": "PP",
+    "clear": "清除全部",
+    "russian": {
+      "period": "",
+      "faction": "",
+      "victory": "",
+      "hero": "",
+      "lane": "",
+      "role": "",
+      "type": "",
+      "gameMode": "",
+      "partySize": "",
+      "duration": "",
+      "position": "",
+      "partyPlayers": "",
+      "allyPlayers": "",
+      "enemyPlayers": "",
+      "timeOfDay": "",
+      "pp": ""
+    },
+    "dayOfWeek": "星期几"
+  },
+  "profile": {
+    "title": "资料",
+    "autoOpenMmrOnNew": "比赛结束后自动打开资料",
+    "onlyRankedStreak": "只统计天梯的连胜/连败",
+    "shouldTrackMmr": "启用比赛与MMR追踪"
+  },
+  "mmrTracking": {
+    "description1": "DotaPlus会追踪你的比赛，帮助理解每场比赛后的MMR变化并提供可提升的统计。",
+    "description2": "追踪时需要Dota 2在前台稳定运行，可能有3秒延迟。",
+    "description3": "比赛结束后，DotaPlus会暂时打开并关闭Dota 2控制台。可在设置中关闭此功能。"
+  },
+  "messages": {
+    "generateDesktopIcon": {
+      "success": "已添加桌面图标",
+      "failure": "添加桌面图标失败"
+    }
+  },
+  "tools": {
+    "generateDesktopIcon": "创建Dota 2桌面快捷方式:",
+    "generateDesktopIconTooltip": "添加安全的Dota 2快捷方式到桌面。",
+    "generateDesktopIconButton": "创建"
+  },
+  "behavior2": {
+    "title": "行为",
+    "autoAccepter": {
+      "title": "自动接受比赛",
+      "alwaysAutoAccept": {
+        "title": "始终自动接受 (Multicast)",
+        "tooltip": "启用后会自动接受所有匹配(仅限Multicast)"
+      },
+      "disableAutoAccepterCooldown": {
+        "title": "关闭自动接受冷却 (Multicast)",
+        "tooltip": "关闭自动接受的冷却(仅限Multicast)"
+      },
+      "delay": {
+        "title": "接受前的延迟(秒)",
+        "tooltip": "设置接受比赛前的延迟，更高延迟需Multicast订阅"
+      }
+    }
+  }
+}

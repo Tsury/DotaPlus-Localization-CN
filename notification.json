@@ -1,0 +1,11 @@
+{
+  "changeHotkey": "点击修改快捷键",
+  "waitingForMatch": {
+    "title": "等待比赛",
+    "description": "开始比赛后，数据会自动显示。",
+    "descriptionSecondDisplay": "将DotaPlus拖到第二个显示器。",
+    "descriptionOverlay": "游戏内会显示DotaPlus（悬浮窗）。"
+  },
+  "currentHotkey": "当前快捷键：",
+  "hotkeyNotice": "使用此快捷键显示/隐藏DotaPlus："
+}

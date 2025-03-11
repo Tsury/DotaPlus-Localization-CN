@@ -1,0 +1,18 @@
+{
+  "error": {
+    "maintenance": {
+      "title": "DotaPlus正在维护",
+      "description": "我们正在维护DotaPlus以提供更好体验。"
+    },
+    "shutDown": {
+      "title": "DotaPlus版本已过期",
+      "description": "请更新至最新版本以继续使用。"
+    }
+  },
+  "subtitle": "实时统计与选人助手",
+  "buttons": {
+    "tutorial": "DotaPlus教程",
+    "website": "官网",
+    "whatIs": "DotaPlus是什么？"
+  }
+}

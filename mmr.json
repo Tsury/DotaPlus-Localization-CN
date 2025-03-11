@@ -1,0 +1,267 @@
+{
+  "columns": {
+    "result": "结果",
+    "hero": "英雄",
+    "type": "类型",
+    "duration": "时长",
+    "kda": {
+      "k": "杀",
+      "d": "死",
+      "a": "助",
+      "raw": "KDA"
+    },
+    "cs": {
+      "lh": "正补",
+      "dn": "反补"
+    },
+    "gpm": "GPM",
+    "xpm": "XPM",
+    "mmr": {
+      "mmr": "mmr",
+      "role": "角色"
+    },
+    "details": "资源",
+    "kp": "参战",
+    "dp": "参死",
+    "dptm": "每10分钟死",
+    "kaptm": "每10分钟参战",
+    "heroDamage": "英雄伤害",
+    "heroHeal": "治疗",
+    "towerDamage": "建筑伤害",
+    "pp": "PP"
+  },
+  "columnTooltips": {
+    "core": "核心",
+    "support": "辅助",
+    "kp": "参战率：你的击杀+助攻 / 全队击杀。反映你的参团活跃度。",
+    "dp": "参死率：你的死亡 / 全队死亡。反映你在团队死亡中的占比。",
+    "kaptm": "每10分钟击杀+助攻。衡量你进攻或支援的活跃度。",
+    "dptm": "每10分钟死亡数。衡量你阵亡的频度。",
+    "pp": "表现分：衡量对局中的贡献，与胜负无关，会考虑英雄/段位/角色。<50很差，<75较差，>125不错，>150非常好。",
+    "duration": "对局时长",
+    "bs": "行为分",
+    "stunDuration": "眩晕总时长（秒）",
+    "slowDuration": "减速总时长（秒）",
+    "towerDamage": "对建筑伤害",
+    "awards": "奖励",
+    "processMatch": "处理状态：赛后解析对局以获取PP和RealStats。"
+  },
+  "values": {
+    "type": {
+      "calibration": "校准赛",
+      "lowPrioRemaining": "剩余场次",
+      "lowPrio": "低优先级",
+      "lobby": "自定义房",
+      "battlecup": "战斗杯",
+      "tournament": "比赛",
+      "ranked": "天梯",
+      "unranked": "匹配"
+    },
+    "result": {
+      "won": "胜",
+      "lost": "负"
+    }
+  },
+  "matchIdClipboard": "对局ID已复制",
+  "seasons": {
+    "summer": "夏季",
+    "fall": "秋季",
+    "winter": "冬季",
+    "spring": "春季",
+    "ranked4": "赛季4"
+  },
+  "profile": {
+    "labels": {
+      "currentRankedSeason": "当前天梯赛季",
+      "currentRankedSeasonTooltip": "基于本赛季天梯数据",
+      "averages": "所选对局平均值",
+      "rolePerformance": "所选对局的角色表现",
+      "recalibrationAvailable": "可重新校准剩余：",
+      "recalibrationLeft": "校准中…",
+      "recalibrationReady": "可重新校准！"
+    },
+    "stats": {
+      "winRate": "胜率",
+      "bestHero": "最强英雄",
+      "bestRole": "最优角色",
+      "rank": {
+        "tooltip": {
+          "numMatches": "预计晋级还需的胜场",
+          "perMatch": "每胜平均加分",
+          "mmrLeft": "升段还需多少分"
+        }
+      },
+      "matches": "对局",
+      "mmr": "mmrΔ",
+      "mmrTooltip": "MMR总变化",
+      "heroDamage": "英雄伤害",
+      "towerDamage": "建筑伤害",
+      "heroHeal": "治疗",
+      "percentOfAllMatches": "占全部场次的百分比",
+      "bestHeroesTooltip": "仅显示该角色至少占5%场次且≥5局的英雄",
+      "bestHeroes": "最佳英雄",
+      "stunDuration": "眩晕",
+      "slowDuration": "减速"
+    }
+  },
+  "roles": {
+    "safe": "优势路",
+    "mid": "中路",
+    "off": "劣势路",
+    "softSupport": "四号位",
+    "hardSupport": "五号位"
+  },
+  "sync": {
+    "force": "[点击] 同步近期比赛(1分钟冷却)",
+    "forceExtended": "[Ctrl+点击] 同步最近500场(2小时冷却)",
+    "error": {
+      "invalidSteamId": "无效的Steam ID",
+      "steamIdAlreadyExists": "Steam ID已存在",
+      "prefix": "同步资料失败",
+      "private": "该玩家资料是私密的。"
+    },
+    "syncing": "正在同步…",
+    "remove": {
+      "line1": "确认取消关注此资料吗？",
+      "line2": "将删除全部比赛记录。",
+      "remove": "取消关注",
+      "cancel": "取消",
+      "removeMessage": "已取消关注该资料"
+    },
+    "add": {
+      "add": "关注资料",
+      "modal": {
+        "title": "关注资料",
+        "ok": "关注",
+        "steamId": {
+          "tooltip": {
+            "firstPart": "可在Dotabuff链接末尾找到Steam ID",
+            "secondPart": "或在Steam个人链接中"
+          }
+        },
+        "placeholderOr": "或"
+      },
+      "addMessage": "已关注资料"
+    },
+    "forceExtendedPremium": "[Ctrl+点击] 同步最近2000场(2小时冷却)"
+  },
+  "roleQueuePoints": "角色排位点数",
+  "filter": {
+    "modal": {
+      "ok": "筛选",
+      "remove": "移除"
+    },
+    "links": {
+      "cleared": "已清除筛选！",
+      "tooltip": "筛选"
+    },
+    "victory": {
+      "victory": "胜利",
+      "defeat": "失败"
+    },
+    "heroPlayer": {
+      "player": "玩家",
+      "hero": "英雄",
+      "exclude": "排除",
+      "recentOccurrences": "最近出现",
+      "playerTooltip": "可选玩家或英雄或都选。此列表包含3个月内与你同场的玩家。也可通过Steam ID查任意玩家。",
+      "heroTooltip": "可选英雄或玩家或都选。将匹配所选英雄的对局。",
+      "excludeTooltip": "若勾选，则只返回不符合此条件的对局。"
+    }
+  },
+  "realStats": {
+    "winRanges": "胜场范围",
+    "loseRanges": "败场范围",
+    "title": "RealStats - 情境化统计 - 概览",
+    "description2": "以下是如何阅读和理解RealStats的指导：",
+    "tableStats": {
+      "avg": "平均表现：该英雄/段位/角色在此比赛结果时的大致平均表现。",
+      "positive": "较好表现：高于此英雄/段位/角色在此结果的平均水平。",
+      "negative": "较差表现：低于此英雄/段位/角色在此结果的平均水平。",
+      "title": "<0>表中统计的4种样式:</0>",
+      "extremelyPositive": "极佳表现：<1>[仅针对输的比赛]</1>在输的情况下表现远高于此英雄/段位/角色的最高胜场范围。",
+      "extremelyNegative": "极差表现：<1>[仅针对赢的比赛]</1>在赢的情况下表现低于该英雄/段位/角色的最低输场范围。"
+    },
+    "description1": "RealStats是一种全新视角：它根据<2>比赛胜负</2>、<4>角色</4>（核心或辅助）、<7>英雄</7>以及<9>段位</9>来评估表现。",
+    "statGraph": "<0>数据图：</0>由<3>胜场范围</3>(绿)与<5>败场范围</5>(红)组成。同一数值若仅落在胜场范围则显示绿，仅落在败场范围则显示红，都落入则黄。",
+    "matchOutcome": "<0>比赛胜负重要性：</0>赢或输会极大影响各项统计，需要结合上下文来学习。",
+    "howDoIRead": "按住CTRL+ALT查看详细解释",
+    "showExtended": "按住ALT显示更多",
+    "resultExplanation": {
+      "colors": {
+        "extremelyNegative": "非常负面",
+        "negative": "负面",
+        "positive": "正面",
+        "extremelyPositive": "非常正面",
+        "neutral": "中性"
+      },
+      "reasons": {
+        "extremelyNegative": "赢了但表现低于败场范围（远低于预期）",
+        "negativeLose": "输了且低于败场范围（低于预期）",
+        "negativeWin": "赢了但仅在败场范围内（略低于预期）",
+        "positiveLose": "输了但在胜场范围内（略高于预期）",
+        "positiveWin": "赢了且超出胜场范围（高于预期）",
+        "extremelyPositive": "输了但表现超出胜场范围（远高于预期）",
+        "neutralWin": "赢了且处于胜场范围（符合预期）",
+        "neutralLose": "输了且处于败场范围（符合预期）"
+      },
+      "title": "你的结果是<1><0>{{resultColor}}</0></1>，因为你<4>{{resultExplanation}}</4>"
+    },
+    "needProcess": "需处理比赛数据才能查看",
+    "clickToCopy": "点击复制(格式化)",
+    "ctrlClickToCopy": "按住CTRL+点击复制(单行)"
+  },
+  "timesOfDay": {
+    "early": "上午(08:00-16:00)",
+    "mid": "下午(16:00-00:00)",
+    "late": "凌晨(00:00-08:00)"
+  },
+  "trackMatch": "追踪此局",
+  "tracking": {
+    "success": "成功记录MMR",
+    "failure": "记录MMR失败",
+    "rankProgress": "段位进度",
+    "confidence": "置信度"
+  },
+  "dayOfWeek": {
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六"
+  },
+  "pp": {
+    "distribution": "PP分布"
+  },
+  "awards": {
+    "mvp": "MVP",
+    "topCore": "最佳核心",
+    "topSupport": "最佳辅助"
+  },
+  "replayStatus": {
+    "inProgress": "正在处理对局...",
+    "queued": "对局排队中",
+    "notAvailable": "已过期/不可用",
+    "done": "处理完成",
+    "clickToAnalyzie": "点击解析对局"
+  },
+  "ppTooltip": {
+    "player": "玩家",
+    "score": "分数",
+    "match": "对局",
+    "performance": "表现",
+    "copiedToClipboard": "已复制到剪贴板！"
+  },
+  "graph": {
+    "mmr": "MMR",
+    "pp": "PP",
+    "confidence": "CONF",
+    "last 50": "最近50场",
+    "recent": "近期",
+    "filter": "筛选",
+    "confidenceFull": "置信度",
+    "trend": "走势"
+  }
+}

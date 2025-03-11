@@ -1,0 +1,28 @@
+{
+  "error": {
+    "rivaTunerDetected": "检测到RivaTuner。它可能与Overwolf冲突。若有问题请按以下链接建议操作。"
+  },
+  "tooltips": {
+    "update": "DotaPlus已更新！点击查看更新内容。",
+    "changelog": "更新日志",
+    "settings": "设置",
+    "support": "支持",
+    "hide": "隐藏",
+    "updateAvailable": "有新版本可用！DotaPlus v{{version}}可下载。点击安装并重启。",
+    "draft": "练习BP",
+    "draft2": "(比赛中不可用)",
+    "mmrError": "MMR记录不可用。请联系Discord支持。",
+    "mmrInputOpError": "MMR记录不可用。Steam与Dota 2以管理员权限运行，但Overwolf不是。请统一权限。",
+    "condebugEnsuredError": "需要更新MMR记录。点击后会重启Steam。若仍有问题请联系支持。",
+    "mmrUnread": "你有未读的MMR记录",
+    "mmr": "资料 & MMR",
+    "launchDota2": "启动Dota 2",
+    "multicast": "加入Multicast！",
+    "pluginError": "Dota 2集成部分失效，通常是Dota 2更新所致，会在数小时/天后恢复。",
+    "supportChinese": "中文反馈",
+    "autoAccept": "自动接受下场匹配(1小时冷却)",
+    "clickToDisable": "点击禁用",
+    "autoAcceptCooldown": "冷却中",
+    "autoAcceptNoCooldown": "自动接受下场匹配"
+  }
+}

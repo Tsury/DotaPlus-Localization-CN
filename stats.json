@@ -189,11 +189,11 @@
     "notCalibrated": "未定级",
     "herald": "先锋",
     "guarding": "卫士",
-    "crusader": "骑士",
-    "archon": "大魔导师",
+    "crusader": "中军",
+    "archon": "统帅",
     "legend": "传奇",
-    "ancient": "远古",
-    "divine": "神话",
-    "immortal": "不朽"
+    "ancient": "万古流芳",
+    "divine": "超凡入圣",
+    "immortal": "冠绝一世"
   }
 }

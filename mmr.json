@@ -18,7 +18,7 @@
     "xpm": "XPM",
     "mmr": {
       "mmr": "mmr",
-      "role": "角色"
+      "role": "位置"
     },
     "details": "资源",
     "kp": "参战",
@@ -52,8 +52,8 @@
       "lowPrioRemaining": "剩余场次",
       "lowPrio": "低优先级",
       "lobby": "自定义房",
-      "battlecup": "战斗杯",
-      "tournament": "比赛",
+      "battlecup": "勇士联赛",
+      "tournament": "联赛",
       "ranked": "天梯",
       "unranked": "匹配"
     },
@@ -83,7 +83,7 @@
     "stats": {
       "winRate": "胜率",
       "bestHero": "最强英雄",
-      "bestRole": "最优角色",
+      "bestRole": "最优位置",
       "rank": {
         "tooltip": {
           "numMatches": "预计晋级还需的胜场",

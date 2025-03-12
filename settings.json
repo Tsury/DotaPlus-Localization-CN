@@ -1,6 +1,6 @@
 {
   "keyboardHint": {
-    "title": "键盘更快",
+    "title": "快捷键",
     "description": "用快捷键来显示/隐藏DotaPlus，在选人阶段能省下宝贵时间",
     "gotIt": "知道了",
     "dontShowAgain": "不再提示",
@@ -16,7 +16,7 @@
     "title": "比赛结束前请勿离开！",
     "description": "若在比赛结束前退出，将无法记录MMR。务必等比赛结束并点“继续”再返回菜单。",
     "gotIt": "知道了。别再提示了。",
-    "subText": "趁此机会想想还能哪里打得更好！"
+    "subText": "趁此机会想想哪里还能打得更好！"
   },
   "appKeepsRunning": {
     "title": "DotaPlus会继续运行",
@@ -135,7 +135,7 @@
     "victory": "结果",
     "hero": "英雄",
     "lane": "分路",
-    "role": "角色",
+    "role": "位置",
     "type": "比赛类型",
     "gameMode": "游戏模式",
     "partySize": "组队规模",

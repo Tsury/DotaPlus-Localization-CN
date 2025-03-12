@@ -51,13 +51,13 @@
   "stat": "数据",
   "hero": "英雄",
   "player": "玩家",
-  "role": "角色",
+  "role": "位置",
   "lane": "分路",
   "columnTooltips": {
     "player": "通过Steam好友推测队伍分组，可能不准确",
     "matches": "总场数与胜率",
-    "withMe": "<0>队友：与你同队的场数和胜率<1></1>敌方：与你对线的场数及对你胜率</0>",
-    "role": "最常玩的角色及其占比",
+    "withMe": "<0>队友：与你同队的场数和胜率<1></1>敌方：与你敌对的场数及对你胜率</0>",
+    "role": "最常玩的位置及其占比",
     "lane": "最常走的分路及其占比",
     "mostPlayed": "最常用英雄及场数(周期内)。",
     "items": "平均出装时间及购买率(周期内≥3场)。购买率<20%的物品默认隐藏。",
@@ -77,7 +77,7 @@
     "randomDraft": "随机征召",
     "allRandom": "随机模式",
     "captainsMode": "队长模式",
-    "turbo": "速战速决",
+    "turbo": "快速模式",
     "abilityDraft": "技能征召",
     "captainsDraft": "队长征召"
   },
@@ -157,7 +157,7 @@
       "subtitle": "点击了解更多或支持DotaPlus以获取小奖励"
     },
     "partyIndicator": "通过Steam好友判断组队关系，仅供参考。",
-    "roleGuess": "最可能的角色(对敌方为历史推测)",
+    "roleGuess": "最可能的位置(对敌方为历史推测)",
     "positionGuess": "最可能的位置(基于当前比赛数据)"
   },
   "laneSelector": {
@@ -167,11 +167,11 @@
   "tooltips": {
     "smurf": {
       "title": "高胜率/场次极少",
-      "description": "此玩家比赛场数少但胜率极高，可能是经验丰富但账号新。"
+      "description": "此玩家比赛场数少但胜率极高，可能是小号。"
     },
     "boost": {
       "title": "段位快速变化",
-      "description": "此账号段位涨跌异常，可能在代练或转手使用。"
+      "description": "此账号段位涨跌异常，可能在代练或共享使用。"
     }
   },
   "heroesSelect": {

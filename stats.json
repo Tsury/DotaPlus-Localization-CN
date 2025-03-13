@@ -91,7 +91,7 @@
     "iLost": "我输了",
     "weLost": "我们输了",
     "abandoned": "已放弃",
-    "theyAbandoned": "他们放弃"
+    "theyAbandoned": "他们放弃了"
   },
   "recentMatches": "最近对局",
   "lanes": {
@@ -120,7 +120,7 @@
     "noteNotSet": "未设置玩家备注，点击添加。",
     "noteSet": "已有玩家备注",
     "yourself": "-你自己, ",
-    "noteSelf": "你为何要给自己备注？我们都知道你最棒。",
+    "noteSelf": "你为何要给自己备注？我们都知道獭是最棒的。",
     "country": "国家",
     "proName": "职业名",
     "streak": "连胜/连败",
@@ -171,7 +171,7 @@
     },
     "boost": {
       "title": "段位快速变化",
-      "description": "此账号段位涨跌异常，可能在代练或共享使用。"
+      "description": "此账号段位涨跌异常，可能是代练或被共享使用。"
     }
   },
   "heroesSelect": {
@@ -179,7 +179,7 @@
     "unassign": "取消指定"
   },
   "spammer": {
-    "heavy": "此玩家在该英雄上场率极高 - 很可能会选",
+    "heavy": "此玩家最近疯狂使用该英雄 - 很可能会选",
     "recent": "此玩家最近频繁使用该英雄 - 可能会选"
   },
   "rankCell": {

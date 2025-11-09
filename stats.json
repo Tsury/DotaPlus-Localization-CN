@@ -23,8 +23,10 @@
     "synergy": "配合",
     "total": "总优势",
     "disabled": "已禁用",
-    "pickRate": "登场率",
-    "faction": ""
+    "pickRate": "选取率",
+    "faction": "",
+    "radiant": "天辉",
+    "dire": "夜魇"
   },
   "counterPicks": {
     "tooltip": "每个英雄的克制数据，显示胜率差异。绿色代表克制多个敌人。",
@@ -142,6 +144,9 @@
   "skillGameModeDetecting": "识别游戏模式和水平中...",
   "matchupSummary": "汇总了对阵与配合的总优势。<3>绿色：天辉优势</3><5>红色：夜魇优势</5>",
   "matchupSummaryTitle": "对阵汇总",
+  "laneMatchupsAndSummary": "分路对抗与总结",
+  "laneMatchupsTooltip": "线路对抗展示当前每条线路的优势以及分配到该线路的英雄。<0></0>下方总结汇总了对阵与配合的总值，用于指示当前哪一方占优。<1></1>位置通过启发式推断，可能并不准确；如需修正，请在槽位之间拖动英雄。",
+  "laneAdvantageTooltip": "{{team}}{{lane}}对{{opponentTeam}}{{lane}}拥有{{value}}优势。<0/>如需调整，请在槽位之间拖动英雄。",
   "radiantRank": "天辉平均段位",
   "direRank": "夜魇平均段位",
   "items": "物品",

@@ -7,5 +7,18 @@
     "descriptionOverlay": "游戏内会显示DotaPlus（悬浮窗）。"
   },
   "currentHotkey": "当前快捷键：",
-  "hotkeyNotice": "使用此快捷键显示/隐藏DotaPlus："
+  "hotkeyNotice": "使用此快捷键显示/隐藏DotaPlus：",
+  "profileSummary": {
+    "lastMatches": "最近{{count}}场比赛",
+    "wl": "胜/负",
+    "winRate": "胜率",
+    "mmr": "天梯分",
+    "recentMatches": "最近比赛",
+    "pos": "位置",
+    "dmg": "伤害",
+    "gpm": "GPM",
+    "kp": "参战",
+    "pp": "PP"
+  }
 }
+

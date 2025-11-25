@@ -6,6 +6,8 @@
     "you": "己方",
     "enemy": "敌方"
   },
+  "radiant": "天辉",
+  "dire": "夜魇",
   "skillLevelTooltip": "通过检测玩家公开资料中的段位估算。若多人隐私，则不准确。",
   "loading": "正在载入数据，请稍候！",
   "noStats": {
@@ -129,12 +131,15 @@
     "steamNickname": "Steam昵称",
     "noteRemoved": "玩家备注已移除",
     "matches": "场比赛",
-    "noteTitle": "编辑玩家备注"
+    "noteTitle": "编辑玩家备注",
+    "openInNoteManager": "在备注管理器中打开"
   },
   "messages": {
     "matchEnded": "比赛已结束。不要忘记添加玩家备注！",
     "newMmrInfo": "有新的MMR信息！点击查看。",
-    "foundNotes_0": ""
+    "foundNotes": "发现 {{count}} 名玩家拥有笔记",
+    "foundNotes_plural": "发现 {{count}} 名玩家拥有笔记",
+    "viewCurrentMatchNotes": "查看本场比赛的备注"
   },
   "metaPicks": {
     "title": "热门强势英雄",

@@ -189,6 +189,37 @@
     "generateDesktopIconTooltip": "添加安全的Dota 2快捷方式到桌面。",
     "generateDesktopIconButton": "创建"
   },
+  "steamAuth": {
+    "sectionTitle": "Steam账号关联",
+    "description": "连接Steam账号以便DotaPlus在笔记管理器中导入举报和避开记录。",
+    "awaitingDescription": "请在Overwolf浏览器窗口中完成登录以完成关联。",
+    "securityHint": "登录流程在Steam官网完成。DotaPlus不会看到您的密码，只会保存返回的会话ID。",
+    "buttons": {
+      "connect": "连接Steam",
+      "awaiting": "等待确认…",
+      "cancel": "取消",
+      "disconnect": "断开连接",
+      "refresh": "刷新状态"
+    },
+    "status": {
+      "connectedPersona": "已连接：{{personaName}}",
+      "connected": "Steam账号已连接",
+      "connecting": "正在连接Steam登录服务…",
+      "awaiting": "请在浏览器窗口中完成登录以完成关联。",
+      "error": "Steam登录失败，请重试。",
+      "disconnected": "Steam账号未连接"
+    },
+    "steamIdLabel": "Steam ID:",
+    "lastVerified": "上次验证 {{timestamp}}",
+    "error": "最新错误：{{message}}",
+    "refreshing": "正在刷新状态…",
+    "refreshSuccess": "Steam状态已刷新。",
+    "refreshError": "无法刷新Steam状态，请重试。",
+    "avatarAlt": "Steam头像"
+  },
+  "integrations": {
+    "title": "集成"
+  },
   "behavior2": {
     "title": "行为",
     "autoAccepter": {

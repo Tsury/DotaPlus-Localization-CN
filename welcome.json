@@ -11,8 +11,6 @@
   },
   "subtitle": "实时统计与选人助手",
   "buttons": {
-    "tutorial": "DotaPlus教程",
-    "website": "官网",
-    "whatIs": "DotaPlus是什么？"
+    "noteManager": "笔记管理器"
   }
 }

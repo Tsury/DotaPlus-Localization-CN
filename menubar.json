@@ -23,6 +23,7 @@
     "autoAccept": "自动接受下场匹配(1小时冷却)",
     "clickToDisable": "点击禁用",
     "autoAcceptCooldown": "冷却中",
-    "autoAcceptNoCooldown": "自动接受下场匹配"
+    "autoAcceptNoCooldown": "自动接受下场匹配",
+    "noteManager": "笔记管理器"
   }
 }

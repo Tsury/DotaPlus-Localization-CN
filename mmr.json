@@ -20,8 +20,8 @@
       "mmr": "mmr",
       "role": "位置"
     },
-  "details": "资源",
-  "res": "资源",
+    "details": "资源",
+    "res": "资源",
     "kp": "参战",
     "dp": "参死",
     "dptm": "每10分钟死",
@@ -246,7 +246,10 @@
     "queued": "对局排队中",
     "notAvailable": "已过期/不可用",
     "done": "处理完成",
-    "clickToAnalyzie": "点击解析对局"
+    "reprocessHint": "对局已处理——按住 CTRL 再点击即可重新解析",
+    "reprocessReady": "已按住 CTRL——点击即可重新解析",
+    "clickToAnalyzie": "点击解析对局",
+    "clickToAnalyzieWithHint": "点击解析对局——稍后按住 CTRL 再点可重新解析"
   },
   "ppTooltip": {
     "player": "玩家",

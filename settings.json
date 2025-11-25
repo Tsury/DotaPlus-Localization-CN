@@ -192,8 +192,9 @@
   "steamAuth": {
     "sectionTitle": "Steam账号关联",
     "description": "连接Steam账号以便DotaPlus在笔记管理器中导入举报和避开记录。",
-    "awaitingDescription": "请在Overwolf浏览器窗口中完成登录以完成关联。",
+    "awaitingDescription": "浏览器窗口应已打开。无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
     "securityHint": "登录流程在Steam官网完成。DotaPlus不会看到您的密码，只会保存返回的会话ID。",
+    "browserOverrideHint": "无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
     "buttons": {
       "connect": "连接Steam",
       "awaiting": "等待确认…",

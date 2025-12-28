@@ -69,6 +69,7 @@
     "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",
     "autoShowOnMatchDetectedTooltip": "连接比赛时自动弹出DotaPlus。若关闭则需手动用快捷键。",
     "ignoreRadAdv": "",
+    "minWinRateForSuggestion": "仅建议胜率高于50%的英雄",
     "channel": {
       "description": "版本频道",
       "tooltip": "Public最稳定；Beta含新功能可能有小bug；Dev为不稳定但功能最新。"

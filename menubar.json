@@ -1,6 +1,7 @@
 {
   "error": {
-    "rivaTunerDetected": "检测到RivaTuner。它可能与Overwolf冲突。若有问题请按以下链接建议操作。"
+    "rivaTunerDetected": "检测到RivaTuner。它可能与Overwolf冲突。若有问题请按以下链接建议操作。",
+    "diskQuotaError": "磁盘空间已满或不足。DotaPlus无法保存新数据（MMR记录、玩家笔记等），请释放磁盘空间。现有数据已保留，但新数据将无法保存。"
   },
   "tooltips": {
     "update": "DotaPlus已更新！点击查看更新内容。",

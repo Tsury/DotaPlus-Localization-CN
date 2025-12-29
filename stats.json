@@ -168,7 +168,9 @@
     },
     "partyIndicator": "通过Steam好友判断组队关系，仅供参考。",
     "roleGuess": "最可能的位置(对敌方为历史推测)",
-    "positionGuess": "最可能的位置(基于当前比赛数据)"
+    "positionGuess": "最可能的位置(基于当前比赛数据)",
+    "playerNote": "你有该玩家的笔记。",
+    "avoidedPlayer": "此玩家在你的避开列表中。"
   },
   "laneSelector": {
     "prev": "上一路线:",

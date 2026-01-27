@@ -26,9 +26,7 @@
     "total": "总优势",
     "disabled": "已禁用",
     "pickRate": "选取率",
-    "faction": "",
-    "radiant": "天辉",
-    "dire": "夜魇"
+    "faction": ""
   },
   "counterPicks": {
     "tooltip": "每个英雄的克制数据，显示胜率差异。绿色代表克制多个敌人。",
@@ -137,9 +135,8 @@
   "messages": {
     "matchEnded": "比赛已结束。不要忘记添加玩家备注！",
     "newMmrInfo": "有新的MMR信息！点击查看。",
-    "foundNotes": "发现 {{count}} 名玩家拥有笔记",
-    "foundNotes_plural": "发现 {{count}} 名玩家拥有笔记",
-    "viewCurrentMatchNotes": "查看本场比赛的备注"
+    "viewCurrentMatchNotes": "查看本场比赛的备注",
+    "foundNotes_other": "在本场比赛中发现了 {{count}} 个玩家的笔记"
   },
   "metaPicks": {
     "title": "热门强势英雄",

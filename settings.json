@@ -239,5 +239,57 @@
         "tooltip": "设置接受比赛前的延迟，更高延迟需Multicast订阅"
       }
     }
+  },
+  "ppt": {
+    "title": "玩家表现追踪 (PPT)",
+    "masterEnable": "启用 PPT",
+    "masterEnableTooltip": "PPT 主开关。关闭后，PPT 将不会在任何模式下显示。",
+    "playing": {
+      "title": "游戏模式",
+      "enable": "游戏时启用 PPT",
+      "enableTooltip": "在您进行比赛时显示 PPT。注意：在单人模式下，仅提供基础统计数据，不包含归一化或参考线。",
+      "autoOpen": "自动打开 PPT 窗口",
+      "autoOpenTooltip": "开始比赛时自动打开 PPT 窗口。"
+    },
+    "spectating": {
+      "title": "观战模式",
+      "enable": "观战时启用 PPT",
+      "enableTooltip": "观战比赛时显示 PPT。在观战模式下，您可以访问全部10名玩家的数据及高级功能。",
+      "autoOpen": "自动打开 PPT 窗口",
+      "autoOpenTooltip": "开始观战时自动打开 PPT 窗口。"
+    },
+    "behavior": {
+      "title": "行为"
+    },
+    "enable": "观战时显示 PPT",
+    "enableTooltip": "在比赛中，将会出现一个新窗口，包含每位玩家的实时统计数据和图表。图表涵盖许多有趣的数据，如财产总和、伤害、GPM、XPM、KDA、参战率等。",
+    "graph": {
+      "title": "图表设置（仅观战）",
+      "normalization": {
+        "title": "归一化",
+        "tooltip": "禁用时，每个图表的峰值将达到其确切高度。启用时，图表将根据任何玩家达到的该数据的最大值进行归一化。这样可以更好地比较玩家之间的数据。"
+      },
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "referenceLines": {
+        "title": "参考线",
+        "tooltip": "启用后，每个图表都会添加代表其他玩家水平的虚线参考线。这使你无需专门选中其他玩家即可了解他们的表现。无论此设置如何，悬停提示栏图将始终显示所有玩家。"
+      }
+    },
+    "pollingInterval": {
+      "title": "数据刷新频率",
+      "tooltip": "PPT获取新游戏数据的频率。较低的值提供更实时的更新，但可能影响性能。默认为5秒。",
+      "label": "间隔"
+    },
+    "animations": {
+      "title": "动画",
+      "tooltip": "启用界面元素的微妙动画。禁用动画可能会提高低配置系统的性能。",
+      "enable": "启用动画"
+    },
+    "heatmap": {
+      "title": "热力图显示",
+      "tooltip": "自定义小地图热力图上玩家标记的显示方式。",
+      "showHeroIcon": "显示英雄图标而非彩色圆点"
+    }
   }
 }

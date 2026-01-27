@@ -43,11 +43,10 @@
     "ok": "指定 Steam ID",
     "cancel": "取消导入",
     "descriptionPrefix": "发现了 ",
-    "descriptionSuffix": " 条未带作者 Steam ID 的导入笔记。请输入拥有者的 Steam ID 以便正确归属。",
-    "descriptionSuffix_plural": " 条未带作者 Steam ID 的导入笔记。请输入拥有者的 Steam ID 以便正确归属。",
     "label": "Steam ID",
     "tooltip": "可以使用短玩家 ID (12345678) 或完整的 17 位档案 ID。",
-    "placeholder": "12345678 或 76561199000000000"
+    "placeholder": "12345678 或 76561199000000000",
+    "descriptionSuffix_other": "导入的笔记缺少作者 Steam ID。请输入拥有者的 Steam ID 以便正确归属。"
   },
   "bookmarklet": {
     "working": "正在处理...",
@@ -65,15 +64,15 @@
     "doneButton": "完成",
     "cancelButton": "取消",
     "openSteamButton": "打开 Steam 页面",
-    "rowsProcessed": "已处理行数：{{count}}",
-    "newEntries": "新保存的记录：{{count}}",
     "steps": {
       "openSteamPage": "点击“打开 Steam 页面”跳转到 Steam 网站。",
       "pasteScript": "点击浏览器地址栏，按下",
       "thenPress": "然后按下",
       "waitForSteam": "等待 Steam 页面完成导入。",
       "returnToApp": "完成后返回 DotaPlus。"
-    }
+    },
+    "rowsProcessed_other": "已处理行数：{{count}}",
+    "newEntries_other": "已保存新条目：{{count}}"
   },
   "empty": {
     "searchTitle": "没有找到 “{{value}}” 的结果。",
@@ -114,8 +113,6 @@
     "matchIdPlaceholder": "比赛 ID（可选）"
   },
   "match": {
-    "count": "{{count}} 场比赛",
-    "count_plural": "{{count}} 场比赛",
     "noGames": "暂无比赛",
     "winRate": "{{value}}% 胜率",
     "mmrSuffix": "MMR",
@@ -148,7 +145,8 @@
       "weLoss": "我们输了",
       "theyWin": "他们赢了",
       "theyLoss": "他们输了"
-    }
+    },
+    "count_other": "{{count}} 场比赛"
   },
   "messages": {
     "noteUpdated": "笔记已更新",
@@ -156,11 +154,10 @@
     "matchIdCopied": "比赛 ID 已复制",
     "steamIdCopied": "Steam ID 已复制",
     "notesExported": "笔记已导出到 {{path}}",
-    "notesImported": "已从 {{path}} 导入 {{count}} 条笔记",
-    "notesImported_plural": "已从 {{path}} 导入 {{count}} 条笔记",
     "importCancelled": "已取消导入",
     "playerInfoRecentlyUpdated": "该玩家信息已在 24 小时内刷新",
-    "playerInfoFetched": "玩家信息已刷新"
+    "playerInfoFetched": "玩家信息已刷新",
+    "notesImported_other": "已从 {{path}} 导入 {{count}} 条笔记"
   },
   "meta": {
     "added": "创建时间",
@@ -182,13 +179,10 @@
     "unknown": "未知玩家"
   },
   "reputation": {
-    "reportCount": "{{count}} 次举报",
-    "reportCount_plural": "{{count}} 次举报"
+    "reportCount_other": "{{count}} 次举报"
   },
   "search": {
     "placeholder": "搜索笔记（steam:, match:, myhero:, theirhero:）",
-    "resultCount": "{{count}} 条结果",
-    "resultCount_plural": "{{count}} 条结果",
     "helpTitle": "搜索技巧",
     "helpSubtitle": "用空格分隔条件，可组合筛选和关键字。",
     "helpItems": {
@@ -199,7 +193,8 @@
       "quickFilters": "使用下方按钮可快速查看队友、对手或当前比赛的笔记。",
       "keywords": "多个普通关键字会进一步缩小列表"
     },
-    "helpAriaLabel": "搜索技巧"
+    "helpAriaLabel": "搜索技巧",
+    "resultCount_other": "{{count}} 个结果"
   },
   "status": {
     "refreshing": "正在刷新笔记…",
@@ -228,23 +223,20 @@
     "failed": "玩家同步失败：{{error}}",
     "noLocalProfiles": "无法确定用于同步的本地资料",
     "allFresh": "所有玩家资料都在 24 小时内已刷新",
-    "preparing": "正在为 {{count}} 名玩家准备同步",
     "waitingBetweenFetches": "等待 {{milliseconds}} 毫秒后执行下一次玩家请求…",
     "progress": "已同步 {{processed}} / {{total}} 名玩家",
-    "completeFailureDetailed": "玩家同步完成，但出现 {{count}} 个错误",
-    "completeSuccessDetailed": "玩家同步完成"
+    "completeSuccessDetailed": "玩家同步完成",
+    "preparing_other": "正在准备同步 {{count}} 个玩家资料",
+    "completeFailureDetailed_other": "玩家同步完成，但有 {{count}} 个错误"
   },
   "time": {
     "unknown": "未知时间",
     "relative": {
       "unknown": "很久以前",
       "justNow": "刚刚",
-      "minutesAgo": "{{count}} 分钟前",
-      "minutesAgo_plural": "{{count}} 分钟前",
-      "hoursAgo": "{{count}} 小时前",
-      "hoursAgo_plural": "{{count}} 小时前",
-      "daysAgo": "{{count}} 天前",
-      "daysAgo_plural": "{{count}} 天前"
+      "minutesAgo_other": "{{count}} 分钟前",
+      "hoursAgo_other": "{{count}} 小时前",
+      "daysAgo_other": "{{count}} 天前"
     }
   },
   "tooltips": {

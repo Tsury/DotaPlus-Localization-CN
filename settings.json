@@ -50,6 +50,7 @@
     "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
     "enableSpectate": "观战时也启用DotaPlus",
     "onlyShowStatsForRankedGames": "仅统计天梯比赛",
+    "minWinRateForSuggestion": "建议英雄的最低胜率",
     "alwaysShowSixMostPlayed": "始终显示6个常玩英雄",
     "alwaysShowSixMostPlayedTooltip": "默认仅在队长模式等显示6个常玩英雄。启用此选项则任何模式都显示6个。",
     "synergy": "配合权重",

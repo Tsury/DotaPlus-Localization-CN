@@ -1,0 +1,124 @@
+{
+  "title": "玩家表现追踪器",
+  "estimatedMode": "估算值",
+  "estimatedModeTooltip": "PP 和身价基于可用数据估算。实际数值可能略有差异。",
+  "estimatedStatTooltip": "此数值基于可用数据估算。实际数值可能略有差异。",
+  "nwDataCollectionTooltip": "身价即将纳入 PP 计算。我们正在收集数据进行校准——一两周后再来看看！",
+  "nwDataCollectionEstimatedTooltip": "身价即将纳入 PP 计算。我们正在收集数据进行校准——一两周后再来看看！\n\n⚠️ 此数值目前为估算值。",
+  "stat": {
+    "current": "当前",
+    "notAvailable": "N/A",
+    "estimatedPp": "估算 PP",
+    "self": {
+      "title": "个人",
+      "missingMatches_other": "再用相同英雄/位置/[加速/普通]组合进行 {{missingMatches}} 场比赛以解锁个人百分比",
+      "needMoreMatches": "需要 {{needed}} 场比赛才能解锁基准 ({{current}}/{{needed}})",
+      "snapshotTooltip": "您使用此英雄和位置在 {{time}} 分钟的平均值",
+      "averageTooltip": "您使用此英雄和位置的最终平均值",
+      "interpolatedTooltip": "您使用此英雄和位置在 {{time}} 的平均值（插值）"
+    },
+    "community": {
+      "soon": "敬请期待",
+      "title": "社区"
+    },
+    "comingSoonPp": "即将推出"
+  },
+  "graph": {
+    "clickToExpand": "点击将图表置顶",
+    "tooltip": {
+      "live": "实时",
+      "min": "最低",
+      "avg": "平均",
+      "max": "最高",
+      "others": "其他"
+    }
+  },
+  "header": {
+    "gold": "金钱",
+    "netWorth": "身价",
+    "clock": "时间",
+    "score": "比分",
+    "position": "位置",
+    "mode": "模式",
+    "avgRank": "平均",
+    "matchSection": "比赛",
+    "playerSection": "玩家",
+    "historyComingSoon": "历史记录即将推出",
+    "waitingForMatch": "等待比赛...",
+    "tooltip": {
+      "scrollUp": "向上滚动",
+      "scrollDown": "向下滚动"
+    }
+  },
+  "heatmap": {
+    "title": "移动热力图",
+    "timeline": "时间轴",
+    "live": "实时",
+    "resetToLive": "重置为实时",
+    "samples": "样本",
+    "duration": "时长",
+    "noPlayers": "等待玩家数据..."
+  },
+  "deathsMap": {
+    "toggle": "死亡地图",
+    "toggleTooltip": "在地图上显示死亡位置",
+    "death": "第 {{number}} 次死亡",
+    "deathsGroup": "{{count}} 次死亡",
+    "noDeaths": "暂无死亡",
+    "mostRecent": "最近",
+    "firstBlood": "一血"
+  },
+  "widgets": {
+    "noPlayer": "未选择玩家",
+    "apm": {
+      "title": "APM",
+      "tooltip": "滚动 APM（最近 60 秒）。峰值 = 激烈时刻，低谷 = 空闲时间。颜色显示当前强度。"
+    },
+    "buyback": {
+      "title": "买活",
+      "ready": "可买活",
+      "cooldown": "冷却中",
+      "cantAfford": "金钱不足",
+      "dead": "复活中",
+      "canBuyback": "可以买活",
+      "notAvailable": "无数据"
+    }
+  },
+  "benchmark": {
+    "title": "个人基准",
+    "tooltip": "将当前比赛与您使用此英雄和位置的平均表现进行比较。基于您最近的比赛。",
+    "matches": "场比赛",
+    "earlyGame": "基准将在 5:00 解锁（还剩 {{time}}）",
+    "needMoreMatches": "再用此英雄和位置进行 {{count}} 场比赛以解锁基准",
+    "noMatchesYet": "暂无此英雄的历史记录",
+    "noMatchesHint": "完成一场使用此英雄和位置的比赛以开始追踪您的基准！",
+    "itemTimings": "关键装备时机",
+    "netWorth": "身价",
+    "lastHits": "正补",
+    "kills": "击杀",
+    "deaths": "死亡",
+    "assists": "助攻",
+    "gpm": "GPM",
+    "xpm": "XPM",
+    "level": "等级",
+    "ahead": "领先",
+    "behind": "落后",
+    "onPace": "持平",
+    "emptyState": {
+      "default": "个人基准不可用",
+      "spectating": "观战模式",
+      "spectatingSubtext": "基准仅在您游戏时有效",
+      "waitingForMatch": "等待比赛...",
+      "waitingSubtext": "进行一场比赛以查看您的个人基准"
+    }
+  },
+  "insights": {
+    "freeRemaining": "热力图、装备等 —",
+    "previewsRemaining": "预览 —",
+    "matches": "场剩余",
+    "timeLimited": "15 分钟限制",
+    "unlock": "解锁",
+    "unlockFull": "解锁热力图、装备等",
+    "unlockContinue": "解锁以继续追踪"
+  }
+}

@@ -19,12 +19,14 @@
     "mmr": "资料 & MMR",
     "launchDota2": "启动Dota 2",
     "multicast": "加入Multicast！",
+    "multicastSubscribed": "管理订阅",
     "pluginError": "Dota 2集成部分失效，通常是Dota 2更新所致，会在数小时/天后恢复。",
     "supportChinese": "中文反馈",
     "autoAccept": "自动接受下场匹配(1小时冷却)",
     "clickToDisable": "点击禁用",
     "autoAcceptCooldown": "冷却中",
     "autoAcceptNoCooldown": "自动接受下场匹配",
-    "noteManager": "笔记管理器"
+    "noteManager": "笔记管理器",
+    "ppt": "玩家表现追踪器 (PPT)"
   }
 }

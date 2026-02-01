@@ -60,6 +60,40 @@
   },
   "ads": "点击支持作者并移除广告 ❤️",
   "adsShort": "去广告",
+  "tebexSubscribe": {
+    "title": "订阅 Multicast",
+    "subtitle": "解锁完整的 Dota 2 体验",
+    "supportTitle": "支持开发者",
+    "supportDesc": "帮助我们添加新功能！",
+    "adsTitle": "移除广告",
+    "adsDesc": "享受无广告体验",
+    "premiumTitle": "高级功能",
+    "premiumDesc": "额外轮播、个人资料等！",
+    "monthly": "月付",
+    "yearly": "年付",
+    "month": "月",
+    "year": "年",
+    "bestValue": "最划算",
+    "save": "节省 {{percent}}%",
+    "subscribeYearly": "年度订阅 — ${{price}}/年",
+    "subscribeMonthly": "月度订阅 — ${{price}}/月"
+  },
+  "legacySubscriber": {
+    "title": "新年度计划已上线！",
+    "description1": "我们升级了订阅系统，现支持<1>灵活切换计划</1>——包括新的年度选项，可为您节省<3>约17%</3>！",
+    "description2": "作为现有订阅者，需要进行<1>一次性迁移</1>：取消当前计划并重新订阅。之后您可以随时在月付和年付之间切换——无需取消订阅。",
+    "disclaimer": "您的高级访问权限将持续到当前计费周期结束。",
+    "manageButton": "管理订阅",
+    "laterButton": "稍后再说"
+  },
+  "subscriptionPromo": {
+    "title": "升级您的体验！",
+    "description1": "喜欢 DotaPlus？<1>去除广告</1>并解锁<3>高级功能</3>，同时支持独立开发者！",
+    "description2": "现已推出新的<1>年度计划</1>——比月付<3>节省约17%</3>！",
+    "prices": "$4.99/月 或 $49.99/年",
+    "subscribeButton": "✨ 了解 Multicast ✨",
+    "laterButton": "稍后再说"
+  },
   "carousel": {
     "prevSuggestions": "上个推荐",
     "nextSuggestions": "下个推荐",

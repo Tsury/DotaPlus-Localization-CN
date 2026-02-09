@@ -28,6 +28,11 @@
     "title": "通用",
     "language": "语言",
     "scale": "缩放",
+    "theme": "主题",
+    "themeDarkBlue": "深色 (蓝色)",
+    "themeDarkNeutral": "深色 (中性)",
+    "themeLightNeutral": "浅色 (中性)",
+    "themeLightOrange": "浅色 (橙色)",
     "hotkey": "快捷键",
     "globalHotkey": "全局快捷键",
     "hotkeyDesc": "点击以修改所有快捷键"

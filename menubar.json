@@ -27,6 +27,7 @@
     "autoAcceptCooldown": "冷却中",
     "autoAcceptNoCooldown": "自动接受下场匹配",
     "noteManager": "笔记管理器",
-    "ppt": "玩家表现追踪器 (PPT)"
+    "ppt": "玩家表现追踪器 (PPT)",
+    "closeToTray": "最小化到托盘"
   }
 }

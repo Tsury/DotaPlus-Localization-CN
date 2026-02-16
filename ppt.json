@@ -3,19 +3,28 @@
   "estimatedMode": "估算值",
   "estimatedModeTooltip": "PP 和身价基于可用数据估算。实际数值可能略有差异。",
   "estimatedStatTooltip": "此数值基于可用数据估算。实际数值可能略有差异。",
-  "nwDataCollectionTooltip": "身价即将纳入 PP 计算。我们正在收集数据进行校准——一两周后再来看看！",
-  "nwDataCollectionEstimatedTooltip": "身价即将纳入 PP 计算。我们正在收集数据进行校准——一两周后再来看看！\n\n⚠️ 此数值目前为估算值。",
+  "nwDataCollectionTooltip": "Net Worth 即将纳入 PP 计算。我们正在收集数据以完成校准——一两周后再来看看！",
+  "nwDataCollectionEstimatedTooltip": "Net Worth 即将纳入 PP 计算。我们正在收集数据以完成校准——一两周后再来看看！\n\n⚠️ 当前该数值基于可用数据估算。",
   "stat": {
     "current": "当前",
     "notAvailable": "N/A",
     "estimatedPp": "估算 PP",
     "self": {
       "title": "个人",
+      "missingMatches_one": "再用相同英雄/位置/[加速/普通]组合进行 {{missingMatches}} 场比赛以解锁个人百分比",
       "missingMatches_other": "再用相同英雄/位置/[加速/普通]组合进行 {{missingMatches}} 场比赛以解锁个人百分比",
       "needMoreMatches": "需要 {{needed}} 场比赛才能解锁基准 ({{current}}/{{needed}})",
       "snapshotTooltip": "您使用此英雄和位置在 {{time}} 分钟的平均值",
       "averageTooltip": "您使用此英雄和位置的最终平均值",
       "interpolatedTooltip": "您使用此英雄和位置在 {{time}} 的平均值（插值）"
+    },
+    "percentile": {
+      "tooltip": "按当前游戏时间，对比你的本地英雄/位置历史百分位（1 = 最差，99 = 最佳）",
+      "communityTooltip": "对比社区英雄/位置数据的百分位（1 = 最差，99 = 最佳）",
+      "best": "最佳",
+      "worst": "最差",
+      "atBest": "处于最佳",
+      "atWorst": "处于最差"
     },
     "community": {
       "soon": "敬请期待",

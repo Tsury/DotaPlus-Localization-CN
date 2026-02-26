@@ -55,7 +55,7 @@
     "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
     "enableSpectate": "观战时也启用DotaPlus",
     "onlyShowStatsForRankedGames": "仅统计天梯比赛",
-    "minWinRateForSuggestion": "建议英雄的最低胜率",
+    "minWinRateForSuggestion": "仅建议胜率高于50%的英雄",
     "alwaysShowSixMostPlayed": "始终显示6个常玩英雄",
     "alwaysShowSixMostPlayedTooltip": "默认仅在队长模式等显示6个常玩英雄。启用此选项则任何模式都显示6个。",
     "synergy": "配合权重",
@@ -75,7 +75,6 @@
     "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",
     "autoShowOnMatchDetectedTooltip": "连接比赛时自动弹出DotaPlus。若关闭则需手动用快捷键。",
     "ignoreRadAdv": "",
-    "minWinRateForSuggestion": "仅建议胜率高于50%的英雄",
     "channel": {
       "description": "版本频道",
       "tooltip": "Public最稳定；Beta含新功能可能有小bug；Dev为不稳定但功能最新。"
@@ -257,14 +256,20 @@
       "enable": "游戏时启用 PPT",
       "enableTooltip": "在您进行比赛时显示 PPT。注意：在单人模式下，仅提供基础统计数据，不包含归一化或参考线。",
       "autoOpen": "自动打开 PPT 窗口",
-      "autoOpenTooltip": "开始比赛时自动打开 PPT 窗口。"
+      "autoOpenTooltip": "开始比赛时自动打开 PPT 窗口。",
+      "selfPercentileLine": "",
+      "selfPercentileLineTooltip": "",
+      "communityPercentileLine": "",
+      "communityPercentileLineTooltip": ""
     },
     "spectating": {
       "title": "观战模式",
       "enable": "观战时启用 PPT",
       "enableTooltip": "观战比赛时显示 PPT。在观战模式下，您可以访问全部10名玩家的数据及高级功能。",
       "autoOpen": "自动打开 PPT 窗口",
-      "autoOpenTooltip": "开始观战时自动打开 PPT 窗口。"
+      "autoOpenTooltip": "开始观战时自动打开 PPT 窗口。",
+      "communityPercentileLine": "",
+      "communityPercentileLineTooltip": ""
     },
     "behavior": {
       "title": "行为"
@@ -298,6 +303,8 @@
       "title": "热力图显示",
       "tooltip": "自定义小地图热力图上玩家标记的显示方式。",
       "showHeroIcon": "显示英雄图标而非彩色圆点"
-    }
+    },
+    "projectedLineSmoothing": "",
+    "projectedLineSmoothingTooltip": ""
   }
 }

@@ -5,5 +5,6 @@
   "settings": "设置",
   "exit": "退出",
   "launchDota2": "启动Dota 2",
+  "generateLogs": "生成日志",
   "resetWindowPositions": "重置窗口位置"
 }

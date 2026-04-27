@@ -14,7 +14,7 @@
       "lh": "正补",
       "dn": "反补"
     },
-    "nw": "净资产",
+    "nw": "净值",
     "gpm": "GPM",
     "xpm": "XPM",
     "mmr": {
@@ -24,11 +24,11 @@
     "res": "资源",
     "kp": "参战",
     "dp": "参死",
-    "dptm": "每10分钟死",
-    "kaptm": "每10分钟参战",
-    "heroDamage": "英雄伤害",
+    "dptm": "死亡/10",
+    "kaptm": "参战/10",
+    "heroDamage": "英雄伤",
     "heroHeal": "治疗",
-    "towerDamage": "建筑伤害",
+    "towerDamage": "建筑伤",
     "pp": "PP"
   },
   "columnTooltips": {

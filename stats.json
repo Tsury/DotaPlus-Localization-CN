@@ -25,8 +25,7 @@
     "synergy": "配合",
     "total": "总优势",
     "disabled": "已禁用",
-    "pickRate": "选取率",
-    "faction": ""
+    "pickRate": "选取率"
   },
   "counterPicks": {
     "tooltip": "每个英雄的克制数据，显示胜率差异。绿色代表克制多个敌人。",

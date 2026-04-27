@@ -59,7 +59,11 @@
     }
   },
   "ads": "点击支持作者并移除广告 ❤️",
-  "adsShort": "去广告",
+  "overwolfAccount": {
+    "logIn": "登录",
+    "logInTooltip": "登录 Overwolf",
+    "loggedInAs": "已登录：{{overwolfUsername}}"
+  },
   "tebexSubscribe": {
     "title": "订阅 Multicast",
     "subtitle": "解锁完整的 Dota 2 体验",
@@ -76,7 +80,15 @@
     "bestValue": "最划算",
     "save": "节省 {{percent}}%",
     "subscribeYearly": "年度订阅 — ${{price}}/年",
-    "subscribeMonthly": "月度订阅 — ${{price}}/月"
+    "subscribeMonthly": "月度订阅 — ${{price}}/月",
+    "notLoggedInTitle": "未登录",
+    "notLoggedInDescription": "已经订阅？",
+    "notLoggedInDescriptionSuffix": "以恢复 Multicast。",
+    "signInButton": "登录",
+    "signInFirst": "请先登录 Overwolf。登录窗口现在应该会打开。",
+    "alreadySubscribed": "您已经拥有此订阅。",
+    "planUnavailable": "此订阅选项暂时不可用。请稍后再试。",
+    "checkoutFailed": "无法启动订阅结账流程。请稍后再试。"
   },
   "legacySubscriber": {
     "title": "新年度计划已上线！",
@@ -90,7 +102,6 @@
     "title": "升级您的体验！",
     "description1": "喜欢 DotaPlus？<1>去除广告</1>并解锁<3>高级功能</3>，同时支持独立开发者！",
     "description2": "现已推出新的<1>年度计划</1>——比月付<3>节省约17%</3>！",
-    "prices": "$4.99/月 或 $49.99/年",
     "subscribeButton": "✨ 了解 Multicast ✨",
     "laterButton": "稍后再说"
   },

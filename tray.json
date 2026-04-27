@@ -4,5 +4,6 @@
   "match": "上场比赛",
   "settings": "设置",
   "exit": "退出",
-  "launchDota2": "启动Dota 2"
+  "launchDota2": "启动Dota 2",
+  "resetWindowPositions": "重置窗口位置"
 }

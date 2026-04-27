@@ -74,10 +74,20 @@
     "closeWithDota": "Dota 2关闭时退出DotaPlus",
     "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",
     "autoShowOnMatchDetectedTooltip": "连接比赛时自动弹出DotaPlus。若关闭则需手动用快捷键。",
-    "ignoreRadAdv": "",
     "channel": {
       "description": "版本频道",
       "tooltip": "Public最稳定；Beta含新功能可能有小bug；Dev为不稳定但功能最新。"
+    },
+    "windowHierarchy": {
+      "title": "恢复全部窗口层级",
+      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR 和 Note Manager 各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
+      "hint": "第一项位于最上层。",
+      "windows": {
+        "stats": "Stats",
+        "ppt": "PPT",
+        "mmr": "MMR",
+        "noteManager": "笔记管理器"
+      }
     }
   },
   "stats": {
@@ -98,7 +108,8 @@
     "rank": {
       "description": "建议的段位",
       "detect": "检测我的段位",
-      "tooltip": "默认根据你当前段位提供建议。可手动改段位体验更高阶或不同段位环境。分组可能会改动。"
+      "tooltip": "默认根据你当前段位提供建议。可手动改段位体验更高阶或不同段位环境。分组可能会改动。",
+      "all": "所有段位"
     },
     "periodCategory": {
       "today": "今天",
@@ -155,23 +166,23 @@
     "pp": "PP",
     "clear": "清除全部",
     "russian": {
-      "period": "",
-      "faction": "",
-      "victory": "",
-      "hero": "",
-      "lane": "",
-      "role": "",
-      "type": "",
-      "gameMode": "",
-      "partySize": "",
-      "duration": "",
-      "networth": "",
-      "position": "",
-      "partyPlayers": "",
-      "allyPlayers": "",
-      "enemyPlayers": "",
-      "timeOfDay": "",
-      "pp": ""
+      "period": "周期",
+      "faction": "阵营",
+      "victory": "结果",
+      "hero": "英雄",
+      "lane": "分路",
+      "role": "位置",
+      "type": "比赛类型",
+      "gameMode": "游戏模式",
+      "partySize": "组队规模",
+      "duration": "时长",
+      "networth": "净资产",
+      "position": "位置",
+      "partyPlayers": "队友",
+      "allyPlayers": "友方玩家",
+      "enemyPlayers": "敌方玩家",
+      "timeOfDay": "时间段",
+      "pp": "PP"
     },
     "dayOfWeek": "星期几"
   },
@@ -190,12 +201,19 @@
     "generateDesktopIcon": {
       "success": "已添加桌面图标",
       "failure": "添加桌面图标失败"
+    },
+    "resetWindowPositions": {
+      "success": "窗口位置已重置。",
+      "failure": "无法重置窗口位置。"
     }
   },
   "tools": {
     "generateDesktopIcon": "创建Dota 2桌面快捷方式:",
     "generateDesktopIconTooltip": "添加安全的Dota 2快捷方式到桌面。",
-    "generateDesktopIconButton": "创建"
+    "generateDesktopIconButton": "创建",
+    "resetWindowPositions": "重置窗口位置",
+    "resetWindowPositionsButton": "重置",
+    "resetWindowPositionsTooltip": "将受管理窗口重新居中，并清除已保存的位置，使关闭的窗口重新打开时回到安全位置。"
   },
   "steamAuth": {
     "sectionTitle": "Steam账号关联",
@@ -257,10 +275,10 @@
       "enableTooltip": "在您进行比赛时显示 PPT。注意：在单人模式下，仅提供基础统计数据，不包含归一化或参考线。",
       "autoOpen": "自动打开 PPT 窗口",
       "autoOpenTooltip": "开始比赛时自动打开 PPT 窗口。",
-      "selfPercentileLine": "",
-      "selfPercentileLineTooltip": "",
-      "communityPercentileLine": "",
-      "communityPercentileLineTooltip": ""
+      "selfPercentileLine": "在图表上显示 SELF 基准虚线",
+      "selfPercentileLineTooltip": "游戏时在每个统计图上绘制基于你本地英雄/位置历史的预期值虚线。",
+      "communityPercentileLine": "在图表上显示 COMMUNITY 基准虚线",
+      "communityPercentileLineTooltip": "游戏时在每个统计图上绘制基于社区英雄/位置数据的预期值虚线。"
     },
     "spectating": {
       "title": "观战模式",
@@ -268,14 +286,12 @@
       "enableTooltip": "观战比赛时显示 PPT。在观战模式下，您可以访问全部10名玩家的数据及高级功能。",
       "autoOpen": "自动打开 PPT 窗口",
       "autoOpenTooltip": "开始观战时自动打开 PPT 窗口。",
-      "communityPercentileLine": "",
-      "communityPercentileLineTooltip": ""
+      "communityPercentileLine": "在图表上显示 COMMUNITY 基准虚线",
+      "communityPercentileLineTooltip": "观战时在每个统计图上绘制被追踪玩家对应社区英雄/位置预期值的虚线。"
     },
     "behavior": {
       "title": "行为"
     },
-    "enable": "观战时显示 PPT",
-    "enableTooltip": "在比赛中，将会出现一个新窗口，包含每位玩家的实时统计数据和图表。图表涵盖许多有趣的数据，如财产总和、伤害、GPM、XPM、KDA、参战率等。",
     "graph": {
       "title": "图表设置（仅观战）",
       "normalization": {
@@ -304,7 +320,7 @@
       "tooltip": "自定义小地图热力图上玩家标记的显示方式。",
       "showHeroIcon": "显示英雄图标而非彩色圆点"
     },
-    "projectedLineSmoothing": "",
-    "projectedLineSmoothingTooltip": ""
+    "projectedLineSmoothing": "平滑/限制 SELF 和 COMMUNITY 预测线",
+    "projectedLineSmoothingTooltip": "启用后，预测基准虚线会被轻微平滑并限制跳变，以减少视觉尖峰。默认关闭。"
   }
 }

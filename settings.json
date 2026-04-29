@@ -128,6 +128,8 @@
     "whitelistPlaceholder": "选择要包含的英雄",
     "includeAll": "在建议中包含所有英雄",
     "blacklist": "在建议中包含所有英雄（排除下列）:",
+    "applyBlacklistToBothTeams": "黑名单应用到双方队伍",
+    "applyBlacklistToBothTeamsTooltip": "开启后，黑名单英雄也会从敌方队伍的选人建议中隐藏。关闭时，黑名单只影响己方队伍的建议。",
     "whitelist": "仅包含下列英雄:"
   },
   "about": {

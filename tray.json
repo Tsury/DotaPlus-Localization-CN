@@ -1,8 +1,10 @@
 {
   "profile": "资料 & MMR",
-  "noteManager": "笔记管理器",
+  "noteManager": "笔记",
+  "replayManager": "录像",
   "match": "上场比赛",
   "settings": "设置",
+  "restart": "重启",
   "exit": "退出",
   "launchDota2": "启动Dota 2",
   "generateLogs": "生成日志",

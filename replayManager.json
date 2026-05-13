@@ -1,0 +1,85 @@
+{
+  "columns": {
+    "file": "录像",
+    "metadata": "比赛",
+    "profiles": "档案",
+    "fileInfo": "大小",
+    "status": "状态",
+    "actions": "操作"
+  },
+  "metadataUnavailable": "元数据不可用",
+  "metadataPending": "等待元数据",
+  "metadataFetching": "正在获取比赛详情",
+  "versus": "VS",
+  "winners": {
+    "radiant": "天辉",
+    "dire": "夜魇"
+  },
+  "noTrackedProfileMatch": "没有匹配的跟踪档案",
+  "actions": {
+    "process": "处理录像",
+    "processAgain": "重新处理录像",
+    "fetchMatchDetails": "获取比赛详情",
+    "fetchMatchDetailsInProgress": "正在获取比赛详情",
+    "reveal": "在文件夹中显示文件",
+    "delete": "删除",
+    "cancel": "取消",
+    "repair": "修复权限"
+  },
+  "deleteConfirm": "删除这个录像文件？",
+  "title": "录像管理器",
+  "folderUnknown": "录像文件夹不可用",
+  "folderNeedsDotaPath": "请先启动一次 Dota 2 以定位录像文件夹",
+  "permission": {
+    "title": "录像文件夹访问被阻止",
+    "body": "修复文件夹权限前，DotaPlus 无法读取已下载的录像。修复权限会请求 Windows 管理员批准。",
+    "folder": "文件夹",
+    "error": "错误"
+  },
+  "usage": {
+    "freeSpaceOfTotal": "{{free}} 可用，共 {{total}}",
+    "replays": "录像：{{fileCount}} 个文件，{{size}}"
+  },
+  "settings": {
+    "autoParse": "自动处理已下载录像",
+    "autoDelete": "成功处理后删除"
+  },
+  "processDisabled": {
+    "alreadyProcessed": "此录像已处理。按住 CTRL 并点击即可重新处理。",
+    "noMatchId": "此录像文件名不包含比赛 ID。",
+    "notReady": "此录像文件仍在写入。",
+    "noTrackedProfile": "没有跟踪档案关联到此比赛。",
+    "processing": "此录像正在处理中。",
+    "queued": "此录像已在队列中。"
+  },
+  "progress": {
+    "withPercent": "{{phase}} {{percent}}%",
+    "withGameTime": "{{phase}}，游戏时间 {{gameTime}}",
+    "phases": {
+      "processing": "正在处理录像"
+    }
+  },
+  "statuses": {
+    "preExisting": "待处理",
+    "downloading": "下载中",
+    "ready": "就绪",
+    "canParse": "就绪",
+    "metadataLoading": "正在获取详情",
+    "metadataUnavailable": "元数据不可用",
+    "noTrackedProfileMatch": "无跟踪档案",
+    "queued": "队列中",
+    "apiFetching": "API 获取中",
+    "localStabilizing": "稳定中",
+    "streaming": "传输中",
+    "parsing": "处理中",
+    "finalizing": "收尾中",
+    "parsed": "已处理",
+    "partiallyApplied": "部分应用",
+    "expired": "已过期",
+    "incompatibleBuild": "版本不兼容",
+    "failed": "失败",
+    "permissionRequired": "需要权限",
+    "deleteFailed": "删除失败",
+    "raceLost": "来源落败"
+  }
+}

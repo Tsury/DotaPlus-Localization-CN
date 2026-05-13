@@ -27,7 +27,8 @@
     "clickToDisable": "点击禁用",
     "autoAcceptCooldown": "冷却中",
     "autoAcceptNoCooldown": "自动接受下场匹配",
-    "noteManager": "笔记管理器",
+    "noteManager": "笔记",
+    "replayManager": "录像",
     "ppt": "玩家表现追踪器 (PPT)",
     "closeToTray": "最小化到托盘"
   }

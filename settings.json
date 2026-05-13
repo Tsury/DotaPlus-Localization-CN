@@ -198,6 +198,7 @@
   "profile": {
     "title": "资料",
     "autoOpenMmrOnNew": "比赛结束后自动打开资料",
+    "autoOpenReplayManagerOnNewReplay": "检测到新录像下载时打开录像",
     "onlyRankedStreak": "只统计天梯的连胜/连败",
     "shouldTrackMmr": "启用比赛与MMR追踪"
   },

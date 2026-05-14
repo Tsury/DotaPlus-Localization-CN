@@ -84,13 +84,13 @@
     },
     "windowHierarchy": {
       "title": "恢复全部窗口层级",
-      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR 和 Note Manager 各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
+      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR 和笔记各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
       "hint": "第一项位于最上层。",
       "windows": {
         "stats": "Stats",
         "ppt": "PPT",
         "mmr": "MMR",
-        "noteManager": "笔记管理器"
+        "noteManager": "笔记"
       }
     }
   },
@@ -227,7 +227,7 @@
   },
   "steamAuth": {
     "sectionTitle": "Steam账号关联",
-    "description": "连接Steam账号以便DotaPlus在笔记管理器中导入举报和避开记录。",
+    "description": "连接Steam账号以便DotaPlus在笔记中导入举报和避开记录。",
     "awaitingDescription": "浏览器窗口应已打开。无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
     "securityHint": "登录流程在Steam官网完成。DotaPlus不会看到您的密码，只会保存返回的会话ID。",
     "browserOverrideHint": "无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",

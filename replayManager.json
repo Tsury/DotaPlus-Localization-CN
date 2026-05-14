@@ -27,7 +27,7 @@
     "repair": "修复权限"
   },
   "deleteConfirm": "删除这个录像文件？",
-  "title": "录像管理器",
+  "title": "录像",
   "folderUnknown": "录像文件夹不可用",
   "folderNeedsDotaPath": "请先启动一次 Dota 2 以定位录像文件夹",
   "permission": {

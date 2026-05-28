@@ -372,6 +372,8 @@
     "recent": "近期",
     "filter": "筛选",
     "confidenceFull": "置信度",
-    "trend": "走势"
+    "trend": "走势",
+    "estimatedForGraph": "图表估算",
+    "ppUnavailable": "PP不可用"
   }
 }

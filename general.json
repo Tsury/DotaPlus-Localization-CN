@@ -51,8 +51,9 @@
     },
     "steamConfigAccess": {
       "title": "Steam 设置需要修复权限",
-      "description": "DotaPlus 无法读取或更新 Steam 中的 Dota 2 启动选项。点击此按钮，确认 Windows 权限提示，DotaPlus 会修复 Steam 设置并重启 Steam。",
-      "repair": "修复 Steam 设置"
+      "description": "DotaPlus 无法读取或更新 Steam 中的 Dota 2 启动选项。此修复会请求 Windows 管理员批准，更新 Steam 设置并重启 Steam。",
+      "repair": "修复 Steam 设置",
+      "repairFailed": "修复失败。请带上最新的 DotaPlus 日志联系支持。"
     },
     "missingGsiFlag": {
       "title": "请从Steam或安全桌面快捷方式启动Dota 2",

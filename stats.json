@@ -61,7 +61,6 @@
     "role": "最常玩的位置及其占比",
     "lane": "最常走的分路及其占比",
     "mostPlayed": "最常用英雄及场数(周期内)。",
-    "items": "平均出装时间及购买率(周期内≥3场)。购买率<20%的物品默认隐藏。",
     "hero": "选用的英雄及选人顺序(1-10)"
   },
   "rank": "段位",
@@ -150,7 +149,6 @@
   "laneAdvantageTooltip": "{{team}}{{lane}}对{{opponentTeam}}{{lane}}拥有{{value}}优势。<0/>如需调整，请在槽位之间拖动英雄。",
   "radiantRank": "天辉平均段位",
   "direRank": "夜魇平均段位",
-  "items": "物品",
   "ally": "友方",
   "enemy": "敌方",
   "recentMatchesWithMe": "近期与我同/对阵",

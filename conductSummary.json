@@ -1,0 +1,54 @@
+{
+  "actions": {
+    "debugData": "调试数据",
+    "viewMatches": "查看比赛"
+  },
+  "adScaffold": "预留广告位",
+  "accountLine": "账号 {{accountId}}",
+  "disclaimer": "部分举报可能不可见，因为录像缺失、未处理，或未能检测到举报。检测到的举报事件可能包含未计入官方汇总的举报，或检测误报。",
+  "empty": {
+    "noAccount": "连接 Steam 账号后即可查看行为总结数据。",
+    "noRows": "此部分没有检测到举报记录。",
+    "waiting": "正在等待你的第一份行为总结。"
+  },
+  "eyebrow": "玩家行为",
+  "loss": "失败",
+  "metrics": {
+    "avgPp": "平均 PP",
+    "commends": "称赞",
+    "matches": "比赛",
+    "parties": "组队",
+    "reports": "举报",
+    "tooltip": "第一个数字来自行为总结。括号内数字由 DotaPlus 检测。",
+    "winRate": "胜率"
+  },
+  "nav": {
+    "latest": "最新",
+    "previousWithNumber": "上一份 {{number}}",
+    "upcoming": "即将到来"
+  },
+  "noAccount": "未连接 Steam 账号",
+  "notDetected": "未检测到",
+  "reportTypes": {
+    "toxicChat": "文字辱骂",
+    "toxicVoice": "语音辱骂",
+    "smurfing": "炸鱼",
+    "griefing": "消极游戏",
+    "cheating": "作弊",
+    "roleAbuse": "位置滥用"
+  },
+  "scores": {
+    "behavior": "行为分",
+    "communication": "交流分",
+    "pending": "等待最新分数",
+    "previewUnavailable": "下一份总结后可用"
+  },
+  "sections": {
+    "behavior": "行为",
+    "communication": "交流"
+  },
+  "title": "行为总结",
+  "unknownHero": "未知英雄",
+  "updated": "更新于 {{value}}",
+  "win": "胜利"
+}

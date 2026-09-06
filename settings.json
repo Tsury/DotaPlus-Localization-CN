@@ -90,7 +90,8 @@
         "mmr": "MMR",
         "noteManager": "笔记"
       }
-    }
+    },
+    "showOnDotaStartup": "启动 Dota 2 时显示 DotaPlus。"
   },
   "stats": {
     "title": "统计",

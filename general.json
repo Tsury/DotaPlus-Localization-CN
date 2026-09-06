@@ -89,8 +89,8 @@
     "year": "年",
     "bestValue": "最划算",
     "save": "节省 {{percent}}%",
-    "subscribeYearly": "年度订阅 — ${{price}}/年",
-    "subscribeMonthly": "月度订阅 — ${{price}}/月",
+    "subscribeYearly": "年度订阅 — {{price}}/年",
+    "subscribeMonthly": "月度订阅 — {{price}}/月",
     "notLoggedInTitle": "未登录",
     "notLoggedInDescription": "已经订阅？",
     "notLoggedInDescriptionSuffix": "以恢复 Multicast。",
@@ -98,7 +98,9 @@
     "signInFirst": "请先登录 Overwolf。登录窗口现在应该会打开。",
     "alreadySubscribed": "您已经拥有此订阅。",
     "planUnavailable": "此订阅选项暂时不可用。请稍后再试。",
-    "checkoutFailed": "无法启动订阅结账流程。请稍后再试。"
+    "checkoutFailed": "无法启动订阅结账流程。请稍后再试。",
+    "unavailable": "暂不可用",
+    "catalogPriceNotice": "目录价格不含税。最终金额将在结账时确认。"
   },
   "legacySubscriber": {
     "title": "新年度计划已上线！",

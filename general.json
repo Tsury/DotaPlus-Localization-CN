@@ -83,14 +83,8 @@
     "adsDesc": "享受无广告体验",
     "premiumTitle": "高级功能",
     "premiumDesc": "额外轮播、个人资料等！",
-    "monthly": "月付",
-    "yearly": "年付",
-    "month": "月",
-    "year": "年",
-    "bestValue": "最划算",
-    "save": "节省 {{percent}}%",
-    "subscribeYearly": "年度订阅 — {{price}}/年",
-    "subscribeMonthly": "月度订阅 — {{price}}/月",
+    "subscribeYearly": "按年订阅",
+    "subscribeMonthly": "按月订阅",
     "notLoggedInTitle": "未登录",
     "notLoggedInDescription": "已经订阅？",
     "notLoggedInDescriptionSuffix": "以恢复 Multicast。",
@@ -99,8 +93,7 @@
     "alreadySubscribed": "您已经拥有此订阅。",
     "planUnavailable": "此订阅选项暂时不可用。请稍后再试。",
     "checkoutFailed": "无法启动订阅结账流程。请稍后再试。",
-    "unavailable": "暂不可用",
-    "catalogPriceNotice": "目录价格不含税。最终金额将在结账时确认。"
+    "checkoutPriceNotice": "结账时会在付款前显示价格、税费和订阅条款。"
   },
   "legacySubscriber": {
     "title": "新年度计划已上线！",

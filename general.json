@@ -57,7 +57,8 @@
     },
     "steamAccountDetection": {
       "title": "正在检测活动 Steam 账号",
-      "restartSteam": "重启 Steam"
+      "restartSteam": "重启 Steam",
+      "warningDescription": "无法确认当前使用的 Steam 账号。请重启 Steam，然后等待 DotaPlus 重新连接。"
     },
     "missingGsiFlag": {
       "title": "请从Steam或安全桌面快捷方式启动Dota 2",

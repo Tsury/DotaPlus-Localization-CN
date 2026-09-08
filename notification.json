@@ -1,13 +1,12 @@
 {
-  "changeHotkey": "点击修改快捷键",
+  "changeHotkey": "更改快捷键",
   "waitingForMatch": {
     "title": "等待比赛",
-    "description": "开始比赛后，数据会自动显示。",
-    "descriptionSecondDisplay": "将DotaPlus拖到第二个显示器。",
+    "description": "开始一场比赛，统计数据将自动显示。",
+    "descriptionSecondDisplay": "将 DotaPlus 放在第二台显示器上，方便随时查看。",
     "descriptionOverlay": "游戏内会显示DotaPlus（悬浮窗）。"
   },
-  "currentHotkey": "当前快捷键：",
-  "hotkeyNotice": "使用此快捷键显示/隐藏DotaPlus：",
+  "hotkeyNotice": "显示 / 隐藏 DotaPlus",
   "profileSummary": {
     "recentMatches": "最近比赛",
     "pos": "位置",
@@ -22,5 +21,11 @@
       "cta": "打开资料页"
     },
     "recentMatchesWithCount_other": "最近{{count}}场比赛"
+  },
+  "startup": {
+    "title": "正在连接 Steam",
+    "description": "DotaPlus 正在识别您的 Steam 账号并加载个人资料。准备就绪后，您的比赛将显示在这里。",
+    "profileTitle": "正在加载个人资料",
+    "historyEmpty": "个人资料加载完成后，您的比赛将显示在这里。"
   }
 }

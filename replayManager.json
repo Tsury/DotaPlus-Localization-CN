@@ -81,5 +81,11 @@
     "permissionRequired": "需要权限",
     "deleteFailed": "删除失败",
     "raceLost": "来源落败"
+  },
+  "fetchResults": {
+    "updated": "详情已更新",
+    "imported": "比赛已添加",
+    "matchUnavailable": "比赛不可用",
+    "failed": "获取失败"
   }
 }

@@ -288,16 +288,8 @@
     },
     "columns": {
       "time": "时间",
-      "target": "目标",
-      "activity": "原因"
-    },
-    "types": {
-      "toxicChat": "文字辱骂",
-      "toxicVoice": "语音辱骂",
-      "smurfing": "小号捕鱼",
-      "griefing": "恶意破坏",
-      "cheating": "开挂作弊",
-      "roleAbuse": "乱选定位"
+      "reporter": "举报者",
+      "target": "目标"
     },
     "filters": {
       "iReportedAnyone": "我举报了别人",

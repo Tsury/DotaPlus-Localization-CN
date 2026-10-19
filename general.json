@@ -83,7 +83,7 @@
     "adsTitle": "移除广告",
     "adsDesc": "享受无广告体验",
     "premiumTitle": "高级功能",
-    "premiumDesc": "额外轮播、个人资料等！",
+    "premiumDesc": "无限制 PPT 热力图、装备等",
     "subscribeYearly": "按年订阅",
     "subscribeMonthly": "按月订阅",
     "notLoggedInTitle": "未登录",
@@ -106,10 +106,15 @@
   },
   "subscriptionPromo": {
     "title": "升级您的体验！",
-    "description1": "喜欢 DotaPlus？<1>去除广告</1>并解锁<3>高级功能</3>，同时支持独立开发者！",
+    "description1": "喜欢 DotaPlus？<1>去除广告</1>并获得<3>无限 PPT Insights</3>！",
     "description2": "现已推出新的<1>年度计划</1>——比月付<3>节省约17%</3>！",
     "subscribeButton": "✨ 了解 Multicast ✨",
-    "laterButton": "稍后再说"
+    "laterButton": "稍后再说",
+    "monthly": "月付",
+    "yearly": "年付",
+    "billedMonthly": "每月扣费",
+    "billedYearly": "每年扣费一次",
+    "saveBadge": "节省约17%"
   },
   "carousel": {
     "prevSuggestions": "上个推荐",

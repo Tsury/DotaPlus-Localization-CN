@@ -109,6 +109,15 @@
     "billedYearly": "每年扣费一次",
     "saveBadge": "免费2个月"
   },
+  "subscriptionEnded": {
+    "title": "您的 Multicast 订阅已结束",
+    "description1": "您的订阅已失效，因此<1>广告已恢复</1>，PPT Insights 也恢复为免费额度。",
+    "description2": "如果续订付款失败，您可以在<1>“管理订阅”</1>中更新付款方式以继续订阅。",
+    "fixPaymentButton": "修复付款",
+    "subscribeButton": "重新订阅",
+    "dismissButton": "暂不",
+    "notice": "是您主动取消的？无需任何操作。此消息不会再次显示。"
+  },
   "carousel": {
     "prevSuggestions": "上个推荐",
     "nextSuggestions": "下个推荐",

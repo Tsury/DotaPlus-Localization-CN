@@ -94,19 +94,20 @@
     "alreadySubscribed": "您已经拥有此订阅。",
     "planUnavailable": "此订阅选项暂时不可用。请稍后再试。",
     "checkoutFailed": "无法启动订阅结账流程。请稍后再试。",
-    "checkoutPriceNotice": "结账时会在付款前显示价格、税费和订阅条款。"
+    "checkoutPriceNotice": "结账时会在付款前显示价格、税费和订阅条款。",
+    "renewalNotice": "订阅会自动续订，直到您取消。您可随时在“管理订阅”中取消。"
   },
   "subscriptionPromo": {
     "title": "升级您的体验！",
     "description1": "喜欢 DotaPlus？<1>去除广告</1>并获得<3>无限 PPT Insights</3>！",
-    "description2": "现已推出新的<1>年度计划</1>——比月付<3>节省约17%</3>！",
+    "description2": "选择<1>年度计划</1>——相比月付<3>相当于免费2个月</3>！",
     "subscribeButton": "✨ 了解 Multicast ✨",
     "laterButton": "稍后再说",
     "monthly": "月付",
     "yearly": "年付",
     "billedMonthly": "每月扣费",
     "billedYearly": "每年扣费一次",
-    "saveBadge": "节省约17%"
+    "saveBadge": "免费2个月"
   },
   "carousel": {
     "prevSuggestions": "上个推荐",

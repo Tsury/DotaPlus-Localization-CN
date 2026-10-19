@@ -87,22 +87,14 @@
     "subscribeYearly": "按年订阅",
     "subscribeMonthly": "按月订阅",
     "notLoggedInTitle": "未登录",
-    "notLoggedInDescription": "已经订阅？",
-    "notLoggedInDescriptionSuffix": "以恢复 Multicast。",
+    "notLoggedInDescription": "订阅绑定您的 Overwolf 账户。",
+    "notLoggedInDescriptionSuffix": "以订阅或恢复 Multicast。",
     "signInButton": "登录",
-    "signInFirst": "请先登录 Overwolf。登录窗口现在应该会打开。",
+    "signInFirst": "请先登录 Overwolf。登录窗口现在应该会打开，登录后将继续结账。",
     "alreadySubscribed": "您已经拥有此订阅。",
     "planUnavailable": "此订阅选项暂时不可用。请稍后再试。",
     "checkoutFailed": "无法启动订阅结账流程。请稍后再试。",
     "checkoutPriceNotice": "结账时会在付款前显示价格、税费和订阅条款。"
-  },
-  "legacySubscriber": {
-    "title": "新年度计划已上线！",
-    "description1": "我们升级了订阅系统，现支持<1>灵活切换计划</1>——包括新的年度选项，可为您节省<3>约17%</3>！",
-    "description2": "作为现有订阅者，需要进行<1>一次性迁移</1>：取消当前计划并重新订阅。之后您可以随时在月付和年付之间切换——无需取消订阅。",
-    "disclaimer": "您的高级访问权限将持续到当前计费周期结束。",
-    "manageButton": "管理订阅",
-    "laterButton": "稍后再说"
   },
   "subscriptionPromo": {
     "title": "升级您的体验！",

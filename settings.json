@@ -70,8 +70,6 @@
     "playNoteNotification": "遇到有备注的玩家时播放提示音",
     "playReportedPlayerNotification": "遇到你曾举报过的玩家时播放提示音",
     "notificationVolume": "通知音量",
-    "forceDualScreen": "强制第二显示器模式",
-    "forceDualScreenTooltip": "默认仅有1个显示器时会禁用第二显示器模式；启用此选项可强制模式。",
     "showAfterMatch": "比赛结束后显示DotaPlus",
     "closeWithDota": "Dota 2关闭时退出DotaPlus",
     "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",

@@ -175,13 +175,6 @@
       "playerTooltip": "可选玩家或英雄或都选。此列表包含3个月内与你同场的玩家。也可通过Steam ID查任意玩家。",
       "heroTooltip": "可选英雄或玩家或都选。将匹配所选英雄的对局。",
       "excludeTooltip": "若勾选，则只返回不符合此条件的对局。"
-    },
-    "customRange": {
-      "title": "自定义范围",
-      "from": "开始",
-      "to": "结束",
-      "missingDate": "请选择开始日期和结束日期。",
-      "endBeforeStart": "结束日期早于开始日期。"
     }
   },
   "realStats": {

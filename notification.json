@@ -51,6 +51,29 @@
     "won": "胜利",
     "xpLeft": "{{xp}} 经验",
     "yourHeroAvg": "你的{{hero}}平均",
-    "topBracket": "位列{{rank}}{{hero}}对局前 <1>{{percent}}%</1>"
+    "topBracket": "位列{{rank}}{{hero}}对局前 <1>{{percent}}%</1>",
+    "bestStreak": "最佳连杀 · {{streak}}",
+    "bounty": "赏金 <1>{{gold}} 金</1>",
+    "multiKills": {
+      "double": "双杀",
+      "triple": "三杀",
+      "ultra": "疯狂杀戮",
+      "rampage": "暴走"
+    },
+    "nextMultiKill": {
+      "triple": "{{time}} 内可三杀",
+      "ultra": "{{time}} 内可疯狂杀戮",
+      "rampage": "{{time}} 内可暴走"
+    },
+    "streaks": {
+      "killingSpree": "大杀特杀",
+      "dominating": "主宰比赛",
+      "megaKill": "杀人如麻",
+      "unstoppable": "无人能挡",
+      "wickedSick": "变态杀戮",
+      "monsterKill": "妖怪般的杀戮",
+      "godlike": "如同神一般",
+      "beyondGodlike": "超越神的杀戮"
+    }
   }
 }

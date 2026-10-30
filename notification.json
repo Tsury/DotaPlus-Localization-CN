@@ -27,5 +27,30 @@
     "description": "DotaPlus 正在识别您的 Steam 账号并加载个人资料。准备就绪后，您的比赛将显示在这里。",
     "profileTitle": "正在加载个人资料",
     "historyEmpty": "个人资料加载完成后，您的比赛将显示在这里。"
+  },
+  "liveCard": {
+    "aim": "目标：18:00 前达到 <1>{{pp}} PP</1>（{{label}}）。",
+    "bracketHeroAvg": "{{rank}}{{hero}}平均",
+    "draft": "选人",
+    "kda": "杀/死/助",
+    "level": "{{level}} 级",
+    "lost": "失败",
+    "maxLevel": "满级",
+    "ppFinal": "最终 PP",
+    "ppNow": "当前 PP",
+    "roles": {
+      "hardSupport": "五号位",
+      "mid": "中路",
+      "off": "劣势路",
+      "safe": "优势路",
+      "softSupport": "四号位"
+    },
+    "statsStart": "数据从 0:00 开始统计。",
+    "topPersonal": "位列你的{{hero}}对局前 <1>{{percent}}%</1>",
+    "vsAverage": "对比{{label}} {{average}}",
+    "won": "胜利",
+    "xpLeft": "{{xp}} 经验",
+    "yourHeroAvg": "你的{{hero}}平均",
+    "topBracket": "位列{{rank}}{{hero}}对局前 <1>{{percent}}%</1>"
   }
 }

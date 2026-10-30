@@ -74,6 +74,24 @@
       "monsterKill": "妖怪般的杀戮",
       "godlike": "如同神一般",
       "beyondGodlike": "超越神的杀戮"
+    },
+    "history": {
+      "ago": "{{age}}前",
+      "averagePp": "平均 PP",
+      "bars": "柱状",
+      "empty": "还没有{{hero}}的对局",
+      "lastGames_other": "最近 {{count}} 场",
+      "latest": "最新",
+      "list": "列表",
+      "normalPp": "100 PP",
+      "winRate": "胜率",
+      "age": {
+        "hours_other": "{{count}}小时",
+        "days_other": "{{count}}天",
+        "weeks_other": "{{count}}周",
+        "months_other": "{{count}}个月",
+        "years_other": "{{count}}年"
+      }
     }
   }
 }

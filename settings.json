@@ -65,7 +65,7 @@
     "bringWindowsToFrontOnDotaFocus": "切回Dota 2时置顶DotaPlus窗口",
     "bringWindowsToFrontOnDotaFocusTooltip": "聚焦Dota 2时，自动置顶所有DotaPlus窗口。",
     "closeNotificationWithStats": "打开统计时关闭通知窗口",
-    "closeNotificationWithStatsTooltip": "打开统计窗口时关闭通知窗口，与旧版本相同。关闭此选项时，两个窗口都会保持打开。",
+    "closeNotificationWithStatsTooltip": "打开统计窗口时关闭通知窗口。关闭此选项时，两个窗口都会保持打开。",
     "ignoreHighlights": "忽略英雄预选",
     "ignoreHighlightsTooltip": "忽略灰度显示的预选英雄。默认不忽略可自动判断配合。",
     "launchDota2OnStartup": "启动DotaPlus时自动开启Dota 2",

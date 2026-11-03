@@ -29,7 +29,7 @@
     "historyEmpty": "个人资料加载完成后，您的比赛将显示在这里。"
   },
   "liveCard": {
-    "aim": "目标：18:00 前达到 <1>{{pp}} PP</1>（{{label}}）。",
+    "aim": "目标：达到 <1>{{pp}} PP</1>（{{label}}）。",
     "bracketHeroAvg": "{{rank}}{{hero}}平均",
     "draft": "选人",
     "kda": "杀/死/助",

@@ -46,6 +46,7 @@
       "softSupport": "四号位"
     },
     "statsStart": "数据从 0:00 开始统计。",
+    "targets": "目标",
     "topPersonal": "位列你的对局前 <1>{{percent}}%</1>",
     "vsAverage": "对比{{label}} {{average}}",
     "won": "胜利",

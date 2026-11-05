@@ -2,8 +2,6 @@
   "title": "玩家表现追踪器",
   "estimatedModeTooltip": "PP 和身价基于可用数据估算。实际数值可能略有差异。",
   "estimatedStatTooltip": "此数值基于可用数据估算。实际数值可能略有差异。",
-  "nwDataCollectionTooltip": "Net Worth 即将纳入 PP 计算。我们正在收集数据以完成校准——一两周后再来看看！",
-  "nwDataCollectionEstimatedTooltip": "Net Worth 即将纳入 PP 计算。我们正在收集数据以完成校准——一两周后再来看看！\n\n⚠️ 当前该数值基于可用数据估算。",
   "stat": {
     "current": "当前",
     "notAvailable": "N/A",

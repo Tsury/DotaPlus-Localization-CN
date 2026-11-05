@@ -135,5 +135,15 @@
     "ok": "确定",
     "previousPage": "上一页",
     "previousPages": "前 5 页"
+  },
+  "ppLimited": {
+    "title": "数据有限",
+    "live": "{{bracket}}中到达这一分钟的{{group}}对局不足 30 场，因此此 PP 也使用了{{brackets}}的对局。",
+    "final": "{{bracket}}中持续这么久的{{group}}对局不足 30 场，因此此 PP 也使用了{{brackets}}的对局。",
+    "position": "{{hero}} {{position}} 号位",
+    "core": "{{hero}}核心",
+    "support": "{{hero}}辅助",
+    "list2": "{{first}}和{{second}}",
+    "list3": "{{first}}、{{second}}和{{third}}"
   }
 }

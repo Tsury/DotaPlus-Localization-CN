@@ -485,6 +485,25 @@
       "steamId": "Steam ID",
       "steamIdTip": "通过Steam ID关注（关注资料）。与其他关注显示方式相同。",
       "steamIdNote_other": "包含{{count}}个你通过Steam ID关注的资料，标记为Steam ID。它们与其他关注显示方式相同：排行榜名次，或“尚未上榜”。"
+    },
+    "share": {
+      "button": "分享",
+      "tip": "将你的排名分享为图片",
+      "title": "分享你的排名",
+      "card": "方形卡片",
+      "cardSize": "1080 × 1080 图片",
+      "board": "排行榜截图",
+      "boardSub": "你的排名及附近的玩家",
+      "making": "正在生成图片…",
+      "failed": "无法生成图片，请重试。",
+      "copied": "已复制到剪贴板",
+      "saved": "已保存到 图片\\DotaPlus",
+      "openFolder": "打开文件夹",
+      "done": "完成",
+      "heroPosition": "{{hero}} {{position}}号位",
+      "averagePp": "平均PP",
+      "onOverwolf": "Overwolf 上的 DotaPlus",
+      "boardFooter": "分数 = 平均PP + 胜场加成，最近365天"
     }
   }
 }

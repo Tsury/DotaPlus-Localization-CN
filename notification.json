@@ -119,6 +119,7 @@
       "fellOffDetail_other": "再打{{count}}场{{short}}即可重新上榜"
     },
     "viewBoard": "查看排行榜",
-    "close": "关闭"
+    "close": "关闭",
+    "share": "分享"
   }
 }

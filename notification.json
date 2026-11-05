@@ -94,5 +94,31 @@
         "years_other": "{{count}}年"
       }
     }
+  },
+  "leaderboard": {
+    "board": "{{hero}} {{position}}号位（{{bracket}}）",
+    "boardTurbo": "{{hero}} {{position}}号位 加速模式（{{bracket}}）",
+    "boardShort": "{{hero}} {{position}}号位",
+    "boardShortTurbo": "{{hero}} {{position}}号位 加速模式",
+    "kicker": {
+      "weekly": "排行榜每周更新",
+      "launch": "排行榜已上线"
+    },
+    "message": {
+      "launch": "你已上榜：{{board}} 第<1>{{place}}</1>名",
+      "joined": "你进入了 {{board}} 排行榜，排名第<1>{{place}}</1>名",
+      "movedUp": "你在 {{board}} 升至第<1>{{place}}</1>名",
+      "fellOff_other": "你跌出了{{hero}}排行榜：再打<1>{{count}}场</1>即可重新上榜"
+    },
+    "toast": {
+      "launch": "你已上榜：第{{place}}名",
+      "joined": "你进入了排行榜：第{{place}}名",
+      "movedUp": "你升至第{{place}}名",
+      "fellOff": "你跌出了{{hero}}排行榜",
+      "scoreDetail": "{{board}} · 分数 {{score}}",
+      "fellOffDetail_other": "再打{{count}}场{{short}}即可重新上榜"
+    },
+    "viewBoard": "查看排行榜",
+    "close": "关闭"
   }
 }

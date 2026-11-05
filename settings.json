@@ -273,6 +273,14 @@
         "title": "接受前的延迟(秒)",
         "tooltip": "设置接受比赛前的延迟，更高延迟需Multicast订阅"
       }
+    },
+    "leaderboards": {
+      "title": "排行榜",
+      "desktopNotifications": {
+        "title": "排行榜桌面通知",
+        "tooltip": "每周排行榜更新且你的排名变化时，显示 Windows 通知。默认开启。",
+        "note": "每周排行榜更新时显示 Windows 通知。通知窗口中的消息始终显示。"
+      }
     }
   },
   "ppt": {

@@ -82,13 +82,14 @@
     },
     "windowHierarchy": {
       "title": "恢复全部窗口层级",
-      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR 和笔记各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
+      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR、笔记和通知各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
       "hint": "第一项位于最上层。",
       "windows": {
         "stats": "Stats",
         "ppt": "PPT",
         "mmr": "MMR",
-        "noteManager": "笔记"
+        "noteManager": "笔记",
+        "notification": "通知"
       }
     },
     "showOnDotaStartup": "启动 Dota 2 时显示 DotaPlus。"

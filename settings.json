@@ -544,5 +544,63 @@
         "monitor": "第二显示器"
       }
     }
+  },
+  "bias": {
+    "title": "英雄偏好",
+    "label": "偏好与避选英雄",
+    "description": "提高擅长英雄的推荐优先级，降低不想玩英雄的优先级。阵容分析仍然优先。",
+    "aliases": "偏好 避选 英雄池 偏重 强度 轻度 中等 强烈 预览 信心",
+    "strength": "偏好强度",
+    "prefer": "偏好",
+    "avoid": "避选",
+    "steps": {
+      "off": "关闭",
+      "light": "轻度",
+      "medium": "中等",
+      "strong": "强烈"
+    },
+    "hints": {
+      "off": "保留列表，但不影响推荐。",
+      "light": "略微提高偏好英雄的优先级，降低避选英雄的优先级。",
+      "medium": "偏好英雄通常会进入推荐。除非阵容有利，否则避选英雄的排名会下降。",
+      "strong": "强烈倾向你的英雄池。克制关系和团队定位仍然重要。"
+    },
+    "findHero": "搜索英雄",
+    "addPrefer": "偏好{{hero}}",
+    "addAvoid": "避选{{hero}}",
+    "remove": "从列表中移除{{hero}}",
+    "clear": "清空",
+    "emptyPrefer": "添加想玩的英雄。",
+    "emptyAvoid": "添加不想玩的英雄。",
+    "dragHint": "使用 + / − 或将英雄拖入列表。拖回英雄池即可移除。",
+    "preview": "预览",
+    "previewHint": "应用偏好列表后的示例阵容推荐。",
+    "rank": "段位",
+    "ranks": {
+      "heraldGuardian": "先锋 – 卫士",
+      "crusaderArchon": "中军 – 统帅",
+      "legendAncient": "传奇 – 万古流芳",
+      "divineImmortal": "超凡入圣 – 冠绝一世",
+      "all": "所有段位"
+    },
+    "sampleDraft": "示例阵容",
+    "drafts": {
+      "mid": "中路阵容",
+      "early": "先选",
+      "last": "最后一选",
+      "counter": "克制选择"
+    },
+    "loading": "正在更新预览…",
+    "notReady": "克制数据加载后即可预览。",
+    "error": "预览暂不可用。更改预览选项后可重试。",
+    "versus": "对阵",
+    "cores": "核心",
+    "supports": "辅助",
+    "new": "新",
+    "pushedOut": "移出推荐",
+    "movedUp": "排名上升",
+    "movedDown": "排名下降",
+    "newLegend": "新 · 进入推荐",
+    "sameRole": "{{hero}}仍未进入推荐：{{ally}}已承担该定位。"
   }
 }

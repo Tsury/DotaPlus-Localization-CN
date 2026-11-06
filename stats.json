@@ -43,7 +43,11 @@
   "suggestedPicks": {
     "tooltip": "综合敌方阵容(对阵)和己方阵容(配合)计算胜率优势。Ban建议基于近期英雄胜率变动及克制数据。",
     "title": "推荐英雄",
-    "noData": "当前无法给出推荐。可查看<1>热门强势英雄</1>。"
+    "noData": "当前无法给出推荐。可查看<1>热门强势英雄</1>。",
+    "preference": {
+      "preferExplanation": "评分已包含偏好列表的影响。",
+      "avoidExplanation": "评分已包含避选列表的影响。"
+    }
   },
   "roles": {
     "core": "核心",

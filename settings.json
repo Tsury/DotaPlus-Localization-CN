@@ -24,66 +24,12 @@
     "subText": "若想随Dota 2一起退出，可在设置里修改。"
   },
   "opacity": "不透明度:",
-  "interface": {
-    "title": "通用",
-    "language": "语言",
-    "scale": "缩放",
-    "theme": "主题",
-    "themeDarkBlue": "深色 (蓝色)",
-    "themeDarkNeutral": "深色 (中性)",
-    "themeLightNeutral": "浅色 (中性)",
-    "themeLightOrange": "浅色 (橙色)",
-    "hotkey": "快捷键",
-    "globalHotkey": "全局快捷键",
-    "hotkeyDesc": "点击以修改所有快捷键"
-  },
   "general": {
-    "title": "通用",
-    "sections": {
-      "windowing": "窗口",
-      "launchOrExit": "启动/退出",
-      "links": "链接",
-      "misc": "其他"
-    }
+    "title": "通用"
   },
   "behavior": {
-    "useDualScreenRecommended": " (推荐)",
-    "useDualScreen": "第二显示器模式",
-    "useDualScreenTooltip": "在第二显示器模式下，DotaPlus不会在游戏里悬浮，而是在桌面显示。更改此设置会重启DotaPlus。",
-    "autoLaunch": "Dota 2启动时自动启动DotaPlus (推荐)",
-    "autoLaunchTooltip": "启动Dota 2时自动打开DotaPlus，避免错过比赛记录。",
     "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
-    "enableSpectate": "观战时也启用DotaPlus",
-    "onlyShowStatsForRankedGames": "仅统计天梯比赛",
-    "minWinRateForSuggestion": "仅建议胜率高于50%的英雄",
-    "alwaysShowSixMostPlayed": "始终显示6个常玩英雄",
-    "alwaysShowSixMostPlayedTooltip": "默认仅在队长模式等显示6个常玩英雄。启用此选项则任何模式都显示6个。",
-    "synergy": "配合权重",
-    "showSeasonalSpinner": "显示节日转盘",
-    "showSeasonalSpinnerTooltip": "偶尔会用节日特效替换加载动画。取消后仅使用默认动画。",
-    "useSynergyTooltip": "英雄建议同时基于克制与配合。此设定可调整配合的权重，默认50%。设为0%禁用配合，100%不推荐。",
-    "bringWindowsToFrontOnDotaFocus": "切回Dota 2时置顶DotaPlus窗口",
-    "bringWindowsToFrontOnDotaFocusTooltip": "聚焦Dota 2时，自动置顶所有DotaPlus窗口。",
-    "closeNotificationWithStats": "进入比赛时关闭通知窗口",
-    "closeNotificationWithStatsTooltip": "每当统计窗口打开时（例如进入比赛时）关闭通知窗口。关闭此选项时，两个窗口都会保持打开。",
-    "ignoreHighlights": "忽略英雄预选",
-    "ignoreHighlightsTooltip": "忽略灰度显示的预选英雄。默认不忽略可自动判断配合。",
-    "launchDota2OnStartup": "启动DotaPlus时自动开启Dota 2",
-    "playNoteNotification": "遇到有备注的玩家时播放提示音",
-    "playReportedPlayerNotification": "遇到你曾举报过的玩家时播放提示音",
-    "notificationVolume": "通知音量",
-    "showAfterMatch": "比赛结束后显示DotaPlus",
-    "closeWithDota": "Dota 2关闭时退出DotaPlus",
-    "autoShowOnMatchDetected": "进入比赛时自动显示DotaPlus",
-    "autoShowOnMatchDetectedTooltip": "连接比赛时自动弹出DotaPlus。若关闭则需手动用快捷键。",
-    "channel": {
-      "description": "版本频道",
-      "tooltip": "Public最稳定；Beta含新功能可能有小bug；Dev为不稳定但功能最新。"
-    },
     "windowHierarchy": {
-      "title": "恢复全部窗口层级",
-      "tooltip": "控制“恢复全部窗口”时主要窗口的排序。第一项会恢复在最上层。Stats、PPT、MMR、笔记和通知各只列出一次，并同时应用到它们的普通版和第二显示器版。其他所有窗口都会恢复在它们下方。",
-      "hint": "第一项位于最上层。",
       "windows": {
         "stats": "Stats",
         "ppt": "PPT",
@@ -91,13 +37,10 @@
         "noteManager": "笔记",
         "notification": "通知"
       }
-    },
-    "showOnDotaStartup": "启动 Dota 2 时显示 DotaPlus。"
+    }
   },
   "stats": {
-    "title": "统计",
     "period": {
-      "description": "统计周期",
       "week": "近7天",
       "2week": "近14天",
       "month": "近30天",
@@ -109,12 +52,9 @@
       "1year": "近一年",
       "patch": "当前版本"
     },
-    "statsPeriodTooltip": "无法在统计模式中更改，将在下一场比赛生效。",
     "rank": {
-      "description": "建议的段位",
       "detect": "检测我的段位",
       "detectMatch": "检测比赛段位",
-      "tooltip": "“检测我的段位”只使用你的段位，并在整场比赛中保持不变。“检测比赛段位”使用当前比赛的平均段位，无法获取时则使用你的段位。你也可以选择所有段位或指定段位。分组可能会改动。",
       "all": "所有段位"
     },
     "periodCategory": {
@@ -122,36 +62,12 @@
       "period": "本年度",
       "season": "赛季",
       "patch": "版本"
-    },
-    "sections": {
-      "stats": "统计",
-      "behavior": "行为",
-      "heroes": "英雄"
     }
-  },
-  "heroes": {
-    "blacklistPlaceholder": "选择要排除的英雄",
-    "whitelistPlaceholder": "选择要包含的英雄",
-    "includeAll": "在建议中包含所有英雄",
-    "blacklist": "在建议中包含所有英雄（排除下列）:",
-    "applyBlacklistToBothTeams": "黑名单应用到双方队伍",
-    "applyBlacklistToBothTeamsTooltip": "开启后，黑名单英雄也会从敌方队伍的选人建议中隐藏。关闭时，黑名单只影响己方队伍的建议。",
-    "whitelist": "仅包含下列英雄:"
-  },
-  "about": {
-    "title": "关于"
-  },
-  "browser": {
-    "overwolf": "使用Overwolf内置浏览器打开链接",
-    "default": "使用默认浏览器打开链接"
   },
   "error": {
     "stratzDisabled": {
       "description": "目前无法从STRATZ获取数据，通常是对方维护中。DotaPlus功能受限：无ban建议和玩家数据。STRATZ恢复后功能会自动正常。"
     }
-  },
-  "Credits": {
-    "title": "鸣谢"
   },
   "filters": {
     "filterBy": "筛选",
@@ -196,18 +112,6 @@
     },
     "dayOfWeek": "星期几"
   },
-  "profile": {
-    "title": "资料",
-    "autoOpenMmrOnNew": "比赛结束后自动打开资料",
-    "autoOpenReplayManagerOnNewReplay": "检测到新录像下载时打开录像",
-    "onlyRankedStreak": "只统计天梯的连胜/连败",
-    "shouldTrackMmr": "启用比赛与MMR追踪"
-  },
-  "mmrTracking": {
-    "description1": "DotaPlus会追踪你的比赛，帮助理解每场比赛后的MMR变化并提供可提升的统计。",
-    "description2": "追踪时需要Dota 2在前台稳定运行，可能有3秒延迟。",
-    "description3": "比赛结束后，DotaPlus会暂时打开并关闭Dota 2控制台。可在设置中关闭此功能。"
-  },
   "messages": {
     "generateDesktopIcon": {
       "success": "已添加桌面图标",
@@ -218,20 +122,9 @@
       "failure": "无法重置窗口位置。"
     }
   },
-  "tools": {
-    "generateDesktopIcon": "创建Dota 2桌面快捷方式:",
-    "generateDesktopIconTooltip": "添加安全的Dota 2快捷方式到桌面。",
-    "generateDesktopIconButton": "创建",
-    "resetWindowPositions": "重置窗口位置",
-    "resetWindowPositionsButton": "重置",
-    "resetWindowPositionsTooltip": "将受管理窗口重新居中，并清除已保存的位置，使关闭的窗口重新打开时回到安全位置。"
-  },
   "steamAuth": {
-    "sectionTitle": "Steam账号关联",
     "description": "连接Steam账号以便DotaPlus在笔记中导入举报和避开记录。",
     "awaitingDescription": "浏览器窗口应已打开。无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
-    "securityHint": "登录流程在Steam官网完成。DotaPlus不会看到您的密码，只会保存返回的会话ID。",
-    "browserOverrideHint": "无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
     "buttons": {
       "connect": "连接Steam",
       "awaiting": "等待确认…",
@@ -255,91 +148,401 @@
     "refreshError": "无法刷新Steam状态，请重试。",
     "avatarAlt": "Steam头像"
   },
-  "integrations": {
-    "title": "集成"
-  },
-  "behavior2": {
-    "title": "行为",
-    "autoAccepter": {
-      "title": "自动接受比赛",
+  "window": {
+    "title": "设置",
+    "sections": {
+      "general": {
+        "label": "常规",
+        "description": "语言、外观和更新。"
+      },
+      "hotkeys": {
+        "label": "快捷键",
+        "description": "点击一个组合键，然后按下新的按键。按 Esc 取消。"
+      },
+      "windows": {
+        "label": "启动和窗口",
+        "description": "DotaPlus 何时打开和关闭，以及窗口的行为。"
+      },
+      "draft": {
+        "label": "选人建议",
+        "description": "统计窗口中选人建议的排序方式。"
+      },
+      "pool": {
+        "label": "英雄池和偏好",
+        "description": "哪些英雄可以推荐给你，以及你偏向哪些英雄。"
+      },
+      "stats": {
+        "label": "统计和资料",
+        "description": "玩家统计、比赛和 MMR 记录。"
+      },
+      "ppt": {
+        "label": "PPT",
+        "description": "游戏或观战时的玩家表现追踪器。"
+      },
+      "sounds": {
+        "label": "声音和提醒",
+        "description": "选人阶段的声音和桌面通知。"
+      },
+      "accepter": {
+        "label": "自动接受",
+        "description": "替你接受找到的比赛。"
+      },
+      "account": {
+        "label": "Steam 账户",
+        "description": "关联 Steam，将举报和避开记录导入笔记。"
+      },
+      "about": {
+        "label": "关于"
+      }
+    },
+    "cards": {
+      "appearance": "外观",
+      "updates": "更新和链接",
+      "hotkeysAll": "所有窗口",
+      "hotkeysStats": "统计窗口",
+      "hotkeysNotification": "实时比赛卡片",
+      "hotkeysProfile": "资料",
+      "hotkeysPpt": "PPT",
+      "display": "显示模式",
+      "launch": "启动和退出",
+      "autoShow": "自动显示 DotaPlus",
+      "placement": "窗口位置",
+      "suggestionData": "建议数据",
+      "draftDisplay": "选人显示",
+      "heroPool": "英雄池",
+      "playerStats": "玩家统计",
+      "tracking": "比赛和 MMR 记录",
+      "ppt": "PPT",
+      "pptPlaying": "游戏时",
+      "pptSpectating": "观战时",
+      "sounds": "声音",
+      "desktopNotifications": "桌面通知",
+      "autoAccepter": "比赛自动接受",
+      "steam": "Steam 账户关联"
+    },
+    "choices": {
+      "on": "开",
+      "off": "关"
+    },
+    "tags": {
+      "recommended": "推荐",
+      "multicast": "Multicast"
+    },
+    "reasons": {
+      "dualScreen": "第二显示器模式下始终开启。",
+      "multipleDisplays": "有多个显示器时始终开启。",
+      "minWinRate": "请先开启“最低英雄胜率”。",
+      "blacklistOnly": "仅在“除这些外全部”时可用。",
+      "pptOff": "请先启用 PPT。",
+      "pptPlayingOff": "请先启用游戏时的 PPT。",
+      "pptSpectatingOff": "请先启用观战时的 PPT。",
+      "normalizeOff": "请先开启图表归一化。",
+      "multicast": "需要 Multicast。"
+    },
+    "items": {
+      "lng": {
+        "label": "语言",
+        "aliases": "语言 翻译 英语 俄语 中文"
+      },
+      "appTheme": {
+        "label": "主题",
+        "aliases": "主题 颜色 深色 浅色 外观",
+        "dark": "深蓝",
+        "darkNeutral": "深色",
+        "lightOrange": "浅橙",
+        "light": "浅色"
+      },
+      "scale": {
+        "label": "窗口缩放",
+        "description": "所有 DotaPlus 窗口的大小。",
+        "aliases": "缩放 大小"
+      },
+      "showSeasonalSpinner": {
+        "label": "节日加载动画",
+        "description": "不时用节日主题动画代替 DotaPlus 标志。"
+      },
+      "channel": {
+        "label": "发布渠道",
+        "description": "Public 最稳定。Beta 最先获得新功能。Dev 不稳定。",
+        "aliases": "渠道 测试 更新 版本"
+      },
+      "useDefaultBrowser": {
+        "label": "打开链接方式",
+        "aliases": "浏览器 链接",
+        "overwolf": "Overwolf 浏览器",
+        "default": "默认浏览器"
+      },
+      "useDualScreen": {
+        "label": "第二显示器模式",
+        "description": "让 DotaPlus 留在桌面上，而不是覆盖在游戏上。会重启 DotaPlus。",
+        "aliases": "第二显示器 双屏 桌面 覆盖"
+      },
+      "bringWindowsToFrontOnDotaFocus": {
+        "label": "Dota 获得焦点时置顶窗口",
+        "description": "Dota 2 获得焦点时，将所有打开的 DotaPlus 窗口置于前面。"
+      },
+      "closeNotificationWithStats": {
+        "label": "进入比赛时关闭通知",
+        "description": "统计窗口打开时关闭通知窗口。"
+      },
+      "autoLaunch": {
+        "label": "随 Dota 2 启动 DotaPlus",
+        "description": "避免错过比赛。",
+        "off": "当前已关闭。更改会打开 Overwolf 设置。",
+        "aliases": "自动启动 启动"
+      },
+      "launchDota2OnStartup": {
+        "label": "随 DotaPlus 启动 Dota 2"
+      },
+      "closeWithDota": {
+        "label": "Dota 2 关闭时关闭 DotaPlus"
+      },
+      "desktopIcon": {
+        "label": "Dota 2 桌面快捷方式",
+        "description": "一个安全的快捷方式，让 DotaPlus 保持正常工作。",
+        "aliases": "桌面 图标 快捷方式",
+        "button": "创建"
+      },
+      "showOnDotaStartup": {
+        "label": "Dota 2 启动时"
+      },
+      "autoShowOnMatchDetected": {
+        "label": "连接到比赛时",
+        "description": "关闭后，DotaPlus 只能用快捷键打开。"
+      },
+      "showAfterMatch": {
+        "label": "比赛结束后"
+      },
+      "enableSpectate": {
+        "label": "观战比赛中",
+        "description": "观看比赛时运行 DotaPlus。",
+        "aliases": "观战 观众 观看"
+      },
+      "restoreAllWindowHierarchy": {
+        "label": "“全部恢复”顺序",
+        "description": "拖动以调整顺序。第一个窗口恢复在最上层。其他窗口始终在下面。",
+        "aliases": "层级 全部恢复 窗口 顺序"
+      },
+      "resetWindowPositions": {
+        "label": "重置窗口位置",
+        "description": "将窗口居中，并清除保存的位置。",
+        "button": "重置"
+      },
+      "rankOverride": {
+        "label": "建议所用段位",
+        "description": "“检测我的段位”在整场比赛中使用你的段位。“检测比赛段位”使用房间平均段位。",
+        "aliases": "段位 等级 mmr"
+      },
+      "synergy": {
+        "label": "配合权重",
+        "description": "队友配合相对于敌方克制关系的权重。0% 关闭配合。",
+        "aliases": "克制 对位 配合"
+      },
+      "minWinRateForSuggestion": {
+        "label": "最低英雄胜率",
+        "description": "不推荐胜率低于此值的英雄。"
+      },
+      "minWinRateForSuggestionValue": {
+        "label": "胜率阈值"
+      },
+      "ignoreHighlights": {
+        "label": "忽略英雄预选",
+        "description": "不推荐。预选会显示队友计划的英雄如何改变阵容。",
+        "aliases": "高亮 预选"
+      },
+      "alwaysShowSixMostPlayed": {
+        "label": "始终显示 6 个最常用英雄",
+        "description": "默认只有队长模式、队长征召和反队长模式显示 6 个。"
+      },
+      "heroFilterType": {
+        "label": "建议中的英雄",
+        "description": "硬性过滤：英雄池以外的英雄永远不会被推荐。",
+        "aliases": "黑名单 白名单 包含 排除 过滤 英雄池"
+      },
+      "applyHeroBlacklistToBothTeams": {
+        "label": "对两队都排除这些英雄",
+        "description": "也从敌方队伍的建议中隐藏它们。",
+        "aliases": "黑名单 敌方"
+      },
+      "statsPeriod": {
+        "label": "统计周期",
+        "description": "从下一场比赛开始生效。"
+      },
+      "onlyShowStatsForRankedGames": {
+        "label": "统计只使用天梯比赛"
+      },
+      "shouldTrackMmr": {
+        "label": "比赛和 MMR 记录",
+        "description": "比赛结束后，DotaPlus 从 Dota 2 控制台读取你的 MMR。Dota 2 必须正在运行并处于焦点。",
+        "aliases": "mmr 控制台 记录"
+      },
+      "onlyRankedStreak": {
+        "label": "连胜/连败只使用天梯比赛"
+      },
+      "autoOpenMmrOnNew": {
+        "label": "比赛结束后打开资料"
+      },
+      "autoOpenReplayManagerOnNewReplay": {
+        "label": "新录像下载后打开录像"
+      },
+      "enablePpt": {
+        "label": "启用 PPT",
+        "description": "关闭后在所有模式中隐藏 PPT。",
+        "aliases": "表现 追踪器"
+      },
+      "pptPollingInterval": {
+        "label": "数据刷新频率",
+        "description": "更快的更新可能影响性能。默认 5 秒。",
+        "aliases": "轮询 间隔 刷新"
+      },
+      "pptEnableAnimations": {
+        "label": "动画",
+        "description": "关闭可能对较慢的电脑有帮助。"
+      },
+      "pptHeatmapShowHeroIcon": {
+        "label": "热力图上显示英雄图标",
+        "description": "代替彩色圆点。",
+        "aliases": "热力图"
+      },
+      "pptSmoothProjectedBenchmarkLines": {
+        "label": "平滑预测基准线",
+        "description": "减弱 SELF 和 COMMUNITY 虚线中的尖峰。"
+      },
+      "enablePptPlaying": {
+        "label": "游戏时启用 PPT",
+        "description": "追踪你自己的比赛。"
+      },
+      "pptAutoOpenPlaying": {
+        "label": "游戏时自动打开 PPT"
+      },
+      "pptShowSelfPercentileLinePlaying": {
+        "label": "SELF 基准线",
+        "description": "你自己在该英雄和位置上的期望值。"
+      },
+      "pptShowCommunityPercentileLinePlaying": {
+        "label": "游戏时的 COMMUNITY 基准线",
+        "description": "社区在该英雄和位置上的期望值。"
+      },
+      "enablePptSpectating": {
+        "label": "观战时启用 PPT",
+        "description": "追踪你观看的比赛。"
+      },
+      "pptAutoOpenSpectating": {
+        "label": "观战时自动打开 PPT"
+      },
+      "pptShowCommunityPercentileLineSpectating": {
+        "label": "观战时的 COMMUNITY 基准线",
+        "description": "社区在被追踪玩家的英雄和位置上的期望值。"
+      },
+      "normalize": {
+        "label": "图表归一化",
+        "description": "按所有玩家达到的最高值缩放每张图表。",
+        "aliases": "归一化"
+      },
+      "showReferenceLines": {
+        "label": "参考线",
+        "description": "为其他每位玩家显示虚线。"
+      },
+      "playNoteNotification": {
+        "label": "有笔记的玩家提示音",
+        "aliases": "笔记 声音"
+      },
+      "playReportedPlayerNotification": {
+        "label": "你举报过的玩家提示音",
+        "aliases": "举报 声音"
+      },
+      "notificationVol": {
+        "label": "音量",
+        "aliases": "音量 声音 通知"
+      },
+      "leaderboardDesktopNotifications": {
+        "label": "排行榜更新",
+        "description": "每周排行榜更新时显示 Windows 通知。通知窗口始终会显示。",
+        "aliases": "排行榜 通知"
+      },
+      "autoAccepterDelay": {
+        "label": "接受前延迟",
+        "description": "超过 15 秒需要 Multicast。",
+        "aliases": "接受 延迟"
+      },
       "alwaysAutoAccept": {
-        "title": "始终自动接受 (Multicast)",
-        "tooltip": "启用后会自动接受所有匹配(仅限Multicast)"
+        "label": "始终自动接受",
+        "description": "每场比赛都保持自动接受开启。"
       },
       "disableAutoAccepterCooldown": {
-        "title": "关闭自动接受冷却 (Multicast)",
-        "tooltip": "关闭自动接受的冷却(仅限Multicast)"
+        "label": "取消自动接受冷却",
+        "description": "关闭自动接受的冷却时间。"
       },
-      "delay": {
-        "title": "接受前的延迟(秒)",
-        "tooltip": "设置接受比赛前的延迟，更高延迟需Multicast订阅"
+      "steamAccount": {
+        "label": "Steam 账户",
+        "description": "在 Overwolf 浏览器中的 Steam 页面登录。DotaPlus 永远看不到你的密码。",
+        "aliases": "登录 连接 集成 steam"
+      },
+      "about": {
+        "label": "关于 DotaPlus",
+        "aliases": "版本 stratz overwolf 制作"
       }
     },
-    "leaderboards": {
-      "title": "排行榜",
-      "desktopNotifications": {
-        "title": "排行榜桌面通知",
-        "tooltip": "每周排行榜更新且你的排名变化时，显示 Windows 通知。默认开启。",
-        "note": "每周排行榜更新时显示 Windows 通知。通知窗口中的消息始终显示。"
+    "pool": {
+      "all": "全部英雄",
+      "blacklist": "除这些外全部…",
+      "whitelist": "仅这些…",
+      "blacklistPlaceholder": "添加要排除的英雄",
+      "whitelistPlaceholder": "向英雄池添加英雄"
+    },
+    "order": {
+      "moveUp": "上移 {{window}}",
+      "moveDown": "下移 {{window}}"
+    },
+    "hotkeys": {
+      "columnAction": "操作",
+      "columnKeys": "按键",
+      "aliases": "快捷键 热键 按键 组合键",
+      "windowAliases": "全局 切换",
+      "actions": {
+        "window": "显示或隐藏所有窗口",
+        "stats": "打开或关闭统计",
+        "carouselPrevious": "上一个轮播项",
+        "carouselNext": "下一个轮播项",
+        "multicastPrevious": "上一个 Multicast 轮播项",
+        "multicastNext": "下一个 Multicast 轮播项",
+        "lanePrevious": "上一条线路",
+        "laneNext": "下一条线路",
+        "suggestionsPrevious": "上一组建议",
+        "suggestionsNext": "下一组建议",
+        "notification": "打开或关闭实时比赛卡片",
+        "mmr": "打开或关闭资料",
+        "ppt": "打开或关闭 PPT",
+        "pptScrollUp": "向上滚动追踪器",
+        "pptScrollDown": "向下滚动追踪器"
+      },
+      "change": "更改：{{action}}",
+      "pressKeys": "请按新的按键…",
+      "saving": "正在保存…",
+      "notSet": "未设置",
+      "cancel": "取消",
+      "reset": "重置",
+      "resetTitle": "恢复为 {{keys}}",
+      "defaultKeys": "默认 {{keys}}",
+      "alsoUsedBy": "也用于：{{action}}",
+      "assignFailed": "未保存：{{error}}",
+      "unknownError": "Overwolf 未接受这些按键。"
+    },
+    "search": {
+      "placeholder": "搜索所有设置",
+      "clear": "Esc · 清除",
+      "resultsTitle_other": "{{count}} 项设置匹配“{{query}}”",
+      "resultsSections_other": "分布在 {{count}} 个分区。可在此更改，或打开所在分区。",
+      "openSection": "打开“{{section}}” ›",
+      "noMatchTitle": "没有设置匹配“{{query}}”",
+      "noMatchHint": "搜索范围包括设置名称、说明和分区名称。",
+      "clearSearch": "清除搜索",
+      "suggestions": {
+        "sound": "声音",
+        "hotkey": "快捷键",
+        "theme": "主题",
+        "monitor": "第二显示器"
       }
     }
-  },
-  "ppt": {
-    "title": "玩家表现追踪 (PPT)",
-    "masterEnable": "启用 PPT",
-    "masterEnableTooltip": "PPT 主开关。关闭后，PPT 将不会在任何模式下显示。",
-    "playing": {
-      "title": "游戏模式",
-      "enable": "游戏时启用 PPT",
-      "enableTooltip": "在您进行比赛时显示 PPT。注意：在单人模式下，仅提供基础统计数据，不包含归一化或参考线。",
-      "autoOpen": "自动打开 PPT 窗口",
-      "autoOpenTooltip": "开始比赛时自动打开 PPT 窗口。",
-      "selfPercentileLine": "在图表上显示 SELF 基准虚线",
-      "selfPercentileLineTooltip": "游戏时在每个统计图上绘制基于你本地英雄/位置历史的预期值虚线。",
-      "communityPercentileLine": "在图表上显示 COMMUNITY 基准虚线",
-      "communityPercentileLineTooltip": "游戏时在每个统计图上绘制基于社区英雄/位置数据的预期值虚线。"
-    },
-    "spectating": {
-      "title": "观战模式",
-      "enable": "观战时启用 PPT",
-      "enableTooltip": "观战比赛时显示 PPT。在观战模式下，您可以访问全部10名玩家的数据及高级功能。",
-      "autoOpen": "自动打开 PPT 窗口",
-      "autoOpenTooltip": "开始观战时自动打开 PPT 窗口。",
-      "communityPercentileLine": "在图表上显示 COMMUNITY 基准虚线",
-      "communityPercentileLineTooltip": "观战时在每个统计图上绘制被追踪玩家对应社区英雄/位置预期值的虚线。"
-    },
-    "behavior": {
-      "title": "行为"
-    },
-    "graph": {
-      "title": "图表设置（仅观战）",
-      "normalization": {
-        "title": "归一化",
-        "tooltip": "禁用时，每个图表的峰值将达到其确切高度。启用时，图表将根据任何玩家达到的该数据的最大值进行归一化。这样可以更好地比较玩家之间的数据。"
-      },
-      "enabled": "已启用",
-      "disabled": "已禁用",
-      "referenceLines": {
-        "title": "参考线",
-        "tooltip": "启用后，每个图表都会添加代表其他玩家水平的虚线参考线。这使你无需专门选中其他玩家即可了解他们的表现。无论此设置如何，悬停提示栏图将始终显示所有玩家。"
-      }
-    },
-    "pollingInterval": {
-      "title": "数据刷新频率",
-      "tooltip": "PPT获取新游戏数据的频率。较低的值提供更实时的更新，但可能影响性能。默认为5秒。",
-      "label": "间隔"
-    },
-    "animations": {
-      "title": "动画",
-      "tooltip": "启用界面元素的微妙动画。禁用动画可能会提高低配置系统的性能。",
-      "enable": "启用动画"
-    },
-    "heatmap": {
-      "title": "热力图显示",
-      "tooltip": "自定义小地图热力图上玩家标记的显示方式。",
-      "showHeroIcon": "显示英雄图标而非彩色圆点"
-    },
-    "projectedLineSmoothing": "平滑/限制 SELF 和 COMMUNITY 预测线",
-    "projectedLineSmoothingTooltip": "启用后，预测基准虚线会被轻微平滑并限制跳变，以减少视觉尖峰。默认关闭。"
   }
 }

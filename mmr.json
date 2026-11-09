@@ -361,6 +361,7 @@
     "bracketTip": "段位：{{bracket}}",
     "modeTip": "模式：{{mode}}",
     "dotaPlusUser": "使用 DotaPlus",
+    "openDotabuff": "在 Dotabuff 上查看 {{name}}",
     "leaderboard": "排行榜",
     "updated": "更新于",
     "calibration": "校准期",

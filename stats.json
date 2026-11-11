@@ -201,5 +201,13 @@
     "ancient": "万古",
     "divine": "超凡",
     "immortal": "冠绝"
+  },
+  "board": {
+    "column": "排行榜",
+    "columnTip": "所选英雄的排行榜名次。虚线：不是本局的位置或段位。点击打开该排行榜。",
+    "title": "{{hero}}排行榜",
+    "notThisGame": "非本局",
+    "open": "点击打开该排行榜",
+    "none": "未进入任何{{hero}}排行榜。"
   }
 }

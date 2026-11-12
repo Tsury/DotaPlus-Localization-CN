@@ -90,6 +90,8 @@
     "pp": "PP",
     "reports": "已发送的举报",
     "clear": "清除全部",
+    "rangeMinimum": "{{label}}最小值",
+    "rangeMaximum": "{{label}}最大值",
     "russian": {
       "period": "周期",
       "faction": "阵营",

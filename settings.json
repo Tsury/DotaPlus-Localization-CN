@@ -228,7 +228,8 @@
     },
     "tags": {
       "recommended": "推荐",
-      "multicast": "Multicast"
+      "multicast": "Multicast",
+      "new": "新"
     },
     "reasons": {
       "dualScreen": "第二显示器模式下始终开启。",
@@ -252,7 +253,8 @@
         "dark": "深蓝",
         "darkNeutral": "深色",
         "lightOrange": "浅橙",
-        "light": "浅色"
+        "light": "浅色",
+        "description": "风格的配色。"
       },
       "scale": {
         "label": "窗口缩放",
@@ -483,6 +485,26 @@
       "about": {
         "label": "关于 DotaPlus",
         "aliases": "版本 stratz overwolf 制作"
+      },
+      "appStyle": {
+        "label": "风格",
+        "description": "所有窗口的外观。你的数据和各窗口的视图保持不变。",
+        "aliases": "风格 外观 样式 设计 deck arena",
+        "deck": "Deck",
+        "deckHint": "柔和的圆角卡片和一种沉稳的强调色。",
+        "arena": "Arena",
+        "arenaHint": "醒目的大写字体、队伍颜色和斜切边角。"
+      },
+      "appFont": {
+        "label": "字体",
+        "description": "所有窗口的文字。每种风格都有自己的字体；你也可以在两种风格中使用同一种字体。",
+        "aliases": "字体 文字 geist saira",
+        "auto": "风格默认",
+        "autoHint": "风格自带的字体：Deck 为圆润，Arena 为紧凑",
+        "geist": "Deck · 圆润",
+        "geistHint": "Deck 风格圆润、沉稳的字体，用于所有风格",
+        "sairaSemi": "Arena · 紧凑",
+        "sairaSemiHint": "Arena 风格紧凑、锐利的字体，用于所有风格"
       }
     },
     "pool": {

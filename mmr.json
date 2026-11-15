@@ -509,5 +509,19 @@
       "onOverwolf": "Overwolf 上的 DotaPlus",
       "boardFooter": "分数 = 平均PP + 胜场加成，最近365天"
     }
+  },
+  "views": {
+    "table": {
+      "label": "表格",
+      "hint": "每场比赛的全部数据，集中在一张紧凑的表格中"
+    },
+    "heroes": {
+      "label": "英雄",
+      "hint": "英雄池在前；选择英雄可筛选比赛"
+    },
+    "journal": {
+      "label": "日志",
+      "hint": "按天分组的比赛，附带游玩日历"
+    }
   }
 }

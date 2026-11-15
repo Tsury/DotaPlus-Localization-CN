@@ -146,5 +146,8 @@
     "support": "{{hero}}辅助",
     "list2": "{{first}}和{{second}}",
     "list3": "{{first}}、{{second}}和{{third}}"
+  },
+  "redesign": {
+    "view": "视图"
   }
 }

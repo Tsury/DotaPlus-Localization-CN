@@ -36,6 +36,7 @@
     "level": "{{level}} 级",
     "lost": "失败",
     "maxLevel": "满级",
+    "ppEstimate": "预估 PP",
     "ppFinal": "最终 PP",
     "ppNow": "当前 PP",
     "roles": {

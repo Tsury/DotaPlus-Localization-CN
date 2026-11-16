@@ -237,7 +237,6 @@
   "tracking": {
     "success": "成功记录MMR",
     "failure": "记录MMR失败",
-    "rankProgress": "段位进度",
     "confidence": "置信度"
   },
   "dayOfWeek": {

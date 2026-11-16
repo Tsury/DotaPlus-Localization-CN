@@ -445,7 +445,6 @@
         "none": "{{label}}：无比赛",
         "strong": "明显",
         "even": "接近持平",
-        "fewMatches": "场次较少",
         "weak": "较弱",
         "tooFew": "场次太少",
         "detail_other": "{{kind}}：{{count}} 场中胜率 {{rate}}%"

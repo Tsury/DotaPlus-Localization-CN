@@ -523,5 +523,415 @@
       "label": "日志",
       "hint": "按天分组的比赛，附带游玩日历"
     }
+  },
+  "table": {
+    "kit": {
+      "positionShort": {
+        "carry": "一号位",
+        "mid": "中单",
+        "offlane": "三号位",
+        "softSupport": "四号位",
+        "hardSupport": "五号位"
+      },
+      "lane": {
+        "safe": "优势路",
+        "mid": "中路",
+        "off": "劣势路"
+      },
+      "rank": {
+        "unranked": "未定级"
+      },
+      "ago": {
+        "minutes_other": "{{count}}分钟前",
+        "hours_other": "{{count}}小时前",
+        "days_other": "{{count}}天前",
+        "weeks_other": "{{count}}周前"
+      },
+      "position": {
+        "guessed": "最可能的位置，根据本场比赛推测。",
+        "probableRole": "最可能的角色。敌方的角色根据此前的比赛推测。"
+      },
+      "rankCard": {
+        "season": "本赛季段位",
+        "noSeason": "本赛季无段位",
+        "previous": "上赛季"
+      }
+    },
+    "filters": {
+      "addFilter": "添加筛选",
+      "addId": "添加",
+      "allHeroes": "所有英雄…",
+      "applyRange": "应用范围",
+      "clearCount_other": "清除 {{count}} 个筛选",
+      "clearPlayer": "清除玩家",
+      "close": "关闭",
+      "closeHeroes": "收起英雄",
+      "done": "完成",
+      "excludeText": "不符合条件的对局",
+      "filterNumber": "筛选 {{number}}",
+      "group": {
+        "time": "时间"
+      },
+      "hours": "{{from}} 至 {{to}}",
+      "leaderboard": "排行榜",
+      "match": "对局",
+      "matchTip": "仅显示此对局。它是在图表上选中的。",
+      "minutes": "{{value}} 分钟",
+      "more_other": "+ 另外 {{count}} 个",
+      "morePeriods": "更早的版本、赛季或日期…",
+      "noFilters": "无筛选",
+      "noHero": "没有这个名字的英雄。",
+      "noHeroPicked": "未选择英雄。",
+      "noPlayer": "未找到玩家。输入 Steam ID 以添加。",
+      "not": "非 {{text}}",
+      "on_other": "已开启 {{count}} 个",
+      "partyOf": "{{size}} 人组队",
+      "peopleCount_other": "{{count}} 个筛选",
+      "pickHeroes": "选择英雄",
+      "rangeTo": "至",
+      "removeChip": "移除{{label}}筛选",
+      "removeFilter": "移除筛选",
+      "removeMatch": "移除对局筛选",
+      "removeNamed": "移除{{name}}",
+      "searchHero": "搜索英雄",
+      "searchPlayer": "名称或 Steam ID",
+      "solo": "单排",
+      "steamId": "Steam ID {{id}}",
+      "steamIdLabel": "Steam ID",
+      "steamIdShort": "ID {{id}}",
+      "sub": {
+        "period": "一次一个时间段",
+        "hero": "你使用其中任一英雄的对局",
+        "duration": "对局时长（分钟）",
+        "networth": "你在对局结束时的净资产",
+        "pp": "你的玩家表现",
+        "timeOfDay": "对局结束的时间（你的本地时间）",
+        "dayOfWeek": "对局结束的日期",
+        "reports": "你举报过玩家的对局",
+        "partyMates": "与特定队友或特定英雄的对局",
+        "allies": "与特定友方玩家或特定英雄的对局",
+        "enemies": "与特定敌方玩家或特定英雄的对局"
+      },
+      "timeOfDay": {
+        "early": "上午",
+        "mid": "下午",
+        "late": "凌晨"
+      }
+    },
+    "board": {
+      "everyBoard": "该玩家所在的全部排行榜。"
+    },
+    "dialog": {
+      "close": "关闭"
+    },
+    "guide": {
+      "title": "RealStats",
+      "sub": "结合情境解读的数据",
+      "intro": "RealStats 将每项数据与<b>结果</b>（胜或负）、<b>角色</b>（核心或辅助）、<b>英雄</b>和<b>段位</b>相同的比赛进行比较。颜色表示你相对这些比赛的表现。",
+      "colours": "表格中的颜色",
+      "styles": {
+        "average": "一般",
+        "averageText": "与该英雄、角色和段位在此结果下的通常水平相当。",
+        "high": "高",
+        "highText": "优于此结果下的通常水平。",
+        "low": "低",
+        "lowText": "低于此结果下的通常水平。",
+        "outstanding": "出色",
+        "outstandingText": "仅限输掉的比赛：虽然队伍输了，你打得很好。",
+        "poor": "糟糕",
+        "poorText": "仅限赢下的比赛：虽然队伍赢了，你打得很差。"
+      },
+      "graph": "单项数据的表现图",
+      "graphExample": "示例图",
+      "wonMatches": "胜场",
+      "lostMatches": "负场",
+      "wonRange": "胜场区间",
+      "lostRange": "负场区间",
+      "bothRange": "两种结果都能达到此值",
+      "ranges": "每个区间从后 15% 到前 15%。竖线表示中位数，圆点表示你的比赛。",
+      "whyTitle": "为什么结果很重要",
+      "why": "Dota 2 是团队游戏，胜利和失败会让每项数据呈现完全不同的面貌。自由发育的核心不同于在地图另一侧艰难发育的核心，富裕的辅助也不同于花光金钱夺回地图控制的辅助。数据只有放在其情境中才有参考价值。"
+    },
+    "header": {
+      "graph": {
+        "modes": "图表",
+        "sources": "图表比赛",
+        "last50": "最近50场",
+        "recent": "近期",
+        "filtered": "已筛选",
+        "emptyTitle": "没有可绘制的比赛",
+        "emptyBody": "有比赛后图表会自动填充。",
+        "hint": "悬停某个点查看比赛。点击只显示该场比赛。",
+        "lane": "{{lane}}",
+        "radiant": "天辉",
+        "dire": "夜魇",
+        "kda": "击杀 / 死亡 / 助攻",
+        "tbd": "待定",
+        "played": "比赛时间",
+        "click": "点击只显示该场比赛"
+      },
+      "tabs": {
+        "label": "资料分区"
+      },
+      "kinds": {
+        "you": "你",
+        "youHint": "你的账号：当前连接的 Steam 账号",
+        "local": "你的账号",
+        "localHint": "你的其他账号：之前曾在这台电脑上连接",
+        "followed": "收藏",
+        "followedHint": "收藏的资料"
+      },
+      "profiles": {
+        "label": "资料",
+        "all": "全部",
+        "accounts": "你的账号",
+        "favorites": "收藏",
+        "menuTip": "全部资料：打开、取消收藏或添加收藏",
+        "add": "添加收藏…",
+        "addTip": "通过 Steam ID 收藏资料",
+        "askTitle": "取消收藏 {{name}}？",
+        "askText": "将删除此资料的比赛记录。",
+        "unfavorite": "取消收藏",
+        "unfavoriteName": "取消收藏 {{name}}",
+        "removed": "已取消收藏"
+      },
+      "follow": {
+        "title": "添加收藏",
+        "steamId": "Steam ID：",
+        "ok": "收藏",
+        "added": "已添加到收藏",
+        "whereTitle": "在哪里找到 Steam ID",
+        "whereDotabuff": "在 Dotabuff 链接末尾：dotabuff.com/players/81256461",
+        "whereSteam": "或 Steam 个人资料链接末尾：steamcommunity.com/profiles/76561198041522189"
+      },
+      "rankup": {
+        "title": "升段所需胜场",
+        "sub": "根据最近比赛估算"
+      },
+      "tools": {
+        "open": "在 {{site}} 打开资料",
+        "sync": "同步",
+        "syncCooling": "同步 · {{time}}后可再次使用",
+        "click": "点击",
+        "clickText": "近期比赛 · 冷却 1 分钟",
+        "ctrlClick": "Ctrl + 点击",
+        "ctrlClickText": "最近 2000 场比赛 · 冷却 2 小时",
+        "note": "没有订阅时，Ctrl + 点击同步最近 500 场比赛。"
+      }
+    },
+    "sync": {
+      "leftHours": "{{hours}} 小时 {{minutes}} 分钟",
+      "leftMinutes_other": "{{count}} 分钟",
+      "leftSeconds_other": "{{count}} 秒"
+    },
+    "warning": {
+      "mmrLead": "MMR 追踪不可用。",
+      "mmr": "新比赛不会被追踪。请在 Discord 联系客服。",
+      "steamLead": "MMR 追踪需要更新。",
+      "steam": "DotaPlus 会为此重启 Steam。如果此提示一直存在，请在 Discord 联系客服。",
+      "restartSteam": "重启 Steam"
+    },
+    "parts": {
+      "columns": {
+        "kda": "每次死亡的击杀与助攻",
+        "lh": "正补",
+        "dn": "反补",
+        "gpm": "每分钟金钱",
+        "xpm": "每分钟经验",
+        "dmg": "英雄伤害",
+        "heal": "英雄治疗"
+      },
+      "pp": {
+        "title": "表现分 (PP)",
+        "body": "逐分钟比较你与同英雄、同位置、同段位区间玩家的表现。",
+        "netWorth": "包含资产。比赛结果不会影响它。",
+        "below": "低于 {{value}}",
+        "above": "高于 {{value}}",
+        "terrible": "很差",
+        "bad": "差",
+        "average": "平均",
+        "good": "好",
+        "great": "很好"
+      },
+      "replay": {
+        "title": "处理状态",
+        "body": "DotaPlus 会在比赛结束后处理比赛，为全部十名玩家生成 PP 和 RealStats。"
+      },
+      "dist": {
+        "subPp": "全部十名玩家的表现",
+        "noteStat": "每名玩家的 {{stat}}，与同英雄、同位置、同段位的玩家比较。100 为平均。两个数字分别是数值和该英雄强势对局的标准。",
+        "notePp": "100 为该英雄、位置和段位的平均水平。高于 125 为好，低于 75 为差。",
+        "unavailable": "这场比赛没有全部十名玩家的数据。"
+      },
+      "you": "你",
+      "unknownPlayer": "未知玩家",
+      "tbd": "待定",
+      "badges": {
+        "party_other": "{{count}} 人组队",
+        "queuedWith": "与你一起匹配的玩家",
+        "cal": "定级",
+        "lp": "LP"
+      },
+      "links": {
+        "open": "在 {{site}} 上打开比赛",
+        "copy": "复制比赛 ID {{id}}",
+        "copyLabel": "复制比赛 ID"
+      },
+      "matches_other": "{{count}} 场比赛",
+      "best": {
+        "sub": "按胜率"
+      },
+      "average": {
+        "bestHeroRole": "最佳英雄 · 角色"
+      },
+      "pager": {
+        "label": "页面",
+        "previous": "上一页",
+        "next": "下一页",
+        "keyboard": "键盘",
+        "pageKeys": "上一页和下一页",
+        "profileKeys": "上一个和下一个资料",
+        "page": "页面",
+        "profile": "资料"
+      },
+      "empty": {
+        "privateTitle": "嘘…… 此资料为私密！",
+        "privateBody": "其比赛历史已隐藏。",
+        "noneTitle": "暂无比赛",
+        "noneBody": "你的下一场比赛结束后，比赛历史会显示在这里。",
+        "filteredBody": "更改或清除筛选条件以再次查看比赛。"
+      },
+      "recal": {
+        "days_other": "{{count}} 天后可重新校准"
+      },
+      "bestRole": "最佳角色：{{role}}",
+      "confidence": {
+        "calibrating": "低于 30% 标记时，账号处于定级中，没有勋章。"
+      },
+      "graph": {
+        "played": "比赛时间",
+        "clickShow": "点击显示这场比赛",
+        "lane": "{{lane}}路"
+      }
+    },
+    "page": {
+      "ident": {
+        "you": "你的资料",
+        "local": "你的其他账号",
+        "favorite": "★ 收藏",
+        "winStreak": "{{n}} 连胜",
+        "lossStreak": "{{n}} 连败"
+      },
+      "rank": {
+        "title": "段位",
+        "tbd": "待定",
+        "mmr": "MMR",
+        "progress": "段位进度",
+        "toNext": "距下一段位的 MMR",
+        "confidence": "置信度",
+        "queuePoints": "角色队列点数",
+        "behavior": "行为分"
+      },
+      "season": {
+        "tip": "本赛季的天梯比赛",
+        "title": "当前赛季",
+        "ranked": "天梯",
+        "matches": "比赛",
+        "winRate": "胜率",
+        "mmr": "MMR Δ",
+        "mmrTip": "MMR 总变化（差值）",
+        "pp": "PP",
+        "netWorth": "净资产",
+        "kda": "KDA",
+        "kp": "KP",
+        "dp": "DP",
+        "bestHero": "最佳英雄",
+        "bestRole": "最佳位置",
+        "roleShare": "占所有位置的比例"
+      },
+      "roles": {
+        "title": "位置",
+        "sub": "所选比赛",
+        "role": "位置",
+        "matches": "比赛",
+        "win": "胜率",
+        "mmr": "MMR Δ",
+        "bestHero": "最佳英雄",
+        "winRate": "胜率",
+        "mmrChange": "MMR 变化"
+      },
+      "heroes": {
+        "title": "英雄",
+        "sub_other": "最近 {{count}} 场比赛 · 点击筛选",
+        "hero": "英雄",
+        "avgPp": "平均 PP",
+        "cardSub_other": "最近 {{count}} 场比赛中",
+        "clear": "点击再次显示所有英雄。",
+        "choose": "点击只显示此英雄的比赛。",
+        "none": "还没有比赛"
+      },
+      "charts": {
+        "noData": "无数据",
+        "last50": "最近 50 场比赛",
+        "won": "胜",
+        "lost": "负",
+        "trend": "趋势",
+        "hint": "点击一个点，只显示该场比赛。"
+      },
+      "query": {
+        "where": "条件",
+        "avg": "平均",
+        "avgTip": "所选比赛的平均值"
+      },
+      "head": {
+        "result": "结果",
+        "hero": "英雄",
+        "position": "位置",
+        "pos": "位",
+        "type": "类型",
+        "duration": "时长",
+        "time": "时间",
+        "reports": "你在本场比赛中发出的举报",
+        "glyphs": "防御符文使用次数",
+        "kills": "击杀",
+        "k": "杀",
+        "deaths": "死亡",
+        "d": "死",
+        "assists": "助攻",
+        "a": "助",
+        "pp": "PP",
+        "awards": "奖项",
+        "mmr": "MMR",
+        "behavior": "行为分",
+        "bs": "行为",
+        "replay": "录像",
+        "links": "链接",
+        "linksTip": "比赛页面"
+      },
+      "row": {
+        "won": "胜",
+        "lost": "负",
+        "ranked": "天",
+        "unranked": "普",
+        "normal": "N",
+        "radiant": "天辉",
+        "dire": "夜魇",
+        "side": "阵营",
+        "mode": "模式",
+        "unknownPosition": "位置未知",
+        "tbd": "待定",
+        "confidence": "MMR 置信度",
+        "afterMatch": "本场比赛后",
+        "change": "变化",
+        "noMmr": "无 mmr",
+        "behaviorTip": "本场比赛后的行为分"
+      },
+      "when": {
+        "minutes": "{{n}} 分钟",
+        "hours": "{{n}} 小时",
+        "days": "{{n}} 天",
+        "weeks": "{{n}} 周"
+      }
+    }
   }
 }

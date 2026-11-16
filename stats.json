@@ -599,7 +599,8 @@
         "radiantLead": "天辉在这条分路的英雄更强。",
         "direLead": "夜魇在这条分路的英雄更强。",
         "anonymous": "隐藏玩家",
-        "statsOff": "统计已关闭，因此不显示该英雄的数据"
+        "statsOff": "统计已关闭，因此不显示该英雄的数据",
+        "openHint": "点击在对决视图中打开这条线。分路是根据选人推测的：把英雄拖到同队另一个英雄上即可更正。"
       },
       "composition": {
         "title": "队伍构成",
@@ -675,6 +676,91 @@
       "hours_other": "{{count}}小时",
       "days_other": "{{count}}天",
       "weeks_other": "{{count}}周"
+    },
+    "relation": {
+      "you": "你",
+      "withYou": "与你同队",
+      "vsYou": "与你对阵",
+      "metYou": "遇到过",
+      "withYouTitle": "与你同队的比赛",
+      "againstTitle": "与你对阵的比赛",
+      "withOrAgainstTitle": "与你同队或对阵的比赛"
+    },
+    "cards": {
+      "assign": "指定英雄",
+      "theirRate": "他们在这些比赛中的胜率",
+      "teamRank": "{{side}}平均段位"
+    },
+    "periodShort": {
+      "week": "7天",
+      "twoWeeks": "14天",
+      "month": "30天",
+      "threeMonths": "90天"
+    },
+    "periodDays": {
+      "week": "7天",
+      "twoWeeks": "14天",
+      "month": "30天",
+      "threeMonths": "90天"
+    },
+    "faceoff": {
+      "yourTeam": "你的队伍",
+      "enemies": "敌方",
+      "teamRank": "{{side}}，平均段位",
+      "assign": "未选 · 指定",
+      "hidden": "历史、位置和英雄已隐藏",
+      "noHero": "尚未选择英雄",
+      "afterPicks": "选人后显示分路",
+      "byPosition": "按位置",
+      "beforePicks": "选人前",
+      "rows": {
+        "title": "正面对比",
+        "legend": "胜率 · 场数",
+        "marks": "标记",
+        "marksHint": "小号、代练、连胜连败、备注、举报、避开和隐私标记。点击备注标记可打开备注。",
+        "noMarks": "无标记",
+        "lifeHint": "所有记录比赛的胜率，下方为场数。",
+        "periodHint": "{{period}}的胜率，下方为场数。",
+        "withMe": "与你同队 / 对阵",
+        "withMeHint": "与你同队或对阵比赛的胜率，下方为这些比赛的场数。",
+        "kdaHint": "{{period}}每次死亡的击杀加助攻。",
+        "gpmHint": "{{period}}每分钟金钱。",
+        "xpmHint": "{{period}}每分钟经验。",
+        "usualHint": "{{period}}最常打的位置。每个提示中有角色和分路占比。",
+        "hero": "此英雄",
+        "heroHint": "{{period}}所选英雄的胜率，下方为场数。",
+        "heroNone": "{{period}}没有此英雄的比赛",
+        "heroPosition": "英雄位置",
+        "heroPositionHint": "此英雄最常被打的位置。每个提示中有角色和分路占比。",
+        "onHero": "使用此英雄",
+        "board": "英雄排行",
+        "boardHint": "所选英雄排行榜上的名次。提示中有 PP 和排行榜。",
+        "noData": "没有此玩家的数据。",
+        "leads": "本行领先。"
+      },
+      "edge": {
+        "even": "均势分路",
+        "side": "{{side}}分路优势",
+        "yours": "你的分路优势",
+        "theirs": "对方分路优势"
+      },
+      "lane": {
+        "tabs": "分路",
+        "name": "{{lane}}",
+        "sideName": "{{side}}{{lane}}",
+        "yours": "你的",
+        "evenShort": "均势",
+        "lead": "{{side}} +{{value}}%",
+        "afterPicks": "选人后",
+        "even": "均势分路",
+        "leads": "{{side}}在此路占优",
+        "against": "{{mine}}对阵{{other}}"
+      },
+      "estimate": {
+        "none": "选人后显示分路。",
+        "watching": "选人后显示分路。在此之前，这里显示两名{{position}}玩家。",
+        "mine": "选人后显示分路。在此之前，你对阵敌方{{position}}。"
+      }
     }
   }
 }

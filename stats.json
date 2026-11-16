@@ -223,5 +223,458 @@
       "label": "卡片",
       "hint": "每名玩家一张卡片"
     }
+  },
+  "rx": {
+    "position": {
+      "carry": "核心",
+      "mid": "中单",
+      "offlane": "劣势路",
+      "softSupport": "四号辅助",
+      "hardSupport": "五号辅助"
+    },
+    "lane": {
+      "safe": "优势路",
+      "mid": "中路",
+      "off": "劣势路"
+    },
+    "period": {
+      "week": "最近一周",
+      "twoWeeks": "最近两周",
+      "month": "最近一个月",
+      "threeMonths": "最近三个月"
+    },
+    "ago": {
+      "minutes_other": "{{count}} 分钟前",
+      "hours_other": "{{count}} 小时前",
+      "days_other": "{{count}} 天前",
+      "weeks_other": "{{count}} 周前"
+    },
+    "card": {
+      "usualPosition": "常用位置",
+      "role": "角色",
+      "lane": "分路",
+      "position": "位置",
+      "selected": "已选择，尚未确认",
+      "pickedOrder": "本局第 {{order}} 个选取",
+      "spam": "绝活",
+      "matches": "场次",
+      "pickRate": "选取率",
+      "winRate": "胜率",
+      "kda": "KDA",
+      "gpm": "GPM",
+      "xpm": "XPM",
+      "spamNote": "该英雄选取率极高，很可能会选。",
+      "recentNote": "最近开始频繁使用该英雄，可能会选。",
+      "banned": "本局已被禁用。",
+      "unconfirmed": "选取尚未确认，英雄仍可能更换。",
+      "rankThisSeason": "本赛季段位",
+      "noRankThisSeason": "本赛季无段位",
+      "previousSeason": "上赛季",
+      "notThisGame": "不是本局的",
+      "boardTitle": "{{hero}}排行榜",
+      "boardSub": "所选英雄的排行榜名次",
+      "pp": "PP",
+      "boardScore": "排行榜分数",
+      "ranks": "段位",
+      "openBoard": "点击打开该排行榜",
+      "vs": "对阵",
+      "noMatchup": "此对阵暂无数据。",
+      "favoured": "占优",
+      "neither": "均不占优",
+      "advantage": "优势",
+      "closeMatchup": "势均力敌：双方英雄都没有明显优势。",
+      "winsMore": "{{winner}}对阵{{loser}}时胜率更高。"
+    },
+    "head": {
+      "meta": {
+        "modeTip": "游戏模式",
+        "lobby": "房间",
+        "lobbySub": "房间平均段位",
+        "unknown": "未知",
+        "copy": "复制比赛 ID",
+        "copied": "已复制",
+        "coach": "教练",
+        "detected": "已检测到",
+        "coachTip": "本场比赛有教练。"
+      },
+      "edge": {
+        "title": "阵容优势",
+        "fromMine": "从己方角度",
+        "fromRadiant": "从天辉角度",
+        "inProgress": "选人中",
+        "inProgressNote": "选出第一个英雄后显示。",
+        "even": "阵容均势",
+        "advantage": "{{side}}优势 +{{value}}%",
+        "spectating": "观战中",
+        "averageRank": "平均段位 {{rank}}",
+        "favoursMine": "正数表示对己方有利。",
+        "favoursRadiant": "正数表示对天辉有利。",
+        "whatItCompares": "比较内容",
+        "howToRead": "如何解读",
+        "synergyWeight": "配合权重",
+        "notAvailable": "暂不可用",
+        "side": "阵营",
+        "counterHint": "英雄对敌方英雄的表现",
+        "counterWhat": "一方每个英雄对另一方每个英雄：两者相遇时谁更常获胜。",
+        "counterRead": "一方英雄的克制关系对比另一方。「英雄对阵」面板显示每一组。",
+        "synergyHint": "每队英雄之间的配合程度",
+        "synergyWhat": "每队内部的英雄：两个英雄在同一队时的获胜频率。",
+        "synergyRead": "一方的英雄组合对比另一方。数值高表示该队英雄配合良好。",
+        "heroesHint": "英雄本身的强度",
+        "heroesWhat": "每个英雄本身的强度，不考虑本场的其他英雄。",
+        "heroesRead": "一方英雄的强度对比另一方英雄的强度。",
+        "sideHint": "天辉阵营的地图优势",
+        "sideWhat": "地图的两个阵营。在大量比赛中，一方的胜率略高于另一方。",
+        "sideRead": "每场比赛都相同的固定数值，与选人无关。",
+        "playersHint": "每位玩家使用所选英雄的水平",
+        "playersPending": "玩家部分暂不可用，不计入阵容优势。"
+      },
+      "worth": {
+        "title": "值得注意",
+        "titleTip": "值得注意：本场比赛玩家的突出之处",
+        "none": "这些玩家没有突出之处。",
+        "smurf": "小号",
+        "boost": "代练",
+        "win": "胜",
+        "loss": "败",
+        "smurfTitle": "可能是小号",
+        "smurfLine": "{{matches}} 场比赛胜率 {{rate}}%",
+        "smurfLineNoLife": "场次少且胜率极高",
+        "boostTitle": "可能是代练",
+        "boostLine": "自上赛季以来段位变化极快",
+        "spamTitle": "常玩{{hero}}",
+        "recentTitle": "最近常玩{{hero}}",
+        "spamLine_other": "本时段 {{count}} 场",
+        "boardTitle": "{{hero}}排行榜第 {{place}} 名",
+        "boardLine": "该英雄的顶尖玩家之一",
+        "streakLine_other": "连续 {{count}} 场",
+        "partyTitle": "{{size}} 人组队",
+        "partyLine": "他们一起排队",
+        "noteTitle": "你的备注",
+        "reportTitle": "你举报过",
+        "reportLine": "你之前举报过此玩家",
+        "avoidTitle": "在你的避开列表中",
+        "avoidLine": "你选择避开此玩家"
+      }
+    },
+    "overlays": {
+      "matchCount_other": "{{formatted}} 场比赛",
+      "notePlaceholder": "添加你关心的信息",
+      "noteLabel": "玩家备注",
+      "noteHint": "每次遇到该玩家时都会显示此备注。<1>Ctrl</1>+<2>Enter</2> 保存。",
+      "noNote": "该玩家没有备注",
+      "saveShortcut": "Ctrl + Enter",
+      "noChanges": "没有需要保存的更改",
+      "writeFirst": "请先填写备注",
+      "save": "保存",
+      "waitingTitle": "等待比赛",
+      "waitingBody": "Dota 2 找到你的下一场比赛后将载入统计。"
+    },
+    "sheet": {
+      "party": "组队",
+      "winsInRow_other": "{{count}}连胜",
+      "lossesInRow_other": "{{count}}连败",
+      "pro": "职业",
+      "steam": "Steam",
+      "wins_other": "{{count}}胜",
+      "losses_other": "{{count}}负",
+      "wonShare": "胜率{{rate}}%",
+      "noMatches": "无比赛",
+      "asAllies": "作为队友",
+      "asEnemies": "作为对手",
+      "lastMatches_other": "最近{{count}}场",
+      "resultsNewestFirst": "比赛结果，最新在前",
+      "colSide": "阵营",
+      "colTheirHero": "对方英雄",
+      "colKda": "杀 / 死 / 助",
+      "colMyHero": "我的英雄",
+      "colWhen": "时间",
+      "openMatch": "在STRATZ上打开这场比赛",
+      "wonShort": "胜",
+      "lostShort": "负",
+      "abandonedShort": "弃",
+      "openProfile": "在资料窗口中打开该玩家资料",
+      "matches_other": "{{value}}场比赛",
+      "allHeroes": "{{period}}，所有英雄",
+      "editNote": "编辑备注",
+      "addNote": "添加备注",
+      "openNotesTip": "在备注管理器中打开该玩家的备注",
+      "openOn": "在{{site}}上打开资料",
+      "noMutual": "还没有与该玩家的比赛。",
+      "withAgainstYou": "与你同队 / 对阵你"
+    },
+    "table": {
+      "allTime": "全部时间",
+      "matchesRate_other": "{{count}} 场 · {{rate}}%",
+      "anonymous": "匿名",
+      "anonymousNote": "选人阶段隐藏",
+      "assign": {
+        "label": "分配英雄以查看统计",
+        "change": "更换或取消指定英雄"
+      },
+      "banned": "已禁用",
+      "details": "{{name}} 的详情",
+      "gpmXpm": "GPM / XPM",
+      "group": {
+        "life": "全部时间",
+        "me": "与你同/对阵",
+        "pick": "选用 · {{period}}"
+      },
+      "head": {
+        "slot": "玩家位置，与游戏顶栏一致",
+        "playerSub": "点击玩家查看详情",
+        "now": "本局",
+        "nowTip": "本场比赛的位置",
+        "rankTip": "段位徽章。悬停徽章查看名称。",
+        "win": "胜率",
+        "withMeTitle": "与你同队或对阵",
+        "clickToSort": "点击排序",
+        "withMeAllies": "队友：一起打过的场次和胜率。",
+        "withMeEnemies": "对手：互相对阵的场次，以及他们对你的胜率。",
+        "periodSub": "场次与胜率",
+        "usualAllHeroes": "统计该时段内的所有英雄。",
+        "usualHover": "悬停图标查看名称和占比。",
+        "most": "常用英雄",
+        "mostTitle": "最常用英雄",
+        "mostNumbers": "每个英雄的场次、胜率和常用位置。",
+        "mostFrames": "红框：选取率很高。蓝框：最近经常选用。",
+        "pickTitle": "选用的英雄",
+        "pickSub": "该英雄的场次与胜率"
+      },
+      "heat": {
+        "none": "{{label}}：无比赛",
+        "strong": "明显",
+        "even": "接近持平",
+        "fewMatches": "场次较少",
+        "weak": "较弱",
+        "tooFew": "场次太少",
+        "detail_other": "{{kind}}：{{count}} 场中胜率 {{rate}}%"
+      },
+      "inARow": "连续",
+      "matchCount_other": "{{count}} 场",
+      "lifeMatches_other": "全部时间 {{count}} 场",
+      "marks": {
+        "smurf": "小号",
+        "boost": "代练",
+        "won": "胜{{n}}",
+        "lost": "败{{n}}",
+        "note": "备注",
+        "noteTitle": "你的备注",
+        "noteEdit": "点击编辑。",
+        "reported": "已举报",
+        "avoided": "已避开",
+        "private": "隐私",
+        "privateTitle": "隐私资料",
+        "privateNote": "比赛记录、位置和英雄均已隐藏。"
+      },
+      "missing": {
+        "disabled": "统计已关闭",
+        "private": "隐私资料 · 记录、位置和英雄已隐藏",
+        "none": "无统计 · 记录、位置和英雄已隐藏",
+        "disabledShort": "统计已关闭",
+        "privateShort": "隐私资料",
+        "noneShort": "无统计"
+      },
+      "name": {
+        "nickFor": "你在 Steam 中为其设置的昵称：",
+        "proFor": "已认证的职业选手名："
+      },
+      "party": {
+        "title_other": "{{count}} 人队伍",
+        "sub": "{{side}} · 组队排队",
+        "note": "根据 Steam 好友关系推测，可能不准确：会漏掉隐私资料和非好友组成的队伍，分别排队的好友也可能被显示为队伍。"
+      },
+      "pick": {
+        "word": "选人",
+        "nthOne": "第 {{n}}",
+        "nthTwo": "第 {{n}}",
+        "nthFew": "第 {{n}}",
+        "nthOther": "第 {{n}}",
+        "orderTip": "在选人阶段{{nth}}个选择",
+        "private": "隐私资料。",
+        "empty": "该英雄无比赛（{{period}}）。"
+      },
+      "position": {
+        "none": "{{what}}：无位置或分路数据"
+      },
+      "sort": {
+        "slot": "位置编号",
+        "name": "玩家",
+        "position": "本局位置",
+        "rank": "段位",
+        "lifeMatches": "全部场次",
+        "lifeRate": "全部胜率",
+        "meMatches": "与你同/对阵场次",
+        "meRate": "与你同/对阵胜率",
+        "matches": "场次 · {{period}}",
+        "rate": "胜率 · {{period}}",
+        "usual": "常用位置",
+        "most": "常用英雄",
+        "pick": "选人顺序",
+        "board": "排行榜名次"
+      },
+      "sortBy": "按{{column}}排序",
+      "sortHint": "点击列标题在各队内排序",
+      "sortedBy": "按{{column}}排序",
+      "spectating": "观战时不显示",
+      "team": {
+        "avg": "平均",
+        "avgRate": "平均胜率",
+        "overLife": "全部时间。",
+        "overPeriod": "时段：{{period}}。"
+      },
+      "thisIsYou": "这是你",
+      "you": "你",
+      "usualAllHeroes": "{{period}}，所有英雄",
+      "waiting": "等待选人",
+      "waitingAssign": "等待选人 · 分配英雄",
+      "withMeMatches_other": "与你同队或对阵 {{count}} 场",
+      "withMeNone": "没有与你同队或对阵的比赛",
+      "withMeRate": "与你同队或对阵：他们的胜率",
+      "wonOf_other": "{{count}} 场中胜率 {{rate}}%"
+    },
+    "bottom": {
+      "waiting": "等待选人",
+      "pickRate": "选取率",
+      "lanePrevious": "上一分路",
+      "laneNext": "下一分路",
+      "noLaneFilter": "分路筛选不适用于此标签页",
+      "lane": {
+        "all": "所有分路",
+        "safe": "优势路",
+        "mid": "中路",
+        "off": "劣势路"
+      },
+      "laneTitle": {
+        "safe": "优势路",
+        "mid": "中路",
+        "off": "劣势路"
+      },
+      "info": {
+        "matchups": {
+          "title": "英雄对阵",
+          "base": "基于每个英雄的基础胜率，以及其对阵另一英雄时的胜率变化。",
+          "wins": "英雄对敌方英雄的胜率高出至少 2% 时，即赢得该对阵。",
+          "average": "英雄旁的数字是其对五个敌方英雄的平均值。",
+          "colours": "绿色：天辉优势。红色：夜魇优势。"
+        },
+        "suggested": {
+          "title": "推荐英雄",
+          "advantage": "胜率优势（百分比），按对整支敌方队伍（克制）和与整支己方队伍（配合）计算。",
+          "data": "基于最近一周的数据：英雄胜率如何变化，以及英雄之间如何相互克制。",
+          "meta": "因此，版本强势英雄即使面对其常见克制者也可能被推荐。"
+        },
+        "counters": {
+          "title": "英雄克制",
+          "advantage": "针对每个敌方英雄的克制英雄，以胜率优势百分比表示。",
+          "multi": "青色：该英雄克制至少 2 个敌方英雄。"
+        },
+        "meta": {
+          "title": "热门强势英雄",
+          "best": "在你的段位中胜率最高的英雄。",
+          "safe": "稳妥的好选择。在还没有克制信息的先手选人时非常有用。"
+        },
+        "lanes": {
+          "title": "分路对线",
+          "edge": "每条分路的优势及分配到该路的英雄。",
+          "guess": "位置为推测，可能有误。将英雄拖到其他分路即可修正。"
+        }
+      },
+      "matchups": {
+        "title": "英雄对阵",
+        "sub": "行英雄对列英雄，%",
+        "empty": "双方都选出英雄后显示英雄对阵。",
+        "sum": "所有对阵之和",
+        "radiantAverage": "天辉 · 其对阵的平均值",
+        "direAverage": "夜魇 · 其对阵的平均值"
+      },
+      "lanes": {
+        "title": "分路",
+        "empty": "选出英雄后显示分路。",
+        "edge": "优势",
+        "safeSub": "天辉优势路对夜魇劣势路",
+        "midSub": "天辉中路对夜魇中路",
+        "offSub": "天辉劣势路对夜魇优势路",
+        "even": "这条分路势均力敌。",
+        "radiantLead": "天辉在这条分路的英雄更强。",
+        "direLead": "夜魇在这条分路的英雄更强。",
+        "anonymous": "隐藏玩家",
+        "statsOff": "统计已关闭，因此不显示该英雄的数据"
+      },
+      "composition": {
+        "title": "队伍构成",
+        "empty": "选出首个英雄后显示队伍构成。",
+        "even": "持平。",
+        "radiantAhead_other": "天辉领先 {{count}}。",
+        "direAhead_other": "夜魇领先 {{count}}。",
+        "melee": "近战",
+        "ranged": "远程",
+        "str": "力量",
+        "agi": "敏捷",
+        "int": "智力"
+      },
+      "picks": {
+        "title": "推荐",
+        "tabs": "推荐列表",
+        "yourTeam": "己方",
+        "enemyTeam": "敌方",
+        "meta": "版本",
+        "counters": "克制",
+        "oursHint": "适合本队并克制对方已选英雄的选择",
+        "theirsHint": "这支队伍接下来可能选的英雄",
+        "metaHint": "此段位中本版本最强的英雄",
+        "countersHint": "克制每个敌方已选英雄的英雄",
+        "more": "更多英雄",
+        "noMore": "没有更多英雄",
+        "nextPage": "下一页推荐",
+        "next": "下一页",
+        "previous": "上一页",
+        "none": "没有可显示的英雄。"
+      },
+      "counters": {
+        "for": "克制英雄：",
+        "forRadiant": "天辉方",
+        "forDire": "夜魇方",
+        "forRadiantHint": "天辉方的克制英雄",
+        "forDireHint": "夜魇方的克制英雄",
+        "enemyPick": "敌方已选",
+        "rowNote": "这一行的英雄克制它。",
+        "counterPick": "克制英雄",
+        "against": "对阵{{hero}}",
+        "multi": "克制两个或更多敌方英雄。",
+        "empty": "敌方每选一个英雄，就会显示其克制英雄。"
+      },
+      "meta": {
+        "cm": "CM",
+        "cmText": "仅显示队长模式中可选的英雄。",
+        "core": "此段位的版本核心",
+        "support": "此段位的版本辅助"
+      },
+      "suggested": {
+        "minimum": "英雄最低胜率",
+        "minimumText": "胜率不高于 {{value}}% 的英雄已排除。可在设置中更改。",
+        "core": "推荐核心",
+        "support": "推荐辅助",
+        "likelyCore": "可能选的核心",
+        "likelySupport": "可能选的辅助",
+        "emptyTitle": "尚未检测到选人",
+        "emptyBody": "推荐至少需要一个已选英雄。版本英雄在选人开始前即可使用。",
+        "showMeta": "显示版本英雄"
+      },
+      "bias": {
+        "preferTitle": "在你的偏好列表中",
+        "avoidTitle": "在你的避选列表中",
+        "raised": "偏好强度{{strength}}：评分已提高。点击 + 更改。",
+        "lowered": "偏好强度{{strength}}：评分已降低。点击 − 更改。",
+        "preferMark": "偏好列表：打开英雄偏好设置",
+        "avoidMark": "避选列表：打开英雄偏好设置"
+      }
+    },
+    "agoShort": {
+      "minutes_other": "{{count}}分钟",
+      "hours_other": "{{count}}小时",
+      "days_other": "{{count}}天",
+      "weeks_other": "{{count}}周"
+    }
   }
 }

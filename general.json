@@ -178,7 +178,15 @@
     "attach": "附加",
     "attachTip": "将此页面附加回来",
     "detached": "在单独的窗口中",
-    "viewKeys": "下一个视图：{{next}} · 上一个视图：{{previous}}"
+    "viewKeys": "下一个视图：{{next}} · 上一个视图：{{previous}}",
+    "note": {
+      "label": "备注",
+      "placeholder": "添加你关心的信息",
+      "preview": "预览",
+      "previewHint": "英雄名称和游戏时间会显示为图标和标签",
+      "matchId": "比赛 ID",
+      "matchIdPlaceholder": "比赛 ID（可选）"
+    }
   },
   "interface": {
     "link": "连接",

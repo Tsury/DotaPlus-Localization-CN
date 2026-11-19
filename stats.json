@@ -369,8 +369,6 @@
     },
     "overlays": {
       "matchCount_other": "{{formatted}} 场比赛",
-      "notePlaceholder": "添加你关心的信息",
-      "noteLabel": "玩家备注",
       "noteHint": "每次遇到该玩家时都会显示此备注。<1>Ctrl</1>+<2>Enter</2> 保存。",
       "noNote": "该玩家没有备注",
       "saveShortcut": "Ctrl + Enter",

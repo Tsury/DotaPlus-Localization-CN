@@ -284,7 +284,8 @@
       "advantage": "优势",
       "closeMatchup": "势均力敌：双方英雄都没有明显优势。",
       "winsMore": "{{winner}}对阵{{loser}}时胜率更高。",
-      "result": "结果"
+      "result": "结果",
+      "lastOf_other": "{{count}} 场中的最近 {{shown}} 场"
     },
     "head": {
       "meta": {
@@ -410,7 +411,13 @@
       "openNotesTip": "在备注管理器中打开该玩家的备注",
       "openOn": "在{{site}}上打开资料",
       "noMutual": "还没有与该玩家的比赛。",
-      "withAgainstYou": "与你同队 / 对阵你"
+      "withAgainstYou": "与你同队 / 对阵你",
+      "allHeroesShort": "全部",
+      "won": "胜场",
+      "averagePp": "平均 PP",
+      "bestPp": "最佳 PP",
+      "pickedHere": "本场比赛选用。",
+      "someOf_other": "{{count}} 场中的 {{shown}} 场"
     },
     "table": {
       "allTime": "全部时间",
@@ -451,7 +458,11 @@
         "pickTitle": "选用的英雄",
         "pickSub": "该英雄的场次与胜率",
         "form": "近况",
-        "formTip_other": "最近 {{count}} 场比赛的战绩和每场结果，最新的在前。"
+        "formTip_other": "最近 {{count}} 场比赛的战绩和每场结果，最新的在前。",
+        "pp": "每场 PP",
+        "ppTip_other": "最近 {{count}} 场比赛的 PP，最早的在前，附平均值和最佳值。",
+        "mutual": "同队 · 对阵",
+        "mutualTip": "你与该玩家同队时和对阵时的战绩。"
       },
       "heat": {
         "none": "{{label}}：无比赛",
@@ -523,7 +534,9 @@
         "most": "常用英雄",
         "pick": "选人顺序",
         "board": "排行榜名次",
-        "form": "近况"
+        "form": "近况",
+        "pp": "每场 PP",
+        "mutual": "与你的战绩"
       },
       "sortBy": "按{{column}}排序",
       "sortHint": "点击列标题在各队内排序",
@@ -543,7 +556,8 @@
       "withMeMatches_other": "与你同队或对阵 {{count}} 场",
       "withMeNone": "没有与你同队或对阵的比赛",
       "withMeRate": "与你同队或对阵：他们的胜率",
-      "wonOf_other": "{{count}} 场中胜率 {{rate}}%"
+      "wonOf_other": "{{count}} 场中胜率 {{rate}}%",
+      "best": "最佳"
     },
     "bottom": {
       "waiting": "等待选人",

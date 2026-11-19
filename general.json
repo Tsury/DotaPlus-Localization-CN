@@ -162,7 +162,14 @@
       "settings": "设置"
     },
     "maximize": "最大化",
-    "restore": "还原"
+    "restore": "还原",
+    "notice": {
+      "profileTitle": "新的MMR结果",
+      "profileText": "你的上一场比赛已加入MMR记录。",
+      "openProfile": "打开资料",
+      "close": "关闭",
+      "new": "新"
+    }
   },
   "interface": {
     "link": "连接",

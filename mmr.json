@@ -665,7 +665,7 @@
       "graph": {
         "modes": "图表",
         "sources": "图表比赛",
-        "last50": "最近50场",
+        "last": "最近{{n}}场",
         "recent": "近期",
         "filtered": "已筛选",
         "emptyTitle": "没有可绘制的比赛",
@@ -897,7 +897,7 @@
       },
       "charts": {
         "noData": "无数据",
-        "last50": "最近 50 场比赛",
+        "last": "最近 {{n}} 场比赛",
         "won": "胜",
         "lost": "负",
         "trend": "趋势",

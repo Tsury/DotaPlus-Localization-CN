@@ -169,7 +169,12 @@
       "openProfile": "打开资料",
       "close": "关闭",
       "new": "新"
-    }
+    },
+    "detach": "分离",
+    "detachTip": "将此页面分离",
+    "attach": "附加",
+    "attachTip": "将此页面附加回来",
+    "detached": "在单独的窗口中"
   },
   "interface": {
     "link": "连接",

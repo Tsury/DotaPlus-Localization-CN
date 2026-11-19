@@ -149,7 +149,20 @@
   },
   "redesign": {
     "view": "视图",
-    "display": "显示"
+    "display": "显示",
+    "pages": {
+      "label": "页面",
+      "home": "主页",
+      "profile": "资料",
+      "notes": "笔记",
+      "replays": "录像",
+      "draft": "选人",
+      "match": "比赛",
+      "changelog": "更新日志",
+      "settings": "设置"
+    },
+    "maximize": "最大化",
+    "restore": "还原"
   },
   "interface": {
     "link": "连接",

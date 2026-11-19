@@ -87,5 +87,143 @@
     "imported": "比赛已添加",
     "matchUnavailable": "比赛不可用",
     "failed": "获取失败"
+  },
+  "redesign": {
+    "columns": {
+      "details": "比赛详情"
+    },
+    "detail": {
+      "copyMatchId": "复制比赛 ID",
+      "copyPath": "复制文件路径",
+      "duration": "时长",
+      "ended": "结束于",
+      "file": "文件",
+      "lobby": "大厅",
+      "match": "比赛",
+      "matchEnded": "比赛结束",
+      "matchId": "比赛 ID",
+      "matchIdCopied": "比赛 ID 已复制",
+      "mode": "模式",
+      "name": "名称",
+      "pathCopied": "文件路径已复制",
+      "profiles": "档案",
+      "size": "大小",
+      "winner": "获胜",
+      "won": "{{side}}获胜"
+    },
+    "empty": {
+      "title": "还没有录像",
+      "body": "在 Dota 2 中下载比赛录像后，它会显示在这里。"
+    },
+    "loading": "正在加载",
+    "meaning": {
+      "preExisting": "DotaPlus 启动前文件已在文件夹中。",
+      "downloading": "文件仍在写入。",
+      "ready": "文件已完整，档案检查尚未完成。",
+      "canParse": "文件已完整，仍有跟踪档案需要此录像。",
+      "metadataUnavailable": "此比赛的详情不可用。",
+      "noTrackedProfileMatch": "没有已连接或关注的档案参加了此比赛。",
+      "queued": "录像正在处理队列中等待。",
+      "parsed": "所有跟踪档案都已应用此录像。",
+      "partiallyApplied": "部分档案已应用此录像，部分尚未应用。",
+      "failed": "处理失败，或没有档案被应用。",
+      "deleteFailed": "Windows 拒绝了删除。",
+      "raceLost": "处理已取消。",
+      "expired": "此录像已不可用。",
+      "incompatibleBuild": "此录像来自其他版本的 Dota 2。",
+      "permissionRequired": "Windows 阻止了此文件。"
+    },
+    "mode": {
+      "title": "游戏模式",
+      "later": "模式会随比赛详情一起获取。"
+    },
+    "profile": {
+      "open": "在此比赛上打开档案",
+      "steamId": "Steam ID",
+      "thisReplay": "此录像"
+    },
+    "profiles": {
+      "noneTitle": "此比赛中没有跟踪档案",
+      "noneBody": "只有已连接和关注的档案会获得录像数据。",
+      "unknownTitle": "尚不清楚",
+      "unknownBody": "获取比赛详情后才能知道档案。"
+    },
+    "results": {
+      "applied": "已应用",
+      "notApplied": "未应用",
+      "processing": "处理中"
+    },
+    "row": {
+      "delete": "删除录像文件",
+      "detailsLoaded": "详情已加载",
+      "hide": "隐藏详情",
+      "show": "显示详情",
+      "more": "更多操作",
+      "process": "处理"
+    },
+    "settings": {
+      "autoProcessShort": "自动处理",
+      "autoProcessHint": "跟踪档案参加的比赛录像下载后会立即处理。文件夹中原有的文件保持不变。",
+      "deleteAfterShort": "处理后删除",
+      "deleteAfterHint": "所有档案都应用成功、没有跳过或失败时，文件会被删除。",
+      "openOnDownload": "下载新录像时打开录像页面",
+      "openOnDownloadShort": "下载时打开",
+      "openOnDownloadHint": "新录像下载完成时打开此页面。"
+    },
+    "status": {
+      "applied_other": "已应用 {{applied}}/{{count}} 个档案",
+      "gameTime": "游戏时间",
+      "notNeeded": "无需处理",
+      "progress": "进度"
+    },
+    "steps": {
+      "applied": "已应用 {{applied}}/{{total}}",
+      "blocked": "被 Windows 阻止",
+      "details": "比赛详情",
+      "done": "完成",
+      "fetching": "获取中",
+      "file": "文件",
+      "gone": "已不可用",
+      "inFolder": "在文件夹中",
+      "loaded": "已加载",
+      "none": "此比赛中没有",
+      "notDeleted": "无法删除",
+      "notStarted": "未开始",
+      "otherBuild": "其他版本的 Dota 2",
+      "pending": "等待中",
+      "processing": "处理",
+      "profiles": "档案",
+      "queue": "队列中",
+      "toApply_other": "待应用 {{count}} 个档案",
+      "unavailable": "不可用",
+      "unknown": "尚不清楚"
+    },
+    "storage": {
+      "files_other": "{{count}} 个文件",
+      "free": "可用",
+      "freeShort": "{{size}} 可用",
+      "other": "其他文件",
+      "otherSize": "其他文件 {{size}}",
+      "own": "{{files}} · {{size}}",
+      "replays": "录像",
+      "title": "录像文件夹所在磁盘",
+      "total": "总计"
+    },
+    "strip": {
+      "copyFolder": "复制文件夹路径",
+      "folder": "录像文件夹",
+      "folderCopied": "文件夹路径已复制",
+      "menu": "存储与设置",
+      "openFolder": "点击打开文件夹",
+      "openReplayFolder": "打开录像文件夹",
+      "refresh": "刷新"
+    },
+    "wait": {
+      "none": "比赛详情不可用",
+      "pending": "等待比赛详情",
+      "retryHours": "{{hours}} 小时后重试",
+      "retryMinutes": "{{minutes}} 分钟后重试",
+      "why": "英雄、胜方、模式和时长会随比赛详情一起获取。"
+    }
   }
 }

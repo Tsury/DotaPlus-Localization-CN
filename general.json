@@ -148,7 +148,8 @@
     "list3": "{{first}}、{{second}}和{{third}}"
   },
   "redesign": {
-    "view": "视图"
+    "view": "视图",
+    "display": "显示"
   },
   "interface": {
     "link": "连接",

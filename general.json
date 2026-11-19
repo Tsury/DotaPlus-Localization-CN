@@ -168,7 +168,10 @@
       "profileText": "你的上一场比赛已加入MMR记录。",
       "openProfile": "打开资料",
       "close": "关闭",
-      "new": "新"
+      "new": "新",
+      "subscriptionTitle": "订阅已生效",
+      "subscriptionText": "广告已关闭。你的页面现在都在这个窗口中。",
+      "ok": "确定"
     },
     "detach": "分离",
     "detachTip": "将此页面分离",

@@ -122,5 +122,21 @@
     "viewBoard": "查看排行榜",
     "close": "关闭",
     "share": "分享"
+  },
+  "home": {
+    "summary": {
+      "winRate": "胜率",
+      "kda": "KDA",
+      "kp": "KP",
+      "dp": "DP",
+      "gpm": "GPM",
+      "xpm": "XPM",
+      "matchTime": "平均比赛时长",
+      "avgPp": "平均 PP",
+      "bestHero": "最佳英雄",
+      "bestRole": "最佳位置",
+      "mmr": "MMR",
+      "noMmr": "待定"
+    }
   }
 }

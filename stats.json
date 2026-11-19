@@ -283,7 +283,8 @@
       "neither": "均不占优",
       "advantage": "优势",
       "closeMatchup": "势均力敌：双方英雄都没有明显优势。",
-      "winsMore": "{{winner}}对阵{{loser}}时胜率更高。"
+      "winsMore": "{{winner}}对阵{{loser}}时胜率更高。",
+      "result": "结果"
     },
     "head": {
       "meta": {
@@ -355,6 +356,14 @@
         "reportLine": "你之前举报过此玩家",
         "avoidTitle": "在你的避开列表中",
         "avoidLine": "你选择避开此玩家"
+      },
+      "facts": {
+        "server": "服务器",
+        "serverPending": "游戏暂未提供服务器信息。",
+        "average": "{{team}}平均段位",
+        "public": "公开",
+        "publicTip": "比赛记录公开的玩家。",
+        "publicCount": "{{open}} / {{total}}"
       }
     },
     "overlays": {
@@ -418,7 +427,8 @@
       "group": {
         "life": "全部时间",
         "me": "与你同/对阵",
-        "pick": "选用 · {{period}}"
+        "pick": "选用 · {{period}}",
+        "last_other": "最近 {{count}} 场"
       },
       "head": {
         "slot": "玩家位置，与游戏顶栏一致",
@@ -439,7 +449,9 @@
         "mostNumbers": "每个英雄的场次、胜率和常用位置。",
         "mostFrames": "红框：选取率很高。蓝框：最近经常选用。",
         "pickTitle": "选用的英雄",
-        "pickSub": "该英雄的场次与胜率"
+        "pickSub": "该英雄的场次与胜率",
+        "form": "近况",
+        "formTip_other": "最近 {{count}} 场比赛的战绩和每场结果，最新的在前。"
       },
       "heat": {
         "none": "{{label}}：无比赛",
@@ -510,7 +522,8 @@
         "usual": "常用位置",
         "most": "常用英雄",
         "pick": "选人顺序",
-        "board": "排行榜名次"
+        "board": "排行榜名次",
+        "form": "近况"
       },
       "sortBy": "按{{column}}排序",
       "sortHint": "点击列标题在各队内排序",

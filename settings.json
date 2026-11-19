@@ -35,7 +35,8 @@
         "ppt": "PPT",
         "mmr": "MMR",
         "noteManager": "笔记",
-        "notification": "通知"
+        "notification": "通知",
+        "draft": "选人"
       }
     }
   },
@@ -167,7 +168,8 @@
       },
       "draft": {
         "label": "选人建议",
-        "description": "统计窗口中选人建议的排序方式。"
+        "description": "统计窗口中选人建议的排序方式。",
+        "descriptionDraft": "选人窗口中选人建议的排序方式。"
       },
       "pool": {
         "label": "英雄池和偏好",
@@ -221,7 +223,8 @@
       "sounds": "声音",
       "desktopNotifications": "桌面通知",
       "autoAccepter": "比赛自动接受",
-      "steam": "Steam 账户关联"
+      "steam": "Steam 账户关联",
+      "hotkeysDraft": "选人窗口"
     },
     "choices": {
       "on": "开",
@@ -288,7 +291,8 @@
       },
       "closeNotificationWithStats": {
         "label": "进入比赛时关闭通知",
-        "description": "统计窗口打开时关闭通知窗口。"
+        "description": "统计窗口打开时关闭通知窗口。",
+        "descriptionDraft": "选人窗口打开时关闭通知窗口。"
       },
       "autoLaunch": {
         "label": "随 Dota 2 启动 DotaPlus",
@@ -540,7 +544,10 @@
         "mmr": "打开或关闭资料",
         "ppt": "打开或关闭 PPT",
         "pptScrollUp": "向上滚动追踪器",
-        "pptScrollDown": "向下滚动追踪器"
+        "pptScrollDown": "向下滚动追踪器",
+        "draft": "打开或关闭选人",
+        "viewPrevious": "上一个视图",
+        "viewNext": "下一个视图"
       },
       "change": "更改：{{action}}",
       "pressKeys": "请按新的按键…",

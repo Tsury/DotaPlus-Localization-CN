@@ -177,7 +177,8 @@
     "detachTip": "将此页面分离",
     "attach": "附加",
     "attachTip": "将此页面附加回来",
-    "detached": "在单独的窗口中"
+    "detached": "在单独的窗口中",
+    "viewKeys": "下一个视图：{{next}} · 上一个视图：{{previous}}"
   },
   "interface": {
     "link": "连接",

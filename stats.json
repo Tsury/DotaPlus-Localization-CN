@@ -411,6 +411,7 @@
       "openNotesTip": "在备注管理器中打开该玩家的备注",
       "openOn": "在{{site}}上打开资料",
       "noMutual": "还没有与该玩家的比赛。",
+      "lists": "比赛列表",
       "withAgainstYou": "与你同队 / 对阵你",
       "allHeroesShort": "全部",
       "won": "胜场",
@@ -544,9 +545,7 @@
       "spectating": "观战时不显示",
       "team": {
         "avg": "平均",
-        "avgRate": "平均胜率",
-        "overLife": "全部时间。",
-        "overPeriod": "时段：{{period}}。"
+        "avgRate": "平均胜率"
       },
       "thisIsYou": "这是你",
       "you": "你",

@@ -406,6 +406,15 @@
     "inBracketJoin": "（{{bracket}}段位）即可上榜。",
     "inBracketFirst": "（{{bracket}}段位）即可成为此榜第一人。",
     "scoreSoFar": "按你目前的分数{{score}}，大约排在#{{place}}。",
+    "playToJoin_other": "再用<board/>打{{count}}场即可上榜。",
+    "playToBeFirst_other": "再用<board/>打{{count}}场即可成为此榜第一人。",
+    "emptyBoard_other": "玩家今年用<board/>打满{{count}}场后会出现在这里。",
+    "notice": {
+      "launch": "你已上榜：<board/> 第<1>{{place}}</1>名",
+      "joined": "你进入了 <board/> 排行榜，排名第<1>{{place}}</1>名",
+      "movedUp": "你在 <board/> 升至第<1>{{place}}</1>名",
+      "fellOff_other": "你跌出了<board/>排行榜：再打<1>{{count}}场</1>即可重新上榜"
+    },
     "rulesTitle": "排行榜规则",
     "ruleScore": "分数 = 平均PP + 胜场加成。",
     "ruleScoreDetail": "胜场过半则加分，败场过半则减分。",
@@ -785,8 +794,8 @@
       "badges": {
         "party_other": "{{count}} 人组队",
         "queuedWith": "与你一起匹配的玩家",
-        "cal": "定级",
-        "lp": "LP"
+        "lp": "LP",
+        "calibrationHint": "决定你段位的比赛之一。校准结束后会显示其 MMR 变化。"
       },
       "links": {
         "open": "在 {{site}} 上打开比赛",

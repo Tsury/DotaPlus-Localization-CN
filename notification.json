@@ -9,12 +9,9 @@
   "hotkeyNotice": "显示 / 隐藏 DotaPlus",
   "profileSummary": {
     "recentMatches": "最近比赛",
-    "pos": "位置",
     "dmg": "伤害",
-    "gpm": "GPM",
     "kp": "参战",
     "pp": "PP",
-    "process": "解析",
     "empty": {
       "title": "比赛记录马上就到",
       "body": "我们还没同步到这份资料。打开完整资料页即可立刻拉取比赛。如果你的 Dota 2 资料是私密的，请改成公开，打一局游戏，然后等大约一小时刷新。",
@@ -104,12 +101,6 @@
     "kicker": {
       "weekly": "排行榜每周更新",
       "launch": "排行榜已上线"
-    },
-    "message": {
-      "launch": "你已上榜：{{board}} 第<1>{{place}}</1>名",
-      "joined": "你进入了 {{board}} 排行榜，排名第<1>{{place}}</1>名",
-      "movedUp": "你在 {{board}} 升至第<1>{{place}}</1>名",
-      "fellOff_other": "你跌出了{{hero}}排行榜：再打<1>{{count}}场</1>即可重新上榜"
     },
     "toast": {
       "launch": "你已上榜：第{{place}}名",

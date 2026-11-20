@@ -9,7 +9,6 @@
   },
   "metadataUnavailable": "元数据不可用",
   "metadataPending": "等待元数据",
-  "metadataFetching": "正在获取比赛详情",
   "versus": "VS",
   "winners": {
     "radiant": "天辉",
@@ -53,8 +52,6 @@
     "queued": "此录像已在队列中。"
   },
   "progress": {
-    "withPercent": "{{phase}} {{percent}}%",
-    "withGameTime": "{{phase}}，游戏时间 {{gameTime}}",
     "phases": {
       "processing": "正在处理录像"
     }
@@ -79,8 +76,7 @@
     "incompatibleBuild": "版本不兼容",
     "failed": "失败",
     "permissionRequired": "需要权限",
-    "deleteFailed": "删除失败",
-    "raceLost": "来源落败"
+    "deleteFailed": "删除失败"
   },
   "fetchResults": {
     "updated": "详情已更新",

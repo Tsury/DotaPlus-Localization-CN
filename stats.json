@@ -1,6 +1,5 @@
 {
   "extraContent": {
-    "for": "针对",
     "radiant": "天辉",
     "dire": "夜魇",
     "you": "己方",
@@ -23,53 +22,21 @@
     "xpm": "XPM",
     "counter": "克制",
     "synergy": "配合",
-    "total": "总优势",
     "disabled": "已禁用",
     "pickRate": "选取率"
   },
-  "counterPicks": {
-    "tooltip": "每个英雄的克制数据，显示胜率差异。绿色代表克制多个敌人。",
-    "title": "英雄克制"
-  },
   "matchups": {
-    "waiting": "等待选人...",
-    "advantageTooltip": "<0>{{ winningHeroName }}</0>对<2>{{ losingHeroName }}</2>有<4>{{ advantage }}</4>%胜率优势",
-    "title": "英雄对阵",
-    "draftUnassigned": "未指定",
-    "assignForStats": "分配英雄以查看统计…",
-    "advantageTooltipTie": "<0>{{winningHeroName}}</0>和<2>{{losingHeroName}}</2>势均力敌",
-    "tooltip": "基于英雄基础胜率，在对阵关系中如何变化。<1></1>英雄若对敌方英雄的胜率高2%以上视为克制，最终优势为对敌方5位英雄优势的平均值。<5>绿色：天辉优势</5><7>红色：夜魇优势</7>"
-  },
-  "suggestedPicks": {
-    "tooltip": "综合敌方阵容(对阵)和己方阵容(配合)计算胜率优势。Ban建议基于近期英雄胜率变动及克制数据。",
-    "title": "推荐英雄",
-    "noData": "当前无法给出推荐。可查看<1>热门强势英雄</1>。",
-    "preference": {
-      "preferExplanation": "评分已包含偏好列表的影响。",
-      "avoidExplanation": "评分已包含避选列表的影响。"
-    }
+    "assignForStats": "分配英雄以查看统计…"
   },
   "roles": {
     "core": "核心",
     "support": "辅助"
   },
-  "stat": "数据",
   "hero": "英雄",
   "player": "玩家",
   "role": "位置",
   "lane": "分路",
-  "columnTooltips": {
-    "player": "通过Steam好友推测队伍分组，可能不准确",
-    "matches": "总场数与胜率",
-    "withMe": "<0>队友：与你同队的场数和胜率<1></1>敌方：与你敌对的场数及对你胜率</0>",
-    "role": "最常玩的位置及其占比",
-    "lane": "最常走的分路及其占比",
-    "mostPlayed": "最常用英雄及场数(周期内)。",
-    "hero": "选用的英雄及选人顺序(1-10)"
-  },
   "rank": "段位",
-  "withMe": "与我",
-  "mostPlayed": "最常用",
   "streak": {
     "none": "连胜/连败未知",
     "winning": "连胜",
@@ -117,9 +84,6 @@
     "pusher": "推进",
     "initiator": "先手"
   },
-  "teamComposition": {
-    "title": "队伍构成"
-  },
   "playerTooltip": {
     "noteNotSet": "未设置玩家备注，点击添加。",
     "noteSet": "已有玩家备注",
@@ -127,10 +91,8 @@
     "noteSelf": "你为何要给自己备注？我们都知道獭是最棒的。",
     "country": "国家",
     "proName": "职业名",
-    "streak": "连胜/连败",
     "steamNickname": "Steam昵称",
     "noteRemoved": "玩家备注已移除",
-    "matches": "场比赛",
     "noteTitle": "编辑玩家备注",
     "openInNoteManager": "在备注管理器中打开"
   },
@@ -140,23 +102,10 @@
     "viewCurrentMatchNotes": "查看本场比赛的备注",
     "foundNotes_other": "在本场比赛中发现了 {{count}} 个玩家的笔记"
   },
-  "metaPicks": {
-    "title": "热门强势英雄",
-    "tooltip": "在你段位里胜率最高的英雄。首抢时可考虑。",
-    "noData": "暂无数据，若持续为空请联系支持。"
-  },
-  "skillGameModeDetecting": "识别游戏模式和水平中...",
-  "laneMatchupsAndSummary": "分路对抗与总结",
-  "laneMatchupsTooltip": "线路对抗展示当前每条线路的优势以及分配到该线路的英雄。<0></0>下方总结汇总了对阵与配合的总值，用于指示当前哪一方占优。<1></1>位置通过启发式推断，可能并不准确；如需修正，请在槽位之间拖动英雄。",
-  "laneAdvantageTooltip": "{{team}}{{lane}}对{{opponentTeam}}{{lane}}拥有{{value}}优势。<0/>如需调整，请在槽位之间拖动英雄。",
-  "radiantRank": "天辉平均段位",
-  "direRank": "夜魇平均段位",
   "ally": "友方",
   "enemy": "敌方",
-  "recentMatchesWithMe": "近期与我同/对阵",
   "recentMatchesWithMeTooltip": "与你一起或对立过的近期比赛；加深对该玩家的了解。",
   "playerInfo": {
-    "private": "该玩家设置了隐私资料，只有极少的公开数据。",
     "partyIndicator": "通过Steam好友判断组队关系，仅供参考。",
     "roleGuess": "最可能的位置(对敌方为历史推测)",
     "positionGuess": "最可能的位置(基于当前比赛数据)",
@@ -206,7 +155,6 @@
     "column": "排行榜",
     "columnTip": "所选英雄的排行榜名次。虚线：不是本局的位置或段位。点击打开该排行榜。",
     "title": "{{hero}}排行榜",
-    "notThisGame": "非本局",
     "open": "点击打开该排行榜",
     "none": "未进入任何{{hero}}排行榜。"
   },

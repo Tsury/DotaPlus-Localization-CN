@@ -1,9 +1,5 @@
 {
   "columns": {
-    "result": "结果",
-    "hero": "英雄",
-    "type": "类型",
-    "duration": "时长",
     "kda": {
       "k": "杀",
       "d": "死",
@@ -17,11 +13,6 @@
     "nw": "净值",
     "gpm": "GPM",
     "xpm": "XPM",
-    "mmr": {
-      "mmr": "mmr",
-      "role": "位置"
-    },
-    "res": "资源",
     "kp": "参战",
     "dp": "参死",
     "dptm": "死亡/10",
@@ -38,18 +29,11 @@
     "dp": "参死率：你的死亡 / 全队死亡。反映你在团队死亡中的占比。",
     "kaptm": "每10分钟击杀+助攻。衡量你进攻或支援的活跃度。",
     "dptm": "每10分钟死亡数。衡量你阵亡的频度。",
-    "pp": "表现分（PP）：与同英雄、同位置（1-5 号位）、同段位区间的玩家相比，你打得如何。对局中的每一分钟，都会把你目前的数据与这些玩家在同一分钟的数据相比，所以无论前期还是后期，100 都代表平均水平。最终 PP 是你在对局结束时的 PP。PP 包含净值，与胜负无关。<50很差，<75较差，>125不错，>150非常好。",
     "duration": "对局时长",
     "nw": "净资产",
-    "bs": "行为分",
     "stunDuration": "眩晕总时长（秒）",
     "slowDuration": "减速总时长（秒）",
-    "towerDamage": "对建筑伤害",
-    "awards": "奖励",
-    "processMatch": "处理状态：赛后解析对局以获取PP和RealStats。",
-    "reports": "你在本场对局中发送的举报。悬停单元格可查看完整时间线。",
-    "glyphs": "防御符文使用记录。悬停单元格可查看完整时间线。",
-    "legacyPp": "表现分：衡量对局中的贡献，与胜负无关，会考虑英雄/段位/角色。<50很差，<75较差，>125不错，>150非常好。"
+    "towerDamage": "对建筑伤害"
   },
   "values": {
     "type": {
@@ -77,18 +61,10 @@
   },
   "profile": {
     "labels": {
-      "currentRankedSeason": "当前天梯赛季",
-      "currentRankedSeasonTooltip": "基于本赛季天梯数据",
-      "averages": "所选对局平均值",
-      "rolePerformance": "所选对局的角色表现",
-      "recalibrationAvailable": "可重新校准剩余：",
       "recalibrationLeft": "校准中…",
       "recalibrationReady": "可重新校准！"
     },
     "stats": {
-      "winRate": "胜率",
-      "bestHero": "最强英雄",
-      "bestRole": "最优位置",
       "rank": {
         "tooltip": {
           "numMatches": "预计晋级还需的胜场",
@@ -99,9 +75,6 @@
       "matches": "对局",
       "mmr": "mmrΔ",
       "mmrTooltip": "MMR总变化",
-      "heroDamage": "英雄伤害",
-      "towerDamage": "建筑伤害",
-      "heroHeal": "治疗",
       "percentOfAllMatches": "占全部场次的百分比",
       "bestHeroesTooltip": "仅显示该角色至少占5%场次且≥5局的英雄",
       "bestHeroes": "最佳英雄",
@@ -117,8 +90,6 @@
     "hardSupport": "五号位"
   },
   "sync": {
-    "force": "[点击] 同步近期比赛(1分钟冷却)",
-    "forceExtended": "[Ctrl+点击] 同步最近500场(2小时冷却)",
     "error": {
       "invalidSteamId": "无效的Steam ID",
       "steamIdAlreadyExists": "Steam ID已存在",
@@ -127,38 +98,22 @@
     },
     "syncing": "正在同步…",
     "remove": {
-      "line1": "确认取消关注此资料吗？",
-      "line2": "将删除全部比赛记录。",
       "remove": "取消关注",
       "cancel": "取消",
       "removeMessage": "已取消关注该资料"
     },
     "add": {
       "add": "关注资料",
-      "modal": {
-        "title": "关注资料",
-        "ok": "关注",
-        "steamId": {
-          "tooltip": {
-            "firstPart": "可在Dotabuff链接末尾找到Steam ID",
-            "secondPart": "或在Steam个人链接中"
-          }
-        },
-        "placeholderOr": "或"
-      },
       "addMessage": "已关注资料"
-    },
-    "forceExtendedPremium": "[Ctrl+点击] 同步最近2000场(2小时冷却)"
+    }
   },
   "roleQueuePoints": "角色排位点数",
   "filter": {
     "modal": {
-      "ok": "筛选",
       "remove": "移除"
     },
     "links": {
-      "cleared": "已清除筛选！",
-      "tooltip": "筛选"
+      "cleared": "已清除筛选！"
     },
     "empty": {
       "noResults": "当前筛选没有匹配的比赛。",
@@ -188,19 +143,6 @@
   "realStats": {
     "winRanges": "胜场范围",
     "loseRanges": "败场范围",
-    "title": "RealStats - 情境化统计 - 概览",
-    "description2": "以下是如何阅读和理解RealStats的指导：",
-    "tableStats": {
-      "avg": "平均表现：该英雄/段位/角色在此比赛结果时的大致平均表现。",
-      "positive": "较好表现：高于此英雄/段位/角色在此结果的平均水平。",
-      "negative": "较差表现：低于此英雄/段位/角色在此结果的平均水平。",
-      "title": "<0>表中统计的4种样式:</0>",
-      "extremelyPositive": "极佳表现：<1>[仅针对输的比赛]</1>在输的情况下表现远高于此英雄/段位/角色的最高胜场范围。",
-      "extremelyNegative": "极差表现：<1>[仅针对赢的比赛]</1>在赢的情况下表现低于该英雄/段位/角色的最低输场范围。"
-    },
-    "description1": "RealStats是一种全新视角：它根据<2>比赛胜负</2>、<4>角色</4>（核心或辅助）、<7>英雄</7>以及<9>段位</9>来评估表现。",
-    "statGraph": "<0>数据图：</0>由<3>胜场范围</3>(绿)与<5>败场范围</5>(红)组成。同一数值若仅落在胜场范围则显示绿，仅落在败场范围则显示红，都落入则黄。",
-    "matchOutcome": "<0>比赛胜负重要性：</0>赢或输会极大影响各项统计，需要结合上下文来学习。",
     "howDoIRead": "按住CTRL+ALT查看详细解释",
     "showExtended": "按住ALT显示更多",
     "resultExplanation": {
@@ -233,11 +175,9 @@
     "mid": "下午(16:00-00:00)",
     "late": "凌晨(00:00-08:00)"
   },
-  "trackMatch": "追踪此局",
   "tracking": {
     "success": "成功记录MMR",
     "failure": "记录MMR失败",
-    "rankProgress": "段位进度",
     "confidence": "置信度"
   },
   "dayOfWeek": {
@@ -269,10 +209,8 @@
     "noLongerAvailable": "Valve 已不再提供此录像。",
     "manualDownloadRequiredWithHint": "请先在 Dota 2 中下载此录像，然后打开“录像”进行处理。按住 CTRL 并点击可再次尝试通过 API 处理。",
     "manualDownloadReprocessReady": "已按住 CTRL——点击即可再次尝试通过 API 处理",
-    "done": "处理完成",
     "reprocessHint": "对局已处理——按住 CTRL 再点击即可重新解析",
     "reprocessReady": "已按住 CTRL——点击即可重新解析",
-    "clickToAnalyzie": "点击解析对局",
     "clickToAnalyzieWithHint": "点击解析对局——稍后按住 CTRL 再点可重新解析"
   },
   "ppTooltip": {
@@ -330,10 +268,6 @@
   "graph": {
     "mmr": "MMR",
     "pp": "PP",
-    "confidence": "CONF",
-    "last 50": "最近50场",
-    "recent": "近期",
-    "filter": "筛选",
     "confidenceFull": "置信度",
     "trend": "走势",
     "estimatedForGraph": "图表估算",
@@ -353,7 +287,6 @@
     "noHeroes": "没有结果",
     "noBoardsTitle": "你还没有进入任何排行榜",
     "noBoardsText_other": "今年用同一英雄和位置打满{{count}}场即可进入该排行榜。可在右侧打开任意排行榜。",
-    "hero": "英雄",
     "normal": "普通",
     "turbo": "加速",
     "positionFull": "{{position}}号位：{{role}}",
@@ -363,7 +296,6 @@
     "dotaPlusUser": "使用 DotaPlus",
     "openDotabuff": "在 Dotabuff 上查看 {{name}}",
     "hallOfFame": "名人堂",
-    "hallOfFameHint": "所有排行榜中最高的 10 个分数，每位玩家一个名额。点击可打开对应排行榜。",
     "leaderboard": "排行榜",
     "updated": "更新于",
     "calibration": "校准期",
@@ -373,22 +305,18 @@
     "topScore": "最高分",
     "score": "分数",
     "pp": "PP",
-    "wr": "胜率",
     "winBonus": "胜场加成",
     "bonus": "加成",
     "winRate": "胜率",
-    "avgPp": "平均PP",
     "games_other": "{{count}}场",
     "gamesUnit_other": "场",
     "gamesColumn": "场次",
     "player": "玩家",
     "week": "本周",
-    "weightedPp": "加权PP",
     "you": "你",
     "openSpot": "空缺",
     "gamesToClaim_other": "需{{count}}场",
     "yourPlace": "你的名次",
-    "sinceLastWeek": "较上周",
     "ofPlayers_other": "共{{count}}名玩家",
     "of_other": "共{{count}}名",
     "topPercent": "前{{percent}}%",
@@ -396,15 +324,9 @@
     "toPass": "即可超过#{{place}} {{name}}",
     "scoreToPass": "再得+{{gap}}分超过#{{place}}",
     "topOfBoard": "排行榜第一",
-    "gamesLeft": "还差场数",
-    "playersUnit_other": "名玩家",
     "scoreToReach": "上榜分数",
-    "progress": "进度",
     "yourProgress": "你的进度",
     "beTheFirst": "成为第一人",
-    "playMore_other": "再用{{hero}}（{{position}}号位）打{{count}}场",
-    "inBracketJoin": "（{{bracket}}段位）即可上榜。",
-    "inBracketFirst": "（{{bracket}}段位）即可成为此榜第一人。",
     "scoreSoFar": "按你目前的分数{{score}}，大约排在#{{place}}。",
     "playToJoin_other": "再用<board/>打{{count}}场即可上榜。",
     "playToBeFirst_other": "再用<board/>打{{count}}场即可成为此榜第一人。",
@@ -421,17 +343,14 @@
     "ruleBonus": "加成随场次增加而增长，短暂的好运影响很小。",
     "ruleMinimum_other": "该英雄和位置至少需要{{count}}场。",
     "ruleMinimumCalibration_other": "该英雄和位置至少需要{{count}}场（六个月内逐步提高到50场）。",
-    "scoreEquation": "{{pp}} PP {{sign}} {{bonus}} 胜场加成 = {{score}} 分。",
     "scoreExplain": "加成随场次增加而增长：胜场过半则加分，败场过半则减分。",
     "emptyTitle": "此排行榜暂无玩家",
-    "emptyText_other": "玩家今年用{{hero}}（{{position}}号位）在{{bracket}}段位打满{{count}}场后会出现在这里。",
     "loadFailed": "排行榜暂时不可用，请稍后再试。",
     "history": {
       "leaderboard": "排行榜",
       "filterTitle": "排行榜筛选",
       "dialogTitle": "按排行榜筛选",
       "clickToChange": "点击可更改。",
-      "everyBoard": "该玩家上榜的所有排行榜",
       "clearTip": "清除排行榜筛选",
       "myBoards": "我的排行榜",
       "theirBoards": "其排行榜",
@@ -487,17 +406,8 @@
       "emptyBoard": "{{name}}的比赛尚未计入此排行榜。",
       "emptyRule_other": "玩家在最近365天内以同一英雄和位置、在同一段位和模式下打满{{count}}场后，比赛才会计入。",
       "showAll": "显示全部比赛",
-      "following": "已关注",
-      "followingTitle": "关注",
-      "followingHint_other": "{{count}}名玩家 · 点击即可打开其比赛记录并开启排行榜筛选",
-      "followingEmpty": "你还没有关注任何人。在排行榜行或领奖台上点击☆：对方会显示在这里，点击一次即可打开其比赛记录。",
-      "followTip": "关注{{name}}：在“关注”中查看并打开其比赛记录。",
-      "followingTip": "已关注{{name}}。点击取消关注。",
-      "placeSub": "#{{place}} · {{hero}} {{position}}号位",
       "notOnLeaderboard": "尚未上榜",
       "steamId": "Steam ID",
-      "steamIdTip": "通过Steam ID关注（关注资料）。与其他关注显示方式相同。",
-      "steamIdNote_other": "包含{{count}}个你通过Steam ID关注的资料，标记为Steam ID。它们与其他关注显示方式相同：排行榜名次，或“尚未上榜”。",
       "showOther_other": "显示另外 {{count}} 场比赛",
       "hideOther": "隐藏其他比赛",
       "back": "返回"

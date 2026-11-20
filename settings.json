@@ -3,8 +3,7 @@
     "title": "快捷键",
     "description": "用快捷键来显示/隐藏DotaPlus，在选人阶段能省下宝贵时间",
     "gotIt": "知道了",
-    "dontShowAgain": "不再提示",
-    "carousel": "用快捷键浏览轮播更快，可在设置中修改热键。"
+    "dontShowAgain": "不再提示"
   },
   "secondMonitor": {
     "title": "已启用第二显示器模式！",
@@ -24,14 +23,10 @@
     "subText": "若想随Dota 2一起退出，可在设置里修改。"
   },
   "opacity": "不透明度:",
-  "general": {
-    "title": "通用"
-  },
   "behavior": {
     "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
     "windowHierarchy": {
       "windows": {
-        "stats": "Stats",
         "ppt": "PPT",
         "mmr": "MMR",
         "noteManager": "笔记",
@@ -71,7 +66,6 @@
     }
   },
   "filters": {
-    "filterBy": "筛选",
     "period": "周期",
     "faction": "阵营",
     "victory": "结果",
@@ -168,7 +162,6 @@
       },
       "draft": {
         "label": "选人建议",
-        "description": "统计窗口中选人建议的排序方式。",
         "descriptionDraft": "选人窗口中选人建议的排序方式。"
       },
       "pool": {
@@ -203,7 +196,6 @@
       "appearance": "外观",
       "updates": "更新和链接",
       "hotkeysAll": "所有窗口",
-      "hotkeysStats": "统计窗口",
       "hotkeysNotification": "实时比赛卡片",
       "hotkeysHome": "主页",
       "hotkeysProfile": "资料",
@@ -291,7 +283,6 @@
       },
       "closeNotificationWithStats": {
         "label": "进入比赛时关闭通知",
-        "description": "统计窗口打开时关闭通知窗口。",
         "descriptionDraft": "选人窗口打开时关闭通知窗口。"
       },
       "autoLaunch": {
@@ -530,11 +521,8 @@
       "windowAliases": "全局 切换",
       "actions": {
         "window": "显示或隐藏所有窗口",
-        "stats": "打开或关闭统计",
         "carouselPrevious": "上一个轮播项",
         "carouselNext": "下一个轮播项",
-        "multicastPrevious": "上一个 Multicast 轮播项",
-        "multicastNext": "下一个 Multicast 轮播项",
         "lanePrevious": "上一条线路",
         "laneNext": "下一条线路",
         "suggestionsPrevious": "上一组建议",

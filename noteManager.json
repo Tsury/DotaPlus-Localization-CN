@@ -252,5 +252,39 @@
     "copySteamId": "复制 Steam ID",
     "copyMatchId": "复制比赛 ID",
     "focusMatch": "在档案界面定位到这场比赛"
+  },
+  "redesign": {
+    "reader": "阅读",
+    "readerHint": "在玩家列表旁查看完整笔记",
+    "cards": "卡片",
+    "cardsHint": "以卡片形式查看每条笔记",
+    "table": "表格",
+    "tableHint": "展开一行即可阅读完整笔记",
+    "tools": "筛选与工具",
+    "clearSearch": "清除搜索",
+    "back": "返回",
+    "copyNote": "复制笔记",
+    "noteCopied": "已复制笔记",
+    "copyFailed": "无法复制笔记",
+    "open": "展开",
+    "close": "收起",
+    "result": "结果",
+    "type": "类型",
+    "lineup": "阵容",
+    "around": "同期比赛",
+    "shareTitle": "分享 PP 评估",
+    "copyImage": "复制图像",
+    "verdict": {
+      "top": "本场 PP 最高",
+      "lowest": "本场 PP 最低",
+      "place": "第 {{place}} 名，共 {{total}} 名",
+      "backs": "PP 支持此举报",
+      "against": "PP 不支持此举报",
+      "unclear": "PP 接近平均水平，无法明确判断。",
+      "pp": "{{value}} PP",
+      "above": "比你高 {{value}} PP",
+      "below": "比你低 {{value}} PP",
+      "equal": "PP 与你相同"
+    }
   }
 }

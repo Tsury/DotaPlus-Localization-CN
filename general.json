@@ -199,26 +199,11 @@
     "unexpectedError": "DotaPlus 遇到了意外错误。请使用下方按钮重新加载应用。如果问题仍然存在，请联系支持。",
     "reportBug": "报告问题",
     "reload": "重新加载",
-    "hero": "英雄",
-    "detectingRole": "正在识别位置…",
-    "stats": "数据",
-    "items": "物品",
-    "secondsSuffix": "秒)",
-    "vs": "对比",
-    "noKeyItemsPurchasedYet": "尚未购买核心物品",
-    "firstPurchase": "第1",
-    "pr": "新纪录！",
-    "slow": "较慢",
-    "clickToChangePosition": "点击更改位置",
-    "pos": "位置",
     "dota2Minimap": "Dota 2 小地图",
-    "goldS": "金钱/秒",
-    "cost": "花费",
     "spam": "绝活",
     "check": "查看",
     "forSupportAndUpdates": "获取支持和更新。",
     "switchToLightMode": "切换到浅色模式",
-    "switchToDarkMode": "切换到深色模式",
-    "heroLabel": "英雄"
+    "switchToDarkMode": "切换到深色模式"
   }
 }

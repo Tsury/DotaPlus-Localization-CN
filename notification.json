@@ -11,7 +11,6 @@
     "recentMatches": "最近比赛",
     "dmg": "伤害",
     "kp": "参战",
-    "pp": "PP",
     "empty": {
       "title": "比赛记录马上就到",
       "body": "我们还没同步到这份资料。打开完整资料页即可立刻拉取比赛。如果你的 Dota 2 资料是私密的，请改成公开，打一局游戏，然后等大约一小时刷新。",
@@ -26,43 +25,11 @@
     "historyEmpty": "个人资料加载完成后，您的比赛将显示在这里。"
   },
   "liveCard": {
-    "aim": "目标：达到 <1>{{pp}} PP</1>（{{label}}）。",
-    "bracketHeroAvg": "{{rank}}{{hero}}平均",
-    "draft": "选人",
-    "kda": "杀/死/助",
-    "level": "{{level}} 级",
-    "lost": "失败",
-    "maxLevel": "满级",
-    "ppEstimate": "预估 PP",
-    "ppFinal": "最终 PP",
-    "ppNow": "当前 PP",
-    "roles": {
-      "hardSupport": "五号位",
-      "mid": "中路",
-      "off": "劣势路",
-      "safe": "优势路",
-      "softSupport": "四号位"
-    },
-    "statsStart": "数据从 0:00 开始统计。",
-    "targets": "目标",
-    "topPersonal": "位列你的对局前 <1>{{percent}}%</1>",
-    "vsAverage": "对比{{label}} {{average}}",
-    "won": "胜利",
-    "xpLeft": "{{xp}} 经验",
-    "yourHeroAvg": "你的{{hero}}平均",
-    "topBracket": "位列{{rank}}{{hero}}对局前 <1>{{percent}}%</1>",
-    "bestStreak": "最佳连杀 · {{streak}}",
-    "bounty": "赏金 <1>{{gold}} 金</1>",
     "multiKills": {
       "double": "双杀",
       "triple": "三杀",
       "ultra": "疯狂杀戮",
       "rampage": "暴走"
-    },
-    "nextMultiKill": {
-      "triple": "{{time}} 内可三杀",
-      "ultra": "{{time}} 内可疯狂杀戮",
-      "rampage": "{{time}} 内可暴走"
     },
     "streaks": {
       "killingSpree": "大杀特杀",
@@ -73,24 +40,6 @@
       "monsterKill": "妖怪般的杀戮",
       "godlike": "如同神一般",
       "beyondGodlike": "超越神的杀戮"
-    },
-    "history": {
-      "ago": "{{age}}前",
-      "averagePp": "平均 PP",
-      "bars": "柱状",
-      "empty": "此期间没有{{hero}}的对局",
-      "lastGames_other": "最近 {{count}} 场",
-      "latest": "最新",
-      "list": "列表",
-      "normalPp": "100 PP",
-      "winRate": "胜率",
-      "age": {
-        "hours_other": "{{count}}小时",
-        "days_other": "{{count}}天",
-        "weeks_other": "{{count}}周",
-        "months_other": "{{count}}个月",
-        "years_other": "{{count}}年"
-      }
     }
   },
   "leaderboard": {

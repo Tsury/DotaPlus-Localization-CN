@@ -1,78 +1,111 @@
 {
-  "title": "玩家表现追踪器",
-  "estimatedModeTooltip": "PP 和身价基于可用数据估算。实际数值可能略有差异。",
-  "estimatedStatTooltip": "此数值基于可用数据估算。实际数值可能略有差异。",
-  "stat": {
-    "current": "当前",
-    "notAvailable": "N/A",
-    "self": {
-      "title": "个人",
-      "needMoreMatches": "需要 {{needed}} 场比赛才能解锁基准 ({{current}}/{{needed}})"
+  "match": {
+    "mapTime": "热力图时间",
+    "nextPage": "下一页",
+    "pausePages": "暂停翻页",
+    "resumePages": "继续翻页",
+    "placeOfPlayers": "本场比赛排名第 {{place}}",
+    "stat": {
+      "dmg": "英雄伤害",
+      "kda": "击杀、死亡和助攻比",
+      "gpm": "每分钟金钱",
+      "xpm": "每分钟经验",
+      "kp": "参战率",
+      "dp": "死亡参与率",
+      "nw": "净资产",
+      "lh": "正补",
+      "dn": "反补",
+      "bldg": "建筑伤害",
+      "heal": "英雄治疗",
+      "pp": "个人表现"
     },
-    "percentile": {
-      "tooltip": "按当前游戏时间，对比你的本地英雄/位置历史百分位（1 = 最差，99 = 最佳）",
-      "communityTooltip": "对比社区英雄/位置数据的百分位（1 = 最差，99 = 最佳）",
-      "best": "最佳"
+    "statAbbrev": {
+      "pp": "PP",
+      "kda": "KDA"
     },
-    "community": {
-      "title": "社区"
-    }
+    "title": "比赛",
+    "stats": "数据",
+    "map": "热力图",
+    "benchmarks": "个人基准",
+    "lastGames": "最近 20 场比赛",
+    "players": "玩家",
+    "settings": "PP 追踪器设置",
+    "restore": "还原",
+    "maximize": "最大化",
+    "ranked": "天梯",
+    "yourGames": "你的比赛",
+    "allPlayers": "所有玩家",
+    "player": "玩家",
+    "thisMatch": "本场比赛",
+    "best": "最佳",
+    "follow": "点击跟随该玩家",
+    "followed": "正在跟随",
+    "lowerBetter": "数值越低越好。",
+    "pinGraph": "点击将图表固定在顶部",
+    "estimated": "估算",
+    "auto": "自动",
+    "vsAverage": "与你的平均值 {{average}} 相比",
+    "topGames": "位于你的比赛前 {{percent}}%",
+    "target": "目标",
+    "level": "等级 {{level}}",
+    "levelShort": "{{level}} 级",
+    "netWorth": "净资产",
+    "bounty": "终结连杀奖励：{{gold}} 金币",
+    "killStreak_other": "{{count}} 连杀",
+    "timeLeft": "剩余时间",
+    "firstBlood": "第一滴血",
+    "cost": "花费",
+    "gap": "差距",
+    "items": "物品",
+    "itemRecord": "新纪录！",
+    "itemSlow": "较晚",
+    "itemFirst": "首次",
+    "bought": "购买时间",
+    "usual": "通常时间",
+    "oldest": "最早",
+    "latest": "最近",
+    "bars": "柱状图",
+    "list": "列表",
+    "winRate": "胜率",
+    "avgPp": "平均 PP",
+    "noHistory": "没有该英雄的历史比赛",
+    "killCount_other": "{{count}} 次击杀",
+    "timeline": "比赛时间线",
+    "splits": "分段数据",
+    "now": "当前",
+    "deaths": "死亡"
   },
-  "graph": {
-    "clickToExpand": "点击将图表置顶"
+  "stat": {
+    "self": {
+      "needMoreMatches": "需要 {{needed}} 场比赛才能解锁基准 ({{current}}/{{needed}})"
+    }
   },
   "header": {
     "gold": "金钱",
-    "netWorth": "身价",
     "clock": "时间",
     "score": "比分",
     "mode": "模式",
     "avgRank": "平均",
-    "matchSection": "比赛",
-    "playerSection": "玩家",
-    "waitingForMatch": "等待比赛...",
-    "tooltip": {
-      "scrollUp": "向上滚动",
-      "scrollDown": "向下滚动"
-    }
-  },
-  "heatmap": {
-    "live": "实时",
-    "resetToLive": "重置为实时",
-    "noPlayers": "等待玩家数据..."
+    "waitingForMatch": "等待比赛..."
   },
   "deathsMap": {
     "toggleTooltip": "在地图上显示死亡位置",
     "death": "第 {{number}} 次死亡",
-    "mostRecent": "最近",
-    "firstBlood": "一血",
-    "deathsGroup_other": "{{count}} 次死亡"
+    "firstBlood": "一血"
   },
   "widgets": {
-    "noPlayer": "未选择玩家",
     "apm": {
       "title": "APM",
       "tooltip": "存活期间最近 60 秒的指令 APM。死亡期间数值保持不变，且不计入死亡期间发出的指令。颜色表示当前强度。"
     },
     "buyback": {
+      "notAvailable": "无数据",
       "title": "买活",
       "ready": "可买活",
       "cooldown": "冷却中",
       "cantAfford": "金钱不足",
       "dead": "复活中",
-      "canBuyback": "可以买活",
-      "notAvailable": "无数据"
-    }
-  },
-  "benchmark": {
-    "title": "个人基准",
-    "tooltip": "将当前比赛与您使用此英雄和位置的平均表现进行比较。基于您最近的比赛。",
-    "emptyState": {
-      "default": "个人基准不可用",
-      "spectating": "观战模式",
-      "spectatingSubtext": "基准仅在您游戏时有效",
-      "waitingForMatch": "等待比赛...",
-      "waitingSubtext": "进行一场比赛以查看您的个人基准"
+      "canBuyback": "可以买活"
     }
   },
   "insights": {
@@ -82,12 +115,10 @@
     "timeLimited": "15 分钟限制",
     "unlock": "解锁",
     "unlockFull": "解锁热力图、装备等",
-    "unlockContinue": "解锁以继续追踪",
-    "springReset": {
-      "title": "春季重置",
-      "description": "PPT Insights 限额已为春季重置：再次获得 20 场完整比赛和 10 场限时预览。",
-      "unlock": "永久解锁",
-      "dismiss": "关闭春季重置提示"
-    }
+    "unlockContinue": "解锁以继续追踪"
+  },
+  "heatmap": {
+    "resetToLive": "",
+    "live": ""
   }
 }

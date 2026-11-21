@@ -118,7 +118,7 @@
     "unlockContinue": "解锁以继续追踪"
   },
   "heatmap": {
-    "resetToLive": "",
-    "live": ""
+    "resetToLive": "返回实时",
+    "live": "实时"
   }
 }

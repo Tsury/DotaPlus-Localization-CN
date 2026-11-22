@@ -73,9 +73,9 @@
     "splits": "分段数据",
     "now": "当前",
     "deaths": "死亡",
-    "bountyTitle": "",
-    "bountyTotal": "",
-    "bountyEstimate": ""
+    "bountyTitle": "击杀奖励",
+    "bountyTotal": "总计",
+    "bountyEstimate": "估算值，不含净资产差距带来的翻盘金钱。"
   },
   "stat": {
     "self": {

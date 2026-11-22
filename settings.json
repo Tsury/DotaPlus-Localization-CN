@@ -305,7 +305,7 @@
         "button": "创建"
       },
       "showOnDotaStartup": {
-        "label": "Dota 2 启动时"
+        "label": "Dota 2 启动时打开 DotaPlus"
       },
       "autoShowOnMatchDetected": {
         "label": "连接到比赛时",

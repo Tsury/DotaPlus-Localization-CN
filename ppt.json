@@ -50,7 +50,6 @@
     "level": "等级 {{level}}",
     "levelShort": "{{level}} 级",
     "netWorth": "净资产",
-    "bounty": "终结连杀奖励：{{gold}} 金币",
     "killStreak_other": "{{count}} 连杀",
     "timeLeft": "剩余时间",
     "firstBlood": "第一滴血",
@@ -73,7 +72,10 @@
     "timeline": "比赛时间线",
     "splits": "分段数据",
     "now": "当前",
-    "deaths": "死亡"
+    "deaths": "死亡",
+    "bountyTitle": "",
+    "bountyTotal": "",
+    "bountyEstimate": ""
   },
   "stat": {
     "self": {

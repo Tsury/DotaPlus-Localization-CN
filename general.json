@@ -80,10 +80,6 @@
     "subtitle": "解锁完整的 Dota 2 体验",
     "supportTitle": "支持开发者",
     "supportDesc": "帮助我们添加新功能！",
-    "adsTitle": "移除广告",
-    "adsDesc": "享受无广告体验",
-    "premiumTitle": "高级功能",
-    "premiumDesc": "无限制比赛热力图、装备等",
     "subscribeYearly": "按年订阅",
     "subscribeMonthly": "按月订阅",
     "notLoggedInTitle": "未登录",
@@ -101,7 +97,7 @@
     "title": "升级您的体验！",
     "description1": "喜欢 DotaPlus？<1>去除广告</1>并获得<3>无限比赛 Insights</3>！",
     "description2": "选择<1>年度计划</1>——相比月付<3>相当于免费2个月</3>！",
-    "subscribeButton": "✨ 了解 Multicast ✨",
+    "subscribeButton": "了解 Multicast",
     "laterButton": "稍后再说",
     "monthly": "月付",
     "yearly": "年付",
@@ -208,6 +204,38 @@
     "forSupportAndUpdates": "获取支持和更新。",
     "switchToLightMode": "切换到浅色模式",
     "switchToDarkMode": "切换到深色模式"
+  },
+  "subscribe": {
+    "slogan": "无广告。一个窗口。全部洞察。",
+    "free": "免费",
+    "multicast": "Multicast",
+    "features": {
+      "ads": {
+        "title": "无广告",
+        "free": "大多数窗口有广告",
+        "paid": "所有窗口都没有广告栏"
+      },
+      "window": {
+        "title": "一个窗口",
+        "free": "每个页面一个窗口",
+        "paid": "所有页面在一个窗口中，任意大小"
+      },
+      "insights": {
+        "title": "无限比赛 Insights",
+        "free": "20 场比赛，之后 10 场预览至 15:00",
+        "paid": "每场比赛都有热力图、基准和时间线"
+      },
+      "accept": {
+        "title": "始终自动接受",
+        "free": "每次一场比赛，冷却 30 分钟",
+        "paid": "自动接受保持开启，无冷却"
+      },
+      "sync": {
+        "title": "深度资料同步",
+        "free": "最近 500 场比赛",
+        "paid": "同步最近 2000 场比赛"
+      }
+    }
   },
   "whatsNew": {
     "changelog": "更新日志",

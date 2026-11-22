@@ -191,6 +191,10 @@
       },
       "about": {
         "label": "关于"
+      },
+      "subscription": {
+        "label": "",
+        "description": ""
       }
     },
     "cards": {
@@ -217,7 +221,8 @@
       "desktopNotifications": "桌面通知",
       "autoAccepter": "比赛自动接受",
       "steam": "Steam 账户关联",
-      "hotkeysDraft": "选人窗口"
+      "hotkeysDraft": "选人窗口",
+      "subscription": ""
     },
     "choices": {
       "on": "开",
@@ -504,6 +509,10 @@
         "geistHint": "Deck 风格圆润、沉稳的字体，用于所有风格",
         "sairaSemi": "Arena · 紧凑",
         "sairaSemiHint": "Arena 风格紧凑、锐利的字体，用于所有风格"
+      },
+      "subscription": {
+        "label": "",
+        "aliases": ""
       }
     },
     "pool": {
@@ -566,6 +575,51 @@
         "hotkey": "快捷键",
         "theme": "主题",
         "monitor": "第二显示器"
+      }
+    },
+    "subscription": {
+      "perks": {
+        "noAds": "",
+        "oneWindow": "",
+        "insights": "",
+        "accepter": ""
+      },
+      "tags": {
+        "active": "",
+        "cancelled": "",
+        "failed": "",
+        "ended": ""
+      },
+      "titles": {
+        "active": "",
+        "cancelled": "",
+        "cancelledNoDate": "",
+        "failed": ""
+      },
+      "help": {
+        "active": "",
+        "cancelled": "",
+        "failedOn": "",
+        "failedOff": "",
+        "ended": ""
+      },
+      "facts": {
+        "renewsOn": "",
+        "endsOn": "",
+        "failedOn": "",
+        "endedOn": "",
+        "lastPlan": "",
+        "plan": "",
+        "account": "",
+        "accountValue": ""
+      },
+      "planName": "",
+      "planNameOnly": "",
+      "history": "",
+      "manage": "",
+      "notes": {
+        "ended": "",
+        "manage": ""
       }
     }
   },

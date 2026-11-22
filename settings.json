@@ -27,7 +27,7 @@
     "autoLaunchDisabledTooltip": "已禁用自动启动。建议开启，以免漏记比赛。",
     "windowHierarchy": {
       "windows": {
-        "ppt": "PPT",
+        "ppt": "比赛",
         "mmr": "MMR",
         "noteManager": "笔记",
         "notification": "通知",
@@ -173,8 +173,9 @@
         "description": "玩家统计、比赛和 MMR 记录。"
       },
       "ppt": {
-        "label": "PPT",
-        "description": "游戏或观战时的玩家表现追踪器。"
+        "label": "比赛",
+        "description": "游戏或观战时的比赛窗口。",
+        "aliases": "PPT PP 表现 追踪器"
       },
       "sounds": {
         "label": "声音和提醒",
@@ -199,7 +200,7 @@
       "hotkeysNotification": "实时比赛卡片",
       "hotkeysHome": "主页",
       "hotkeysProfile": "资料",
-      "hotkeysPpt": "PPT",
+      "hotkeysPpt": "比赛窗口",
       "display": "显示模式",
       "launch": "启动和退出",
       "autoShow": "自动显示 DotaPlus",
@@ -209,7 +210,7 @@
       "heroPool": "英雄池",
       "playerStats": "玩家统计",
       "tracking": "比赛和 MMR 记录",
-      "ppt": "PPT",
+      "ppt": "比赛窗口",
       "pptPlaying": "游戏时",
       "pptSpectating": "观战时",
       "sounds": "声音",
@@ -232,9 +233,9 @@
       "multipleDisplays": "有多个显示器时始终开启。",
       "minWinRate": "请先开启“最低英雄胜率”。",
       "blacklistOnly": "仅在“除这些外全部”时可用。",
-      "pptOff": "请先启用 PPT。",
-      "pptPlayingOff": "请先启用游戏时的 PPT。",
-      "pptSpectatingOff": "请先启用观战时的 PPT。",
+      "pptOff": "请先启用比赛窗口。",
+      "pptPlayingOff": "请先启用游戏时的比赛窗口。",
+      "pptSpectatingOff": "请先启用观战时的比赛窗口。",
       "normalizeOff": "请先开启图表归一化。",
       "multicast": "需要 Multicast。"
     },
@@ -386,9 +387,8 @@
         "label": "新录像下载后打开录像"
       },
       "enablePpt": {
-        "label": "启用 PPT",
-        "description": "关闭后在所有模式中隐藏 PPT。",
-        "aliases": "表现 追踪器"
+        "label": "启用比赛窗口",
+        "description": "关闭后在所有模式中隐藏比赛窗口。"
       },
       "pptPollingInterval": {
         "label": "数据刷新频率",
@@ -406,33 +406,36 @@
       },
       "pptSmoothProjectedBenchmarkLines": {
         "label": "平滑预测基准线",
-        "description": "减弱 SELF 和 COMMUNITY 虚线中的尖峰。"
+        "description": "减弱“你的比赛”和“所有玩家”虚线中的尖峰。"
       },
       "enablePptPlaying": {
-        "label": "游戏时启用 PPT",
+        "label": "游戏时启用比赛窗口",
         "description": "追踪你自己的比赛。"
       },
       "pptAutoOpenPlaying": {
-        "label": "游戏时自动打开 PPT"
+        "label": "游戏时自动打开比赛窗口"
       },
       "pptShowSelfPercentileLinePlaying": {
-        "label": "SELF 基准线",
-        "description": "你自己在该英雄和位置上的期望值。"
+        "label": "“你的比赛”基准线",
+        "description": "你自己在该英雄和位置上的期望值。",
+        "aliases": "SELF"
       },
       "pptShowCommunityPercentileLinePlaying": {
-        "label": "游戏时的 COMMUNITY 基准线",
-        "description": "社区在该英雄和位置上的期望值。"
+        "label": "游戏时的“所有玩家”基准线",
+        "description": "所有玩家在该英雄和位置上的期望值。",
+        "aliases": "COMMUNITY"
       },
       "enablePptSpectating": {
-        "label": "观战时启用 PPT",
+        "label": "观战时启用比赛窗口",
         "description": "追踪你观看的比赛。"
       },
       "pptAutoOpenSpectating": {
-        "label": "观战时自动打开 PPT"
+        "label": "观战时自动打开比赛窗口"
       },
       "pptShowCommunityPercentileLineSpectating": {
-        "label": "观战时的 COMMUNITY 基准线",
-        "description": "社区在被追踪玩家的英雄和位置上的期望值。"
+        "label": "观战时的“所有玩家”基准线",
+        "description": "所有玩家在被追踪玩家的英雄和位置上的期望值。",
+        "aliases": "COMMUNITY"
       },
       "normalize": {
         "label": "图表归一化",
@@ -530,9 +533,9 @@
         "notification": "打开或关闭实时比赛卡片",
         "home": "打开或关闭主页",
         "mmr": "打开或关闭资料",
-        "ppt": "打开或关闭 PPT",
-        "pptScrollUp": "向上滚动追踪器",
-        "pptScrollDown": "向下滚动追踪器",
+        "ppt": "打开或关闭比赛窗口",
+        "pptScrollUp": "向上滚动比赛统计",
+        "pptScrollDown": "向下滚动比赛统计",
         "draft": "打开或关闭选人",
         "viewPrevious": "上一个视图",
         "viewNext": "下一个视图"

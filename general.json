@@ -83,7 +83,7 @@
     "adsTitle": "移除广告",
     "adsDesc": "享受无广告体验",
     "premiumTitle": "高级功能",
-    "premiumDesc": "无限制 PPT 热力图、装备等",
+    "premiumDesc": "无限制比赛热力图、装备等",
     "subscribeYearly": "按年订阅",
     "subscribeMonthly": "按月订阅",
     "notLoggedInTitle": "未登录",
@@ -99,7 +99,7 @@
   },
   "subscriptionPromo": {
     "title": "升级您的体验！",
-    "description1": "喜欢 DotaPlus？<1>去除广告</1>并获得<3>无限 PPT Insights</3>！",
+    "description1": "喜欢 DotaPlus？<1>去除广告</1>并获得<3>无限比赛 Insights</3>！",
     "description2": "选择<1>年度计划</1>——相比月付<3>相当于免费2个月</3>！",
     "subscribeButton": "✨ 了解 Multicast ✨",
     "laterButton": "稍后再说",
@@ -111,7 +111,7 @@
   },
   "subscriptionEnded": {
     "title": "您的 Multicast 订阅已结束",
-    "description1": "您的订阅已失效，因此<1>广告已恢复</1>，PPT Insights 也恢复为免费额度。",
+    "description1": "您的订阅已失效，因此<1>广告已恢复</1>，比赛 Insights 也恢复为免费额度。",
     "description2": "如果续订付款失败，您可以在<1>“管理订阅”</1>中更新付款方式以继续订阅。",
     "fixPaymentButton": "修复付款",
     "subscribeButton": "重新订阅",

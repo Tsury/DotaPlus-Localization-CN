@@ -191,6 +191,10 @@
       },
       "about": {
         "label": "关于"
+      },
+      "subscription": {
+        "label": "订阅",
+        "description": "你的 Multicast 方案及其付款。"
       }
     },
     "cards": {
@@ -217,7 +221,8 @@
       "desktopNotifications": "桌面通知",
       "autoAccepter": "比赛自动接受",
       "steam": "Steam 账户关联",
-      "hotkeysDraft": "选人窗口"
+      "hotkeysDraft": "选人窗口",
+      "subscription": "Multicast"
     },
     "choices": {
       "on": "开",
@@ -504,6 +509,10 @@
         "geistHint": "Deck 风格圆润、沉稳的字体，用于所有风格",
         "sairaSemi": "Arena · 紧凑",
         "sairaSemiHint": "Arena 风格紧凑、锐利的字体，用于所有风格"
+      },
+      "subscription": {
+        "label": "Multicast 订阅",
+        "aliases": "multicast 订阅 高级 广告 付款 账单 方案 取消 续订 管理"
       }
     },
     "pool": {
@@ -566,6 +575,51 @@
         "hotkey": "快捷键",
         "theme": "主题",
         "monitor": "第二显示器"
+      }
+    },
+    "subscription": {
+      "perks": {
+        "noAds": "无广告",
+        "oneWindow": "所有页面集中在一个窗口",
+        "insights": "无限 Match 分析",
+        "accepter": "自动接受额外功能"
+      },
+      "tags": {
+        "active": "有效",
+        "cancelled": "已取消",
+        "failed": "付款失败",
+        "ended": "已结束"
+      },
+      "titles": {
+        "active": "Multicast 已开启",
+        "cancelled": "Multicast 将保持开启至 {{date}}",
+        "cancelledNoDate": "Multicast 将保持开启至付费期结束",
+        "failed": "续订付款失败"
+      },
+      "help": {
+        "active": "在你取消前自动续订。",
+        "cancelled": "你已取消续订。付费期结束后广告将恢复。",
+        "failedOn": "请更新付款方式以保留 Multicast。",
+        "failedOff": "广告已恢复。请更新付款方式以继续。",
+        "ended": "广告已恢复，Match 分析回到免费额度。"
+      },
+      "facts": {
+        "renewsOn": "续订日期",
+        "endsOn": "结束日期",
+        "dueOn": "付款到期日",
+        "endedOn": "结束日期",
+        "lastPlan": "上一个方案",
+        "plan": "方案",
+        "account": "账户",
+        "accountValue": "{{name}} · Overwolf 账户"
+      },
+      "planName": "Multicast · {{plan}}",
+      "planNameOnly": "Multicast",
+      "history": "付款记录",
+      "manage": "管理或取消",
+      "notes": {
+        "ended": "是你主动取消的？无需任何操作。",
+        "manage": "在浏览器中打开付款页面。你可以在那里更改方案、付款方式或取消订阅。"
       }
     }
   },

@@ -164,7 +164,10 @@
       "new": "新",
       "subscriptionTitle": "订阅已生效",
       "subscriptionText": "广告已关闭。你的页面现在都在这个窗口中。",
-      "ok": "确定"
+      "ok": "确定",
+      "changelogTitle": "DotaPlus 已更新",
+      "changelogText_other": "{{version}} · {{count}} 项更新",
+      "openChangelog": "查看新内容"
     },
     "detach": "分离",
     "detachTip": "将此页面分离",
@@ -233,5 +236,49 @@
         "paid": "同步最近 2000 场比赛"
       }
     }
+  },
+  "whatsNew": {
+    "changelog": "更新日志",
+    "updated": "DotaPlus 已更新",
+    "missed_other": "你错过了 {{count}} 次更新",
+    "releases_other": "{{count}} 个版本",
+    "releasesLabel": "版本",
+    "new": "新",
+    "unreadTip": "你还没有看过这次更新",
+    "latest": "最新",
+    "kinds": {
+      "new": "新功能",
+      "fixed": "修复与改进",
+      "notes": "须知"
+    },
+    "fixes": "修复",
+    "pictures": "图片",
+    "picturesTip": "带图片的更新",
+    "inRelease": "本版本内容",
+    "updates_other": "{{count}} 项更新",
+    "updatesLabel": "更新",
+    "read": "阅读",
+    "readTip": "在一页中查看此版本的所有更新",
+    "slideshow": "幻灯片",
+    "slideshowTip": "一次一项更新，附带图片",
+    "enlarge": "放大图片",
+    "play": "播放视频",
+    "playTip": "播放视频。打开声音前，视频静音播放。",
+    "pause": "暂停",
+    "played": "已播放",
+    "video": "视频",
+    "videoLength": "视频 · {{length}}",
+    "soundOn": "打开声音",
+    "soundOnTip": "打开声音。视频当前静音播放。",
+    "soundOff": "关闭声音",
+    "previous": "上一项",
+    "next": "下一项",
+    "fit": "适应窗口",
+    "actualSize": "原始尺寸",
+    "newer": "较新版本",
+    "older": "较旧版本",
+    "more_other": "还有 {{count}} 项",
+    "moreReleases": "更多版本",
+    "empty": "暂无更新"
   }
 }

@@ -606,7 +606,7 @@
       "facts": {
         "renewsOn": "续订日期",
         "endsOn": "结束日期",
-        "failedOn": "付款失败日期",
+        "dueOn": "付款到期日",
         "endedOn": "结束日期",
         "lastPlan": "上一个方案",
         "plan": "方案",

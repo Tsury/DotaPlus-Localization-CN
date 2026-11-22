@@ -7,20 +7,34 @@
   },
   "secondMonitor": {
     "title": "已启用第二显示器模式！",
-    "description": "使用DotaPlus的最佳方式是搭配第二显示器，你可用快捷键浏览轮播、表格和路线筛选。此模式更流畅，不必总隐藏DotaPlus。如果不喜欢，可在设置中切回悬浮窗模式。",
     "gotIt": "知道了",
-    "remember": "记得把DotaPlus拖到第二显示器，并将Dota 2设置为无边框窗口！"
+    "remember": "记得把DotaPlus拖到第二显示器，并将Dota 2设置为无边框窗口！",
+    "lead": "你有第二显示器，所以我们为你开启了第二显示器模式，供你试用。",
+    "points": {
+      "faster": "比悬浮窗快得多，DotaPlus 可以一直显示。",
+      "hotkeys": "可用快捷键浏览轮播、表格和偏好路线筛选。",
+      "switchBack": "可在设置中切回悬浮窗模式。"
+    }
   },
   "mmrDc": {
     "title": "比赛结束前请勿离开！",
-    "description": "若在比赛结束前退出，将无法记录MMR。务必等比赛结束并点“继续”再返回菜单。",
     "gotIt": "知道了。别再提示了。",
-    "subText": "趁此机会想想哪里还能打得更好！"
+    "subText": "趁此机会想想哪里还能打得更好！",
+    "lead": "请留到比赛完全结束，否则 DotaPlus 无法记录 MMR。",
+    "points": {
+      "continue": "用“继续”按钮离开，返回菜单。",
+      "return": "比赛中可以断开后重新连接。",
+      "end": "比赛结束时务必在场。"
+    }
   },
   "appKeepsRunning": {
     "title": "DotaPlus会继续运行",
-    "description": "关闭Dota 2后，DotaPlus仍在运行，可查看统计、比赛、MMR等。要回到Dota 2，可使用顶部图标或右键托盘图标。",
-    "subText": "若想随Dota 2一起退出，可在设置里修改。"
+    "subText": "若想随Dota 2一起退出，可在设置里修改。",
+    "lead": "关闭 Dota 2 后，DotaPlus 仍会继续运行。",
+    "points": {
+      "use": "查看统计、比赛和 MMR，添加玩家备注，练习选人。",
+      "back": "用窗口顶部的 Dota 2 图标或托盘图标回到 Dota 2。"
+    }
   },
   "opacity": "不透明度:",
   "behavior": {

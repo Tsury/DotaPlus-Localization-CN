@@ -201,7 +201,6 @@
       "appearance": "外观",
       "updates": "更新和链接",
       "hotkeysAll": "所有窗口",
-      "hotkeysNotification": "实时比赛卡片",
       "hotkeysHome": "主页",
       "hotkeysProfile": "资料",
       "hotkeysPpt": "比赛窗口",
@@ -239,9 +238,6 @@
       "minWinRate": "请先开启“最低英雄胜率”。",
       "blacklistOnly": "仅在“除这些外全部”时可用。",
       "pptOff": "请先启用比赛窗口。",
-      "pptPlayingOff": "请先启用游戏时的比赛窗口。",
-      "pptSpectatingOff": "请先启用观战时的比赛窗口。",
-      "normalizeOff": "请先开启图表归一化。",
       "multicast": "需要 Multicast。"
     },
     "items": {
@@ -288,8 +284,8 @@
         "description": "Dota 2 获得焦点时，将所有打开的 DotaPlus 窗口置于前面。"
       },
       "closeNotificationWithStats": {
-        "label": "进入比赛时关闭通知",
-        "descriptionDraft": "选人窗口打开时关闭通知窗口。"
+        "label": "进入比赛时关闭主页",
+        "descriptionDraft": "选秀窗口打开时关闭主页窗口。"
       },
       "autoLaunch": {
         "label": "随 Dota 2 启动 DotaPlus",
@@ -358,7 +354,7 @@
       },
       "alwaysShowSixMostPlayed": {
         "label": "始终显示 6 个最常用英雄",
-        "description": "默认只有队长模式、队长征召和反队长模式显示 6 个。"
+        "description": "关闭时，每位玩家显示 3 名英雄，仅队长模式显示 6 名。"
       },
       "heroFilterType": {
         "label": "建议中的英雄",
@@ -386,70 +382,32 @@
         "label": "连胜/连败只使用天梯比赛"
       },
       "autoOpenMmrOnNew": {
-        "label": "比赛结束后打开资料"
+        "label": "比赛结束后打开资料",
+        "descriptionOne": "查看其他页面时，个人资料按钮会显示圆点，通知会提示你打开该页面。"
       },
       "autoOpenReplayManagerOnNewReplay": {
-        "label": "新录像下载后打开录像"
+        "label": "新录像下载后打开录像",
+        "descriptionOne": "查看其他页面时，录像按钮会显示圆点，通知会提示你打开该页面。"
       },
       "enablePpt": {
         "label": "启用比赛窗口",
-        "description": "关闭后在所有模式中隐藏比赛窗口。"
+        "description": "关闭时，比赛窗口不会自动打开，也不会显示正在观看的比赛数据。"
       },
       "pptPollingInterval": {
         "label": "数据刷新频率",
         "description": "更快的更新可能影响性能。默认 5 秒。",
         "aliases": "轮询 间隔 刷新"
       },
-      "pptEnableAnimations": {
-        "label": "动画",
-        "description": "关闭可能对较慢的电脑有帮助。"
-      },
-      "pptHeatmapShowHeroIcon": {
-        "label": "热力图上显示英雄图标",
-        "description": "代替彩色圆点。",
-        "aliases": "热力图"
-      },
-      "pptSmoothProjectedBenchmarkLines": {
-        "label": "平滑预测基准线",
-        "description": "减弱“你的比赛”和“所有玩家”虚线中的尖峰。"
-      },
-      "enablePptPlaying": {
-        "label": "游戏时启用比赛窗口",
-        "description": "追踪你自己的比赛。"
-      },
       "pptAutoOpenPlaying": {
         "label": "游戏时自动打开比赛窗口"
       },
-      "pptShowSelfPercentileLinePlaying": {
-        "label": "“你的比赛”基准线",
-        "description": "你自己在该英雄和位置上的期望值。",
-        "aliases": "SELF"
-      },
-      "pptShowCommunityPercentileLinePlaying": {
-        "label": "游戏时的“所有玩家”基准线",
-        "description": "所有玩家在该英雄和位置上的期望值。",
-        "aliases": "COMMUNITY"
-      },
-      "enablePptSpectating": {
-        "label": "观战时启用比赛窗口",
-        "description": "追踪你观看的比赛。"
-      },
       "pptAutoOpenSpectating": {
         "label": "观战时自动打开比赛窗口"
-      },
-      "pptShowCommunityPercentileLineSpectating": {
-        "label": "观战时的“所有玩家”基准线",
-        "description": "所有玩家在被追踪玩家的英雄和位置上的期望值。",
-        "aliases": "COMMUNITY"
       },
       "normalize": {
         "label": "图表归一化",
         "description": "按所有玩家达到的最高值缩放每张图表。",
         "aliases": "归一化"
-      },
-      "showReferenceLines": {
-        "label": "参考线",
-        "description": "为其他每位玩家显示虚线。"
       },
       "playNoteNotification": {
         "label": "有笔记的玩家提示音",
@@ -465,7 +423,7 @@
       },
       "leaderboardDesktopNotifications": {
         "label": "排行榜更新",
-        "description": "每周排行榜更新时显示 Windows 通知。通知窗口始终会显示。",
+        "description": "每周排行榜更新时发送 Windows 通知。主页始终显示这条通知。",
         "aliases": "排行榜 通知"
       },
       "autoAccepterDelay": {
@@ -560,6 +518,11 @@
       "alsoUsedBy": "也用于：{{action}}",
       "assignFailed": "未保存：{{error}}",
       "unknownError": "Overwolf 未接受这些按键。"
+    },
+    "about": {
+      "appVersion": "应用版本",
+      "gameEventsVersion": "游戏事件版本",
+      "heroDataVersion": "英雄数据版本"
     },
     "search": {
       "placeholder": "搜索所有设置",

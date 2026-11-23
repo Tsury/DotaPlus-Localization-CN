@@ -115,10 +115,6 @@
     "avoidedPlayer": "此玩家在你的避开列表中。",
     "avoidedPlayerWithNote": "已避开的玩家，且有笔记。"
   },
-  "laneSelector": {
-    "prev": "上一路线:",
-    "next": "下一路线:"
-  },
   "tooltips": {
     "smurf": {
       "title": "高胜率/场次极少",

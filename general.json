@@ -297,7 +297,11 @@
     "checkoutNotice": "结账时会在付款前显示税费和订阅条款。",
     "name": "节日特惠",
     "line": "Multicast 年付立减 {{percent}}%，{{date}}截止。",
-    "cta": "查看特惠"
+    "cta": "查看特惠",
+    "off": "−{{percent}}%",
+    "chipLead": "无广告。一个窗口。全部洞察。",
+    "popupTitle": "节日特惠：年付立减 {{percent}}%",
+    "popupSave": "选择<1>年度计划</1>，相比月付<3>节省 {{percent}}%</3>！"
   },
   "redesignFeedback": {
     "title": "你觉得新版 DotaPlus 怎么样？",

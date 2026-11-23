@@ -235,7 +235,8 @@
       "autoAccepter": "比赛自动接受",
       "steam": "Steam 账户关联",
       "hotkeysDraft": "选人窗口",
-      "subscription": "Multicast"
+      "subscription": "Multicast",
+      "tour": "导览"
     },
     "choices": {
       "on": "开",
@@ -485,6 +486,12 @@
       "subscription": {
         "label": "Multicast 订阅",
         "aliases": "multicast 订阅 高级 广告 付款 账单 方案 取消 续订 管理"
+      },
+      "welcomeTour": {
+        "label": "再次显示导览",
+        "description": "新版 DotaPlus 的简短导览。",
+        "aliases": "导览 欢迎 引导 教程 介绍 帮助",
+        "button": "开始导览"
       }
     },
     "pool": {

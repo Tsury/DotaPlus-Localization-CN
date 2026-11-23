@@ -294,6 +294,9 @@
     "perYear": "/ 年",
     "perMonth": "/ 月",
     "regionNote": "价格因地区而异。结账前您会在这里看到您的价格。",
-    "checkoutNotice": "结账时会在付款前显示税费和订阅条款。"
+    "checkoutNotice": "结账时会在付款前显示税费和订阅条款。",
+    "name": "节日特惠",
+    "line": "Multicast 年付立减 {{percent}}%，{{date}}截止。",
+    "cta": "查看特惠"
   }
 }

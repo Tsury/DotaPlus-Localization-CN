@@ -299,6 +299,21 @@
     "line": "Multicast 年付立减 {{percent}}%，{{date}}截止。",
     "cta": "查看特惠"
   },
+  "redesignFeedback": {
+    "title": "你觉得新版 DotaPlus 怎么样？",
+    "laterLead": "你已经用它玩了几场比赛。",
+    "stars": "{{value}} 星，满分 {{max}} 星",
+    "comment": "添加评论（可选）",
+    "send": "发送",
+    "notNow": "暂不评价",
+    "thanks": "感谢你的反馈！",
+    "reportBug": "报告问题",
+    "discord": "或在 Discord 告诉我们",
+    "reportSubtitle": "帮助我们修复 DotaPlus 中的问题。",
+    "reportInstructions": "请说明发生了什么，以及如何重现问题。",
+    "reportDescription": "发生了什么？",
+    "reportUnavailable": "无法打开问题报告。请重试或在 Discord 告诉我们。"
+  },
   "tour": {
     "skip": "跳过",
     "back": "上一步",

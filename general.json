@@ -234,6 +234,11 @@
         "title": "深度资料同步",
         "free": "最近 500 场比赛",
         "paid": "同步最近 2000 场比赛"
+      },
+      "backup": {
+        "title": "笔记云备份",
+        "free": "手动备份到 Google Drive",
+        "paid": "一键自动备份"
       }
     }
   },
@@ -280,5 +285,15 @@
     "more_other": "还有 {{count}} 项",
     "moreReleases": "更多版本",
     "empty": "暂无更新"
+  },
+  "holidaySale": {
+    "ribbon": "节日特惠 −{{percent}}%",
+    "ends": "{{date}}结束",
+    "save": "省 {{percent}}%",
+    "saveHint": "与 12 次月付相比",
+    "perYear": "/ 年",
+    "perMonth": "/ 月",
+    "regionNote": "价格因地区而异。结账前您会在这里看到您的价格。",
+    "checkoutNotice": "结账时会在付款前显示税费和订阅条款。"
   }
 }

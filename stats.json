@@ -233,7 +233,6 @@
     },
     "head": {
       "meta": {
-        "modeTip": "游戏模式",
         "lobby": "房间",
         "lobbySub": "房间平均段位",
         "unknown": "未知",

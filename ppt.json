@@ -84,9 +84,7 @@
   },
   "header": {
     "gold": "金钱",
-    "clock": "时间",
     "score": "比分",
-    "mode": "模式",
     "avgRank": "平均",
     "waitingForMatch": "等待比赛..."
   },

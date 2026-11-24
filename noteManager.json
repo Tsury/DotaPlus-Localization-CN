@@ -201,7 +201,6 @@
   "tooltips": {
     "refreshPlayerInfo": "刷新玩家信息",
     "copySteamId": "复制 Steam ID",
-    "copyMatchId": "复制比赛 ID",
     "focusMatch": "在档案界面定位到这场比赛"
   },
   "redesign": {

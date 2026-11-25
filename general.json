@@ -270,6 +270,7 @@
     "play": "播放视频",
     "playTip": "播放视频。打开声音前，视频静音播放。",
     "pause": "暂停",
+    "playWithSound": "有声播放",
     "played": "已播放",
     "video": "视频",
     "videoLength": "视频 · {{length}}",

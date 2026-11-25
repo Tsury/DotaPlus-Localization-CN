@@ -75,7 +75,23 @@
     "deaths": "死亡",
     "bountyTitle": "击杀奖励",
     "bountyTotal": "总计",
-    "bountyEstimate": "估算值，不含净资产差距带来的翻盘金钱。"
+    "bountyEstimate": "估算值，不含净资产差距带来的翻盘金钱。",
+    "position": "位置",
+    "kdaRow": "击 / 死 / 助",
+    "levelRow": "等级",
+    "kill": "击杀",
+    "kills": "击杀",
+    "death": "死亡",
+    "deathCount_other": "{{count}} 次死亡",
+    "killsBefore_other": "{{time}} 之前 {{count}} 次击杀",
+    "deathsBefore_other": "{{time}} 之前 {{count}} 次死亡",
+    "joinNote": "详细信息从 {{time}} 开始，即 DotaPlus 加入比赛时。",
+    "beforeJoin": "{{time}} 之前",
+    "notRecorded": "未记录",
+    "noDeaths": "无死亡",
+    "peak": "峰值",
+    "change": "变化",
+    "since": "起始"
   },
   "stat": {
     "self": {
@@ -96,7 +112,8 @@
   "widgets": {
     "apm": {
       "title": "APM",
-      "tooltip": "存活期间最近 60 秒的指令 APM。死亡期间数值保持不变，且不计入死亡期间发出的指令。颜色表示当前强度。"
+      "tooltip": "存活期间最近 60 秒的指令 APM。死亡期间数值保持不变，且不计入死亡期间发出的指令。颜色表示当前强度。",
+      "long": "每分钟操作数"
     },
     "buyback": {
       "notAvailable": "无数据",

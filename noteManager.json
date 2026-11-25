@@ -44,20 +44,11 @@
   },
   "bookmarklet": {
     "working": "正在处理...",
-    "browserOverrideHint": "此功能需要使用内置的 Overwolf 浏览器，会忽略您的默认浏览器设置。",
     "titleAvoids": "导入黑名单",
     "titleReports": "导入 Steam 举报",
     "titleGeneric": "从 Steam 导入",
     "doneButton": "完成",
     "cancelButton": "取消",
-    "openSteamButton": "打开 Steam 页面",
-    "steps": {
-      "openSteamPage": "点击“打开 Steam 页面”跳转到 Steam 网站。",
-      "pasteScript": "点击浏览器地址栏，按下",
-      "thenPress": "然后按下",
-      "waitForSteam": "等待 Steam 页面完成导入。",
-      "returnToApp": "完成后返回 DotaPlus。"
-    },
     "rowsProcessed_other": "已处理行数：{{count}}",
     "newEntries_other": "已保存新条目：{{count}}"
   },
@@ -79,7 +70,6 @@
     "importNotes": "无法导入笔记",
     "importReports": "无法导入 Steam 举报",
     "importAvoids": "无法导入黑名单",
-    "openSteamPage": "无法打开 Steam 页面",
     "fetchPlayerInfo": "无法获取玩家信息",
     "connectSteamForPlayerInfo": "请先关联 Steam 账户以刷新玩家信息",
     "authorInvalidId": "请输入有效的 Steam ID（短 ID 或 17 位档案 ID）。"

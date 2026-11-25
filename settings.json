@@ -135,7 +135,7 @@
   },
   "steamAuth": {
     "description": "连接Steam账号以便DotaPlus在笔记中导入举报和避开记录。",
-    "awaitingDescription": "浏览器窗口应已打开。无论您的默认浏览器设置如何，这将使用内置的 Overwolf 浏览器。",
+    "awaitingDescription": "Steam 已在单独的 DotaPlus 窗口中打开。",
     "buttons": {
       "connect": "连接Steam",
       "awaiting": "等待确认…",
@@ -146,8 +146,8 @@
     "status": {
       "connectedPersona": "已连接：{{personaName}}",
       "connected": "Steam账号已连接",
-      "connecting": "正在连接Steam登录服务…",
-      "awaiting": "请在浏览器窗口中完成登录以完成关联。",
+      "connecting": "正在检查 Steam 登录状态…",
+      "awaiting": "请完成 Steam 登录。",
       "error": "Steam登录失败，请重试。",
       "disconnected": "Steam账号未连接"
     },
@@ -157,7 +157,18 @@
     "refreshing": "正在刷新状态…",
     "refreshSuccess": "Steam状态已刷新。",
     "refreshError": "无法刷新Steam状态，请重试。",
-    "avatarAlt": "Steam头像"
+    "avatarAlt": "Steam头像",
+    "web": {
+      "title": "登录 Steam",
+      "address": "Steam 页面地址",
+      "close": "关闭",
+      "trust": "这是 Steam 官方页面。DotaPlus 无法看到你的密码。",
+      "runtimeMissing": "请安装 Microsoft Edge WebView2 运行时以登录 Steam。",
+      "signedOut": "请登录 Steam 后继续。",
+      "accountMismatch": "Steam 已登录账号 {{steamId}}。请登录已连接到 DotaPlus 的账号。",
+      "failed": "DotaPlus 无法完成 Steam 请求。请重试。",
+      "signInAgain": "重新登录"
+    }
   },
   "window": {
     "title": "设置",

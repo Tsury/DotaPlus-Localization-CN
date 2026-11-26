@@ -28,5 +28,14 @@
     "replayManager": "录像",
     "ppt": "比赛",
     "closeToTray": "最小化到托盘"
+  },
+  "subscriptionTest": {
+    "true": "",
+    "trueHint": "",
+    "on": "",
+    "onHint": "",
+    "off": "",
+    "offHint": "",
+    "label": ""
   }
 }

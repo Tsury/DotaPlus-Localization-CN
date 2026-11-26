@@ -506,7 +506,7 @@
       "laneNext": "下一分路",
       "noLaneFilter": "分路筛选不适用于此标签页",
       "lane": {
-        "all": "所有分路",
+        "all": "全部",
         "safe": "优势路",
         "mid": "中路",
         "off": "劣势路"
@@ -514,7 +514,8 @@
       "laneTitle": {
         "safe": "优势路",
         "mid": "中路",
-        "off": "劣势路"
+        "off": "劣势路",
+        "all": "所有分路"
       },
       "info": {
         "matchups": {
@@ -635,6 +636,20 @@
         "lowered": "偏好强度{{strength}}：评分已降低。点击 − 更改。",
         "preferMark": "偏好列表：打开英雄偏好设置",
         "avoidMark": "避选列表：打开英雄偏好设置"
+      },
+      "allPositions": "所有位置",
+      "positionTitle": "{{position}}号位 · {{name}}",
+      "positionPrevious": "上一位置",
+      "positionNext": "下一位置",
+      "noPositionFilter": "位置筛选不适用于此标签页",
+      "by": {
+        "label": "推荐方式",
+        "position": "位置",
+        "lane": "分路",
+        "positionTitle": "按位置",
+        "positionHint": "为你所玩位置显示一个列表",
+        "laneTitle": "按分路",
+        "laneHint": "某条分路的核心与辅助列表"
       }
     },
     "agoShort": {

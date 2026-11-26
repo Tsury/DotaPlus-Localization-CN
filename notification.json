@@ -78,5 +78,10 @@
       "mmr": "MMR",
       "noMmr": "待定"
     }
+  },
+  "restartDota": {
+    "busy": "正在重启 Dota 2…",
+    "action": "重启 Dota 2",
+    "failed": "Dota 2 未能重启。请重试，或自行重启。"
   }
 }

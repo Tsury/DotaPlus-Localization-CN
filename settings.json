@@ -521,6 +521,8 @@
       "columnKeys": "按键",
       "aliases": "快捷键 热键 按键 组合键",
       "windowAliases": "全局 切换",
+      "pptScrollUpAliases": "向上滚动追踪器",
+      "pptScrollDownAliases": "向下滚动追踪器",
       "actions": {
         "window": "显示或隐藏所有窗口",
         "carouselPrevious": "上一个轮播项",

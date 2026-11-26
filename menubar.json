@@ -30,12 +30,12 @@
     "closeToTray": "最小化到托盘"
   },
   "subscriptionTest": {
-    "true": "",
-    "trueHint": "",
-    "on": "",
-    "onHint": "",
-    "off": "",
-    "offHint": "",
-    "label": ""
+    "true": "真实",
+    "trueHint": "使用我的真实订阅",
+    "on": "开",
+    "onHint": "强制开启订阅：无广告",
+    "off": "关",
+    "offHint": "强制关闭订阅：显示广告",
+    "label": "订阅测试"
   }
 }

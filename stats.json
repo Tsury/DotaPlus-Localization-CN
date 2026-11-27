@@ -432,9 +432,6 @@
         "privateNote": "比赛记录、位置和英雄均已隐藏。"
       },
       "missing": {
-        "disabled": "统计已关闭",
-        "private": "隐私资料 · 记录、位置和英雄已隐藏",
-        "none": "无统计 · 记录、位置和英雄已隐藏",
         "disabledShort": "统计已关闭",
         "privateShort": "隐私资料",
         "noneShort": "无统计"
@@ -645,6 +642,7 @@
       "by": {
         "label": "推荐方式",
         "position": "位置",
+        "positionShort": "位置",
         "lane": "分路",
         "positionTitle": "按位置",
         "positionHint": "为你所玩位置显示一个列表",
@@ -689,7 +687,6 @@
       "enemies": "敌方",
       "teamRank": "{{side}}，平均段位",
       "assign": "未选 · 指定",
-      "hidden": "历史、位置和英雄已隐藏",
       "noHero": "尚未选择英雄",
       "afterPicks": "选人后显示分路",
       "byPosition": "按位置",

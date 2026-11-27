@@ -268,7 +268,8 @@
     "driveNotesSaved_other": "已将 {{count}} 条笔记保存到 Google 云端硬盘",
     "driveRestoreMerge": "恢复并合并",
     "driveDisconnected": "已断开 Google 云端硬盘",
-    "driveConnectSuccess": "已连接 Google 云端硬盘"
+    "driveConnectSuccess": "已连接 Google 云端硬盘",
+    "restoredLocallyBackupOff": "笔记已恢复到此电脑。自动备份已关闭。"
   },
   "steamImport": {
     "title": "从 Steam 导入",

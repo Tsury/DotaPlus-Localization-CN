@@ -29,6 +29,17 @@
     "ppt": "比赛",
     "closeToTray": "最小化到托盘"
   },
+  "matchDemo": {
+    "demo": "演示",
+    "label": "演示比赛动画",
+    "playAll": "全部播放",
+    "stop": "停止",
+    "multiKills": "连续击杀",
+    "streaks": "击杀连胜",
+    "kills": "{{tier}} 次击杀",
+    "panels": "面板",
+    "split": "新增 5 分钟数据行"
+  },
   "subscriptionTest": {
     "true": "真实",
     "trueHint": "使用我的真实订阅",
